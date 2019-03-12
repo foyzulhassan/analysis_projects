@@ -1,0 +1,85 @@
+1552365702.483926 close(255</usr/share/gradle/bin/gradle>) = 0
+1552365702.483967 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+1552365702.483982 rt_sigaction(SIGTSTP, {SIG_DFL, [], SA_RESTORER, 0x7f28504f7cb0}, {SIG_DFL, [], 0}, 8) = 0
+1552365702.483997 rt_sigaction(SIGTTIN, {SIG_DFL, [], SA_RESTORER, 0x7f28504f7cb0}, {SIG_DFL, [], 0}, 8) = 0
+1552365702.484011 rt_sigaction(SIGTTOU, {SIG_DFL, [], SA_RESTORER, 0x7f28504f7cb0}, {SIG_DFL, [], 0}, 8) = 0
+1552365702.484024 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f28504f7cb0}, {SIG_DFL, [], SA_RESTORER, 0x7f28504f7cb0}, 8) = 0
+1552365702.484039 rt_sigaction(SIGQUIT, {SIG_DFL, [], SA_RESTORER, 0x7f28504f7cb0}, {SIG_IGN, [], SA_RESTORER, 0x7f28504f7cb0}, 8) = 0
+1552365702.484053 rt_sigaction(SIGCHLD, {SIG_DFL, [], SA_RESTORER|SA_RESTART, 0x7f28504f7cb0}, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f28504f7cb0}, 8) = 0
+1552365702.484067 rt_sigaction(SIGCHLD, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f28504f7cb0}, {SIG_DFL, [], SA_RESTORER|SA_RESTART, 0x7f28504f7cb0}, 8) = 0
+1552365702.484082 rt_sigaction(SIGINT, {0x45d1d0, [], SA_RESTORER, 0x7f28504f7cb0}, {SIG_DFL, [], SA_RESTORER, 0x7f28504f7cb0}, 8) = 0
+1552365702.484101 dup2(4<pipe:[18520]>, 1</dev/pts/15>) = 1
+1552365702.484122 close(4<pipe:[18520]>) = 0
+1552365702.484136 close(3<pipe:[18520]>) = 0
+1552365702.484183 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+1552365702.484253 stat(".", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+1552365702.484276 stat("/usr/local/sbin/dirname", 0x7ffe86ad3160) = -1 ENOENT (No such file or directory)
+1552365702.484294 stat("/usr/local/bin/dirname", 0x7ffe86ad3160) = -1 ENOENT (No such file or directory)
+1552365702.484309 stat("/usr/sbin/dirname", 0x7ffe86ad3160) = -1 ENOENT (No such file or directory)
+1552365702.484367 stat("/usr/bin/dirname", {st_mode=S_IFREG|0755, st_size=27200, ...}) = 0
+1552365702.484384 stat("/usr/bin/dirname", {st_mode=S_IFREG|0755, st_size=27200, ...}) = 0
+1552365702.484397 geteuid() = 1000
+1552365702.484407 getegid() = 1000
+1552365702.484417 getuid() = 1000
+1552365702.484426 getgid() = 1000
+1552365702.484436 access("/usr/bin/dirname", X_OK) = 0
+1552365702.484450 stat("/usr/bin/dirname", {st_mode=S_IFREG|0755, st_size=27200, ...}) = 0
+1552365702.484463 geteuid() = 1000
+1552365702.484473 getegid() = 1000
+1552365702.484483 getuid() = 1000
+1552365702.484492 getgid() = 1000
+1552365702.484502 access("/usr/bin/dirname", R_OK) = 0
+1552365702.484514 stat("/usr/bin/dirname", {st_mode=S_IFREG|0755, st_size=27200, ...}) = 0
+1552365702.484528 stat("/usr/bin/dirname", {st_mode=S_IFREG|0755, st_size=27200, ...}) = 0
+1552365702.484541 geteuid() = 1000
+1552365702.484551 getegid() = 1000
+1552365702.484560 getuid() = 1000
+1552365702.484570 getgid() = 1000
+1552365702.484579 access("/usr/bin/dirname", X_OK) = 0
+1552365702.484592 stat("/usr/bin/dirname", {st_mode=S_IFREG|0755, st_size=27200, ...}) = 0
+1552365702.484605 geteuid() = 1000
+1552365702.484614 getegid() = 1000
+1552365702.484624 getuid() = 1000
+1552365702.484633 getgid() = 1000
+1552365702.484643 access("/usr/bin/dirname", R_OK) = 0
+1552365702.484669 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f28504f7cb0}, {0x45d1d0, [], SA_RESTORER, 0x7f28504f7cb0}, 8) = 0
+1552365702.484687 rt_sigaction(SIGQUIT, {SIG_DFL, [], SA_RESTORER, 0x7f28504f7cb0}, {SIG_DFL, [], SA_RESTORER, 0x7f28504f7cb0}, 8) = 0
+1552365702.484701 rt_sigaction(SIGCHLD, {SIG_DFL, [], SA_RESTORER|SA_RESTART, 0x7f28504f7cb0}, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f28504f7cb0}, 8) = 0
+1552365702.484732 execve("/usr/bin/dirname", ["dirname", "/usr/bin/gradle"], [/* 70 vars */]) = 0
+1552365702.484963 brk(0) = 0x13d1000
+1552365702.484990 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+1552365702.485027 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+1552365702.485051 open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+1552365702.485070 fstat(3</etc/ld.so.cache>, {st_mode=S_IFREG|0644, st_size=96113, ...}) = 0
+1552365702.485102 mmap(NULL, 96113, PROT_READ, MAP_PRIVATE, 3</etc/ld.so.cache>, 0) = 0x7feb80729000
+1552365702.485124 close(3</etc/ld.so.cache>) = 0
+1552365702.485141 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+1552365702.485159 open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+1552365702.485175 read(3</lib/x86_64-linux-gnu/libc-2.19.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P \2\0\0\0\0\0"..., 832) = 832
+1552365702.485192 fstat(3</lib/x86_64-linux-gnu/libc-2.19.so>, {st_mode=S_IFREG|0755, st_size=1857312, ...}) = 0
+1552365702.485208 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7feb80728000
+1552365702.485224 mmap(NULL, 3965632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.19.so>, 0) = 0x7feb80156000
+1552365702.485242 mprotect(0x7feb80314000, 2097152, PROT_NONE) = 0
+1552365702.485259 mmap(0x7feb80514000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.19.so>, 0x1be000) = 0x7feb80514000
+1552365702.485282 mmap(0x7feb8051a000, 17088, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7feb8051a000
+1552365702.485303 close(3</lib/x86_64-linux-gnu/libc-2.19.so>) = 0
+1552365702.485373 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7feb80726000
+1552365702.485391 arch_prctl(ARCH_SET_FS, 0x7feb80726740) = 0
+1552365702.485455 mprotect(0x7feb80514000, 16384, PROT_READ) = 0
+1552365702.485478 mprotect(0x605000, 4096, PROT_READ) = 0
+1552365702.485498 mprotect(0x7feb80741000, 4096, PROT_READ) = 0
+1552365702.485515 munmap(0x7feb80729000, 96113) = 0
+1552365702.485606 brk(0) = 0x13d1000
+1552365702.485618 brk(0x13f2000) = 0x13f2000
+1552365702.485635 open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+1552365702.485653 fstat(3</usr/lib/locale/locale-archive>, {st_mode=S_IFREG|0644, st_size=7216688, ...}) = 0
+1552365702.485672 mmap(NULL, 7216688, PROT_READ, MAP_PRIVATE, 3</usr/lib/locale/locale-archive>, 0) = 0x7feb7fa74000
+1552365702.485692 close(3</usr/lib/locale/locale-archive>) = 0
+1552365702.485743 fstat(1<pipe:[18520]>, {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+1552365702.485763 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7feb80740000
+1552365702.485782 write(1<pipe:[18520]>, "/usr/bin\n", 9) = 9
+1552365702.485876 close(1<pipe:[18520]>) = 0
+1552365702.485960 munmap(0x7feb80740000, 4096) = 0
+1552365702.485979 close(2</dev/pts/15>) = 0
+1552365702.485999 exit_group(0) = ?
+1552365702.486047 +++ exited with 0 +++

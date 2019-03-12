@@ -1,0 +1,88 @@
+1552365763.633026 dup2(3<pipe:[19527]>, 0</dev/pts/15>) = 0
+1552365763.633099 close(3<pipe:[19527]>) = 0
+1552365763.633159 execve("/bin/sed", ["sed", "s/'/'\\\\''/g;1s/^/'/;$s/$/' \\\\/"], [/* 71 vars */]) = 0
+1552365763.633330 brk(0) = 0x1816000
+1552365763.633355 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+1552365763.633381 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+1552365763.633402 open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+1552365763.633419 fstat(3</etc/ld.so.cache>, {st_mode=S_IFREG|0644, st_size=96113, ...}) = 0
+1552365763.633447 mmap(NULL, 96113, PROT_READ, MAP_PRIVATE, 3</etc/ld.so.cache>, 0) = 0x7f4a18c8e000
+1552365763.633464 close(3</etc/ld.so.cache>) = 0
+1552365763.633480 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+1552365763.633497 open("/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 3
+1552365763.633512 read(3</lib/x86_64-linux-gnu/libselinux.so.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0[\0\0\0\0\0\0"..., 832) = 832
+1552365763.633530 fstat(3</lib/x86_64-linux-gnu/libselinux.so.1>, {st_mode=S_IFREG|0644, st_size=134296, ...}) = 0
+1552365763.633545 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4a18c8d000
+1552365763.633562 mmap(NULL, 2238192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libselinux.so.1>, 0) = 0x7f4a18861000
+1552365763.640406 mprotect(0x7f4a18881000, 2093056, PROT_NONE) = 0
+1552365763.640440 mmap(0x7f4a18a80000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libselinux.so.1>, 0x1f000) = 0x7f4a18a80000
+1552365763.640531 mmap(0x7f4a18a82000, 5872, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f4a18a82000
+1552365763.640567 close(3</lib/x86_64-linux-gnu/libselinux.so.1>) = 0
+1552365763.640663 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+1552365763.640725 open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+1552365763.640755 read(3</lib/x86_64-linux-gnu/libc-2.19.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P \2\0\0\0\0\0"..., 832) = 832
+1552365763.640778 fstat(3</lib/x86_64-linux-gnu/libc-2.19.so>, {st_mode=S_IFREG|0755, st_size=1857312, ...}) = 0
+1552365763.640799 mmap(NULL, 3965632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.19.so>, 0) = 0x7f4a18498000
+1552365763.640819 mprotect(0x7f4a18656000, 2097152, PROT_NONE) = 0
+1552365763.640839 mmap(0x7f4a18856000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.19.so>, 0x1be000) = 0x7f4a18856000
+1552365763.640865 mmap(0x7f4a1885c000, 17088, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f4a1885c000
+1552365763.640888 close(3</lib/x86_64-linux-gnu/libc-2.19.so>) = 0
+1552365763.640915 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+1552365763.640934 open("/lib/x86_64-linux-gnu/libpcre.so.3", O_RDONLY|O_CLOEXEC) = 3
+1552365763.640952 read(3</lib/x86_64-linux-gnu/libpcre.so.3.13.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\27\0\0\0\0\0\0"..., 832) = 832
+1552365763.640971 fstat(3</lib/x86_64-linux-gnu/libpcre.so.3.13.1>, {st_mode=S_IFREG|0644, st_size=252032, ...}) = 0
+1552365763.640988 mmap(NULL, 2347200, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpcre.so.3.13.1>, 0) = 0x7f4a1825a000
+1552365763.641007 mprotect(0x7f4a18297000, 2093056, PROT_NONE) = 0
+1552365763.641022 mmap(0x7f4a18496000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpcre.so.3.13.1>, 0x3c000) = 0x7f4a18496000
+1552365763.641052 close(3</lib/x86_64-linux-gnu/libpcre.so.3.13.1>) = 0
+1552365763.641094 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+1552365763.641117 open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+1552365763.641134 read(3</lib/x86_64-linux-gnu/libdl-2.19.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\16\0\0\0\0\0\0"..., 832) = 832
+1552365763.641169 fstat(3</lib/x86_64-linux-gnu/libdl-2.19.so>, {st_mode=S_IFREG|0644, st_size=14664, ...}) = 0
+1552365763.641190 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4a18c8c000
+1552365763.641211 mmap(NULL, 2109744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdl-2.19.so>, 0) = 0x7f4a18056000
+1552365763.641235 mprotect(0x7f4a18059000, 2093056, PROT_NONE) = 0
+1552365763.641255 mmap(0x7f4a18258000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdl-2.19.so>, 0x2000) = 0x7f4a18258000
+1552365763.641291 close(3</lib/x86_64-linux-gnu/libdl-2.19.so>) = 0
+1552365763.641329 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4a18c8b000
+1552365763.641346 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4a18c89000
+1552365763.641362 arch_prctl(ARCH_SET_FS, 0x7f4a18c89840) = 0
+1552365763.641450 mprotect(0x7f4a18856000, 16384, PROT_READ) = 0
+1552365763.641484 mprotect(0x7f4a18258000, 4096, PROT_READ) = 0
+1552365763.641510 mprotect(0x7f4a18496000, 4096, PROT_READ) = 0
+1552365763.641542 mprotect(0x7f4a18a80000, 4096, PROT_READ) = 0
+1552365763.641571 mprotect(0x610000, 4096, PROT_READ) = 0
+1552365763.641651 mprotect(0x7f4a18ca6000, 4096, PROT_READ) = 0
+1552365763.641678 munmap(0x7f4a18c8e000, 96113) = 0
+1552365763.641762 statfs("/sys/fs/selinux", 0x7fff92f75d30) = -1 ENOENT (No such file or directory)
+1552365763.641985 statfs("/selinux", 0x7fff92f75d30) = -1 ENOENT (No such file or directory)
+1552365763.642042 brk(0) = 0x1816000
+1552365763.642202 brk(0x1837000) = 0x1837000
+1552365763.642222 open("/proc/filesystems", O_RDONLY) = 3
+1552365763.642250 fstat(3</proc/filesystems>, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+1552365763.642271 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4a18ca5000
+1552365763.642287 read(3</proc/filesystems>, "nodev\tsysfs\nnodev\trootfs\nnodev\tr"..., 1024) = 348
+1552365763.642354 read(3</proc/filesystems>, "", 1024) = 0
+1552365763.642531 close(3</proc/filesystems>) = 0
+1552365763.642553 munmap(0x7f4a18ca5000, 4096) = 0
+1552365763.642787 open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+1552365763.642830 fstat(3</usr/lib/locale/locale-archive>, {st_mode=S_IFREG|0644, st_size=7216688, ...}) = 0
+1552365763.642859 mmap(NULL, 7216688, PROT_READ, MAP_PRIVATE, 3</usr/lib/locale/locale-archive>, 0) = 0x7f4a17974000
+1552365763.642895 close(3</usr/lib/locale/locale-archive>) = 0
+1552365763.642962 open("//lib/charset.alias", O_RDONLY|O_NOFOLLOW) = -1 ENOENT (No such file or directory)
+1552365763.643000 open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3
+1552365763.643018 fstat(3</usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache>, {st_mode=S_IFREG|0644, st_size=26258, ...}) = 0
+1552365763.643036 mmap(NULL, 26258, PROT_READ, MAP_SHARED, 3</usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache>, 0) = 0x7f4a18c9f000
+1552365763.643053 close(3</usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache>) = 0
+1552365763.643142 fstat(0<pipe:[19527]>, {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+1552365763.643168 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4a18c9e000
+1552365763.643183 read(0<pipe:[19527]>, "build\n", 4096) = 6
+1552365763.643216 read(0<pipe:[19527]>, "", 4096) = 0
+1552365763.643241 fstat(1<pipe:[19520]>, {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+1552365763.643262 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f4a18c9d000
+1552365763.643282 write(1<pipe:[19520]>, "'build' \\\n", 10) = 10
+1552365763.643328 close(1<pipe:[19520]>) = 0
+1552365763.643343 munmap(0x7f4a18c9d000, 4096) = 0
+1552365763.643365 close(2</dev/pts/15>) = 0
+1552365763.643401 exit_group(0) = ?
+1552365763.643473 +++ exited with 0 +++

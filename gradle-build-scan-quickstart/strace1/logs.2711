@@ -1,0 +1,4 @@
+1552365735.889298 execve("./gradlew", ["./gradlew", "build"], [/* 71 vars */]) = -1 EACCES (Permission denied)
+1552365735.889706 write(2</dev/pts/15>, "strace: exec: Permission denied\n", 32) = 32
+1552365735.890113 exit_group(1) = ?
+1552365735.890260 +++ exited with 1 +++

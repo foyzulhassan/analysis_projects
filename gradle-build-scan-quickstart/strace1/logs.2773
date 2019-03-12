@@ -1,0 +1,240 @@
+1552365770.815432 set_robust_list(0x7f77d94ee9e0, 24) = 0
+1552365770.815465 gettid() = 2773
+1552365770.815477 rt_sigprocmask(SIG_BLOCK, NULL, [QUIT], 8) = 0
+1552365770.815496 rt_sigprocmask(SIG_UNBLOCK, [HUP INT ILL BUS FPE SEGV USR2 TERM], NULL, 8) = 0
+1552365770.815512 rt_sigprocmask(SIG_BLOCK, [QUIT], NULL, 8) = 0
+1552365770.815527 futex(0x7f77c0020154, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f77c0020150, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552365770.815688 futex(0x7f77c0020128, FUTEX_WAKE_PRIVATE, 1) = 1
+1552365770.815827 sched_getaffinity(2773, 32, {1, 0, 0, 0}) = 32
+1552365770.815846 sched_getaffinity(2773, 32, {1, 0, 0, 0}) = 32
+1552365770.815863 mmap(0x7f77d93ee000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f77d93ee000
+1552365770.815888 mprotect(0x7f77d93ee000, 12288, PROT_NONE) = 0
+1552365770.816021 lseek(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, 29730358, SEEK_SET) = 29730358
+1552365770.818220 read(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0\330]\372J\vk\250\204~\2\0\0~\2\0\0.\0\0\0", 30) = 30
+1552365770.818248 lseek(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, 29730434, SEEK_SET) = 29730434
+1552365770.818263 read(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0 \t\0\4\0\24\n\0\5\0\25\n\0\22\0\26\7\0\27\7\0\31\7"..., 638) = 638
+1552365770.818401 epoll_ctl(233<anon_inode:[eventpoll]>, EPOLL_CTL_ADD, 229<socket:[20061]>, {EPOLLIN, {u32=229, u64=17408503839492931813}}) = 0
+1552365770.818504 epoll_wait(233<anon_inode:[eventpoll]>, {{EPOLLIN, {u32=229, u64=17408503839492931813}}}, 4096, -1) = 1
+1552365770.818743 read(229<socket:[20061]>, "\2\2403\17>\20\21A\357\277{3\334\310m\2)\20\261\271\373ON\2\216\250g\32D\366\241\366"..., 4096) = 4096
+1552365770.818799 lseek(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, 57687964, SEEK_SET) = 57687964
+1552365770.818818 read(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0\365]\372J\332^j*U\3\0\0U\3\0\0\31\0\0\0", 30) = 30
+1552365770.818836 lseek(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, 57688019, SEEK_SET) = 57688019
+1552365770.818851 read(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0)\n\0\t\0&\7\0'\5\377\377\377\377\377\377\377\376\5\377\377\377\377"..., 853) = 853
+1552365770.819596 lseek(17</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/gradle-core-api-5.2.1.jar>, 207079, SEEK_SET) = 207079
+1552365770.819639 read(17</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/gradle-core-api-5.2.1.jar>, "PK\3\4\n\0\0\10\10\0;\240HNY2\254\310R\5\0\0M\f\0\0005\0\0\0", 30) = 30
+1552365770.819662 lseek(17</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/gradle-core-api-5.2.1.jar>, 207162, SEEK_SET) = 207162
+1552365770.819678 read(17</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/gradle-core-api-5.2.1.jar>, "\235Vmw\23E\24~6\r\335t\263}K\313\273\210\310[\322@V\240*H\1K\32(\20h"..., 1362) = 1362
+1552365770.820019 lseek(17</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/gradle-core-api-5.2.1.jar>, 242186, SEEK_SET) = 242186
+1552365770.820117 read(17</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/gradle-core-api-5.2.1.jar>, "PK\3\4\n\0\0\10\10\0;\240HN\221\343\344\326\4\4\0\0\377\7\0\0009\0\0\0", 30) = 30
+1552365770.820145 lseek(17</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/gradle-core-api-5.2.1.jar>, 242273, SEEK_SET) = 242273
+1552365770.820161 read(17</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/gradle-core-api-5.2.1.jar>, "\235UmW\33E\24~&\331dC\262\r!\24\254\255\265\244\26\315\v4\26\304\276\4i)\21\241"..., 1028) = 1028
+1552365770.820428 lstat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+1552365770.820468 lstat("/home/foyzulhassan", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+1552365770.820486 lstat("/home/foyzulhassan/.gradle", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+1552365770.820502 lstat("/home/foyzulhassan/.gradle/daemon", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+1552365770.820518 lstat("/home/foyzulhassan/.gradle/daemon/5.2.1", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+1552365770.820654 lstat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+1552365770.820679 lstat("/home/foyzulhassan", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+1552365770.820694 lstat("/home/foyzulhassan/.gradle", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+1552365770.820853 lseek(65</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/gradle-logging-5.2.1.jar>, 190691, SEEK_SET) = 190691
+1552365770.820884 read(65</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/gradle-logging-5.2.1.jar>, "PK\3\4\n\0\0\10\10\0009\240HN\230EB\313\245\3\0\0p\n\0\0=\0\0\0", 30) = 30
+1552365770.820904 lseek(65</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/gradle-logging-5.2.1.jar>, 190782, SEEK_SET) = 190782
+1552365770.820919 read(65</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/gradle-logging-5.2.1.jar>, "\235\225oW\323H\24\306\237\1JL\t\310\37\301UwU\324\225\2J\20\371#\302\242X\203\324\215"..., 933) = 933
+1552365770.821303 sched_getaffinity(0, 128, {1, 0, 0, 0}) = 32
+1552365770.821702 lseek(17</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/gradle-core-api-5.2.1.jar>, 240468, SEEK_SET) = 240468
+1552365770.821737 read(17</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/gradle-core-api-5.2.1.jar>, "PK\3\4\n\0\0\10\10\0;\240HN\243R'\236\354\4\0\0g\v\0\0005\0\0\0", 30) = 30
+1552365770.821759 lseek(17</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/gradle-core-api-5.2.1.jar>, 240551, SEEK_SET) = 240551
+1552365770.821774 read(17</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/gradle-core-api-5.2.1.jar>, "\245U[w\23U\24\376N.\2354L\323\20J\203\26i\251\2256IK\0A\320\336(\275H\245"..., 1260) = 1260
+1552365770.821950 lseek(17</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/gradle-core-api-5.2.1.jar>, 210971, SEEK_SET) = 210971
+1552365770.821973 read(17</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/gradle-core-api-5.2.1.jar>, "PK\3\4\n\0\0\10\10\0;\240HN\334LJb\6\1\0\0\222\1\0\0%\0\0\0", 30) = 30
+1552365770.821993 lseek(17</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/gradle-core-api-5.2.1.jar>, 211038, SEEK_SET) = 211038
+1552365770.822008 read(17</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/gradle-core-api-5.2.1.jar>, "m\217OK\0031\20\305_\332\332\265Uk\25/\342\301\233\350\305\200\327J\241\240\236\212\226]\361\236"..., 262) = 262
+1552365770.823124 lseek(26</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/guava-26.0-android.jar>, 434173, SEEK_SET) = 434173
+1552365770.823222 read(26</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/guava-26.0-android.jar>, "PK\3\4\24\0\10\10\10\0\10\215\1M\0\0\0\0\0\0\0\0\0\0\0\0,\0\0\0", 30) = 30
+1552365770.823269 lseek(26</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/guava-26.0-android.jar>, 434247, SEEK_SET) = 434247
+1552365770.823305 read(26</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/guava-26.0-android.jar>, "\265Y\t|\24\325\31\377\277\335MfY&\7\341\222$\n\"\215\233\335$K\0Q\263\1\205H$"..., 2909) = 2909
+1552365770.824005 lseek(26</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/guava-26.0-android.jar>, 1218403, SEEK_SET) = 1218403
+1552365770.824129 read(26</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/guava-26.0-android.jar>, "PK\3\4\24\0\10\10\10\0\10\215\1M\0\0\0\0\0\0\0\0\0\0\0\0$\0\0\0", 30) = 30
+1552365770.824159 lseek(26</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/guava-26.0-android.jar>, 1218469, SEEK_SET) = 1218469
+1552365770.824177 read(26</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/guava-26.0-android.jar>, "\255Zi`T\325\25>\347\315dn2y\tY \4\22\310\260\207$\20v\224\4\f\204(\221\20"..., 6489) = 6489
+1552365770.824806 lseek(26</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/guava-26.0-android.jar>, 650460, SEEK_SET) = 650460
+1552365770.824842 read(26</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/guava-26.0-android.jar>, "PK\3\4\24\0\10\10\10\0\t\215\1M\0\0\0\0\0\0\0\0\0\0\0\0000\0\0\0", 30) = 30
+1552365770.824865 lseek(26</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/guava-26.0-android.jar>, 650538, SEEK_SET) = 650538
+1552365770.824882 read(26</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/guava-26.0-android.jar>, "\225Vks\23U\30~6\227\315\245K\v\205\326R\212\255\202\220&\205P\20+4Tji!\32"..., 1471) = 1471
+1552365770.825582 lseek(26</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/guava-26.0-android.jar>, 1213608, SEEK_SET) = 1213608
+1552365770.825656 read(26</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/guava-26.0-android.jar>, "PK\3\4\24\0\10\10\10\0\10\215\1M\0\0\0\0\0\0\0\0\0\0\0\0,\0\0\0", 30) = 30
+1552365770.825697 lseek(26</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/guava-26.0-android.jar>, 1213682, SEEK_SET) = 1213682
+1552365770.825724 read(26</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/guava-26.0-android.jar>, "\225Umw\23E\24~f\233\367\246P\1c+\25(\24HRi\240U\213M\214\215i\220\330\320"..., 1035) = 1035
+1552365770.826131 lseek(26</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/guava-26.0-android.jar>, 1198177, SEEK_SET) = 1198177
+1552365770.826173 read(26</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/guava-26.0-android.jar>, "PK\3\4\24\0\10\10\10\0\10\215\1M\0\0\0\0\0\0\0\0\0\0\0\0&\0\0\0", 30) = 30
+1552365770.826206 lseek(26</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/guava-26.0-android.jar>, 1198245, SEEK_SET) = 1198245
+1552365770.826231 read(26</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/guava-26.0-android.jar>, "\225Tms\23U\24~\356\336m\266I7\20J)\2\205\26,\230\267\22R\252 \215U(E\242"..., 988) = 988
+1552365770.826582 lseek(26</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/guava-26.0-android.jar>, 1192532, SEEK_SET) = 1192532
+1552365770.826613 read(26</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/guava-26.0-android.jar>, "PK\3\4\24\0\10\10\10\0\10\215\1M\0\0\0\0\0\0\0\0\0\0\0\0&\0\0\0", 30) = 30
+1552365770.826635 lseek(26</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/guava-26.0-android.jar>, 1192600, SEEK_SET) = 1192600
+1552365770.826652 read(26</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/guava-26.0-android.jar>, "\225UmS\33U\24~\356\346eI\330\264\21h\n\264\245\200iM\302K\nV\21\212X\32\301F"..., 1127) = 1127
+1552365770.826887 lseek(26</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/guava-26.0-android.jar>, 1194530, SEEK_SET) = 1194530
+1552365770.826914 read(26</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/guava-26.0-android.jar>, "PK\3\4\24\0\10\10\10\0\10\215\1M\0\0\0\0\0\0\0\0\0\0\0\0&\0\0\0", 30) = 30
+1552365770.826935 lseek(26</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/guava-26.0-android.jar>, 1194598, SEEK_SET) = 1194598
+1552365770.826951 read(26</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/guava-26.0-android.jar>, "\225Tms\23U\24~\356\3566\333$\233\22\372&/m)\265`\222\266\204\4\5\241\241Rk\221"..., 980) = 980
+1552365770.827102 mmap(0x100180000, 131072, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x100180000
+1552365770.827222 lseek(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, 31661523, SEEK_SET) = 31661523
+1552365770.827248 read(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0\331]\372J\254\371 \267\233\4\0\0\233\4\0\0\34\0\0\0", 30) = 30
+1552365770.827269 lseek(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, 31661581, SEEK_SET) = 31661581
+1552365770.827285 read(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0'\7\0$\7\0%\7\0&\1\0\5lower\1\0&(L"..., 1179) = 1179
+1552365770.827332 lseek(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, 31747605, SEEK_SET) = 31747605
+1552365770.827350 read(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0\331]\372J\313\20\302\364\262\3\0\0\262\3\0\0\31\0\0\0", 30) = 30
+1552365770.827369 lseek(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, 31747660, SEEK_SET) = 31747660
+1552365770.827384 read(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0'\7\0\37\7\0 \n\0\1\0!\7\0\"\7\0#\7\0$\1\0"..., 946) = 946
+1552365770.827779 lseek(26</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/guava-26.0-android.jar>, 1196382, SEEK_SET) = 1196382
+1552365770.827814 read(26</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/guava-26.0-android.jar>, "PK\3\4\24\0\10\10\10\0\10\215\1M\0\0\0\0\0\0\0\0\0\0\0\0&\0\0\0", 30) = 30
+1552365770.827835 lseek(26</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/guava-26.0-android.jar>, 1196450, SEEK_SET) = 1196450
+1552365770.827852 read(26</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/guava-26.0-android.jar>, "\225T\331N\23Q\30\376\316\314\300\3202\225\202\210\n\210\250 mYJ\251\v\n\242\210e\337\22\226"..., 886) = 886
+1552365770.828327 lstat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+1552365770.828376 lstat("/home/foyzulhassan", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+1552365770.828395 lstat("/home/foyzulhassan/Desktop", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+1552365770.828412 lstat("/home/foyzulhassan/Desktop/Untitled Folder", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+1552365770.828428 lstat("/home/foyzulhassan/Desktop/Untitled Folder/analysis_projects", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+1552365770.828445 lstat("/home/foyzulhassan/Desktop/Untitled Folder/analysis_projects/gradle-build-scan-quickstart", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+1552365770.830354 lseek(18</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/gradle-core-5.2.1.jar>, 1041686, SEEK_SET) = 1041686
+1552365770.830411 read(18</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/gradle-core-5.2.1.jar>, "PK\3\4\n\0\0\10\10\0D\240HN\267\375\251\206\37\3\0\0\351\5\0\0005\0\0\0", 30) = 30
+1552365770.830446 lseek(18</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/gradle-core-5.2.1.jar>, 1041769, SEEK_SET) = 1041769
+1552365770.830463 read(18</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/gradle-core-5.2.1.jar>, "\225T\313R\23A\24=M\36\3!\2\6\2\"\250\274\304\220\20\206\227\310#\2400\212e\25\17\313"..., 799) = 799
+1552365770.830938 futex(0x7f77ec0a6054, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f77ec0a6050, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552365770.830986 futex(0x7f77ec0a6028, FUTEX_WAKE_PRIVATE, 1) = 1
+1552365770.832292 futex(0x7f77ec0a6054, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f77ec0a6050, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552365770.832328 futex(0x7f77ec0a6028, FUTEX_WAKE_PRIVATE, 1) = 1
+1552365770.832945 epoll_wait(233<anon_inode:[eventpoll]>, {{EPOLLIN, {u32=229, u64=17408503839492931813}}}, 4096, -1) = 1
+1552365770.833012 read(229<socket:[20061]>, "_MX.UTF-8\211INSTANCE\201\207OLDPWD\332\1/hom"..., 4096) = 2557
+1552365770.833170 futex(0x7f77ec0a6054, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f77ec0a6050, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552365770.833207 futex(0x7f77ec0a6028, FUTEX_WAKE_PRIVATE, 1) = 1
+1552365770.833733 futex(0x7f77ec0a6054, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f77ec0a6050, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552365770.833766 futex(0x7f77ec0a6028, FUTEX_WAKE_PRIVATE, 1) = 1
+1552365770.834336 lseek(15</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/gradle-launcher-5.2.1.jar>, 308901, SEEK_SET) = 308901
+1552365770.834379 read(15</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/gradle-launcher-5.2.1.jar>, "PK\3\4\n\0\0\10\10\0K\240HN\33\v\232zz\5\0\0\207\r\0\0;\0\0\0", 30) = 30
+1552365770.834403 lseek(15</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/gradle-launcher-5.2.1.jar>, 308990, SEEK_SET) = 308990
+1552365770.834419 read(15</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/gradle-launcher-5.2.1.jar>, "\265V\351w\23U\24\377\2754\315\244\351\264iS\312Z!ek\22R\202,Vm)\224\226\245\32"..., 1402) = 1402
+1552365770.834964 lseek(26</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/guava-26.0-android.jar>, 1160620, SEEK_SET) = 1160620
+1552365770.835001 read(26</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/guava-26.0-android.jar>, "PK\3\4\24\0\10\10\10\0\10\215\1M\0\0\0\0\0\0\0\0\0\0\0\0>\0\0\0", 30) = 30
+1552365770.835024 lseek(26</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/guava-26.0-android.jar>, 1160712, SEEK_SET) = 1160712
+1552365770.835039 read(26</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/guava-26.0-android.jar>, "\245U\357s\v[\30~N\232d\233\265\245-\245\324\217\"\256$Ui\213\242\251^UEH\252W"..., 874) = 874
+1552365770.835294 mmap(0x7f77d993e000, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f77d993e000
+1552365770.835498 lseek(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, 31268616, SEEK_SET) = 31268616
+1552365770.835525 read(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0\317]\372J\251\332bN\207\7\0\0\207\7\0\0000\0\0\0", 30) = 30
+1552365770.842391 lseek(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, 31268694, SEEK_SET) = 31268694
+1552365770.842424 read(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0X\n\0\22\0<\t\0\21\0=\t\0\21\0>\v\0\10\0?\v\0"..., 1927) = 1927
+1552365770.842822 futex(0x7f77ec0a6054, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f77ec0a6050, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552365770.842877 futex(0x7f77ec0a6028, FUTEX_WAKE_PRIVATE, 1) = 1
+1552365770.843215 futex(0x7f77ec0a6054, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f77ec0a6050, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552365770.843268 futex(0x7f77ec0a6028, FUTEX_WAKE_PRIVATE, 1) = 1
+1552365770.843485 futex(0x7f77ec0a6054, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f77ec0a6050, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552365770.843516 futex(0x7f77ec0a6028, FUTEX_WAKE_PRIVATE, 1) = 1
+1552365770.843951 futex(0x7f77ec0a6054, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f77ec0a6050, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552365770.843985 futex(0x7f77ec0a6028, FUTEX_WAKE_PRIVATE, 1) = 1
+1552365770.844680 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "22:42:50.843", 12) = 12
+1552365770.844766 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, " [", 2) = 2
+1552365770.844810 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "DEBUG", 5) = 5
+1552365770.844849 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "] [", 3) = 3
+1552365770.844891 futex(0x7f77ec0a6054, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f77ec0a6050, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552365770.844934 futex(0x7f77ec0a6028, FUTEX_WAKE_PRIVATE, 1) = 1
+1552365770.846237 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "org.gradle.launcher.daemon.serve"..., 64) = 64
+1552365770.846297 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "] ", 2) = 2
+1552365770.846339 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "thread 14: received class org.gr"..., 67) = 67
+1552365770.846380 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "\n", 1) = 1
+1552365770.846691 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "22:42:50.845", 12) = 12
+1552365770.846743 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, " [", 2) = 2
+1552365770.846778 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "DEBUG", 5) = 5
+1552365770.846812 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "] [", 3) = 3
+1552365770.846848 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "org.gradle.launcher.daemon.serve"..., 57) = 57
+1552365770.846880 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "] ", 2) = 2
+1552365770.846930 futex(0x7f77ec0a6054, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f77ec0a6050, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552365770.846969 futex(0x7f77ec0a6028, FUTEX_WAKE_PRIVATE, 1) = 1
+1552365770.856223 futex(0x7f77ec0a6054, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f77ec0a6050, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 0
+1552365770.856305 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "thread 14: Received non-IO messa"..., 196) = 196
+1552365770.856397 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "\n", 1) = 1
+1552365770.856537 futex(0x7f77c0020574, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f77c0020570, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552365770.856663 futex(0x7f77c0020548, FUTEX_WAKE_PRIVATE, 1) = 1
+1552365770.859752 epoll_wait(233<anon_inode:[eventpoll]>, {{EPOLLIN, {u32=229, u64=17408503839492931813}}}, 4096, -1) = 1
+1552365793.969426 read(229<socket:[20061]>, "\6", 4096) = 1
+1552365793.969619 futex(0x7f77c80eff54, FUTEX_WAIT_BITSET_PRIVATE, 1, {644, 70959957}, ffffffff) = -1 ETIMEDOUT (Connection timed out)
+1552365793.971150 futex(0x7f77c80eff28, FUTEX_WAKE_PRIVATE, 1) = 0
+1552365793.971166 futex(0x7f77c80eff54, FUTEX_WAIT_BITSET_PRIVATE, 1, {644, 79512189}, ffffffff) = -1 ETIMEDOUT (Connection timed out)
+1552365793.980843 futex(0x7f77c80eff28, FUTEX_WAKE_PRIVATE, 1) = 0
+1552365793.980864 futex(0x7f77c80eff54, FUTEX_WAIT_BITSET_PRIVATE, 1, {644, 145210419}, ffffffff) = 0
+1552365793.984686 futex(0x7f77c80eff28, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+1552365793.984713 futex(0x7f77c80eff28, FUTEX_WAKE_PRIVATE, 1) = 0
+1552365793.984786 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "22:43:13.969", 12) = 12
+1552365793.984820 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, " [", 2) = 2
+1552365793.984853 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "DEBUG", 5) = 5
+1552365793.984881 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "] [", 3) = 3
+1552365793.984910 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "org.gradle.launcher.daemon.serve"..., 64) = 64
+1552365793.984938 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "] ", 2) = 2
+1552365793.984967 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "thread 14: received class org.gr"..., 72) = 72
+1552365793.985028 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "\n", 1) = 1
+1552365793.985159 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "22:43:13.984", 12) = 12
+1552365793.985192 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, " [", 2) = 2
+1552365793.985222 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "DEBUG", 5) = 5
+1552365793.985251 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "] [", 3) = 3
+1552365793.985280 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "org.gradle.launcher.daemon.serve"..., 57) = 57
+1552365793.985312 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "] ", 2) = 2
+1552365793.985342 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "thread 14: Received IO message f"..., 99) = 99
+1552365793.985372 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "\n", 1) = 1
+1552365793.985456 epoll_wait(233<anon_inode:[eventpoll]>, {{EPOLLIN, {u32=229, u64=17408503839492931813}}}, 4096, -1) = 1
+1552365793.985549 read(229<socket:[20061]>, "\t", 4096) = 1
+1552365793.985696 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "22:43:13.985", 12) = 12
+1552365793.985733 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, " [", 2) = 2
+1552365793.985763 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "DEBUG", 5) = 5
+1552365793.985805 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "] [", 3) = 3
+1552365793.985837 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "org.gradle.launcher.daemon.serve"..., 64) = 64
+1552365793.985867 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "] ", 2) = 2
+1552365793.985898 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "thread 14: received class org.gr"..., 70) = 70
+1552365793.985930 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "\n", 1) = 1
+1552365793.986062 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "22:43:13.985", 12) = 12
+1552365793.986125 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, " [", 2) = 2
+1552365793.986157 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "DEBUG", 5) = 5
+1552365793.986187 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "] [", 3) = 3
+1552365793.986228 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "org.gradle.launcher.daemon.serve"..., 57) = 57
+1552365793.986255 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "] ", 2) = 2
+1552365793.986285 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "thread 14: Received non-IO messa"..., 101) = 101
+1552365793.986315 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "\n", 1) = 1
+1552365793.986360 futex(0x7f77c0020574, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f77c0020570, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552365793.986391 epoll_wait(233<anon_inode:[eventpoll]>, {{EPOLLIN, {u32=231, u64=17073858670896349415}}}, 4096, -1) = 1
+1552365793.987451 futex(0x7f77c80eff54, FUTEX_WAIT_BITSET_PRIVATE, 3, {644, 88794743}, ffffffff) = 0
+1552365793.987515 futex(0x7f77c80eff28, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+1552365793.987552 futex(0x7f77c80eff28, FUTEX_WAKE_PRIVATE, 1) = 0
+1552365793.987621 read(231<pipe:[20081]>, "\1", 128) = 1
+1552365793.990114 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "22:43:13.989", 12) = 12
+1552365793.990175 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, " [", 2) = 2
+1552365793.990249 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "DEBUG", 5) = 5
+1552365793.990325 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "] [", 3) = 3
+1552365793.990371 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "org.gradle.internal.remote.inter"..., 57) = 57
+1552365793.990418 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "] ", 2) = 2
+1552365793.990464 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "Discarding EOFException: java.io"..., 45) = 45
+1552365793.990535 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "\n", 1) = 1
+1552365793.990671 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "22:43:13.990", 12) = 12
+1552365793.990715 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, " [", 2) = 2
+1552365793.990747 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "DEBUG", 5) = 5
+1552365793.990777 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "] [", 3) = 3
+1552365793.990809 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "org.gradle.launcher.daemon.serve"..., 64) = 64
+1552365793.990838 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "] ", 2) = 2
+1552365793.990868 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "thread 14: received null", 24) = 24
+1552365793.990900 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "\n", 1) = 1
+1552365793.990989 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "22:43:13.990", 12) = 12
+1552365793.991102 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, " [", 2) = 2
+1552365793.991136 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "DEBUG", 5) = 5
+1552365793.991166 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "] [", 3) = 3
+1552365793.991197 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "org.gradle.launcher.daemon.serve"..., 57) = 57
+1552365793.991226 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "] ", 2) = 2
+1552365793.991256 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "thread 14: Received end-of-input"..., 45) = 45
+1552365793.991288 write(219</home/foyzulhassan/.gradle/daemon/5.2.1/daemon-2755.out.log>, "\n", 1) = 1
+1552365793.991413 futex(0x7f77c80f2ff4, FUTEX_WAIT_BITSET_PRIVATE, 1, {704, 91753356}, ffffffff) = 0
+1552365793.991723 futex(0x7f77c80f2fc8, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+1552365793.991750 futex(0x7f77c80f2fc8, FUTEX_WAKE_PRIVATE, 1) = 0
+1552365793.991789 futex(0x7f77c80f2ff4, FUTEX_WAIT_PRIVATE, 3, NULL) = 0
+1552365793.991828 futex(0x7f77c80f2fc8, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+1552365793.991854 futex(0x7f77c80f2fc8, FUTEX_WAKE_PRIVATE, 1) = 0
+1552365793.991890 mmap(0x7f77d93ee000, 12288, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f77d93ee000
+1552365793.991929 rt_sigprocmask(SIG_SETMASK, [QUIT], NULL, 8) = 0
+1552365793.991953 madvise(0x7f77d93ee000, 1028096, MADV_DONTNEED) = 0
+1552365793.991982 _exit(0) = ?
+1552365793.992063 +++ exited with 0 +++

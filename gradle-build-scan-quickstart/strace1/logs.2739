@@ -1,0 +1,8 @@
+1552365763.629492 close(10</home/foyzulhassan/Desktop/Untitled Folder/analysis_projects/gradle-build-scan-quickstart/gradlew>) = 0
+1552365763.629742 close(3<pipe:[19513]>) = 0
+1552365763.629766 dup2(4<pipe:[19513]>, 1</dev/pts/15>) = 1
+1552365763.629786 close(4<pipe:[19513]>) = 0
+1552365763.630050 getrlimit(RLIMIT_NOFILE, {rlim_cur=1024, rlim_max=4*1024}) = 0
+1552365763.630254 write(1<pipe:[19513]>, "4096\n", 5) = 5
+1552365763.630464 exit_group(0) = ?
+1552365763.630858 +++ exited with 0 +++

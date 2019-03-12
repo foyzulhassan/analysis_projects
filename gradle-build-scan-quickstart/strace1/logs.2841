@@ -1,0 +1,138 @@
+1552365792.967942 set_robust_list(0x7f614fdfd9e0, 24) = 0
+1552365792.967979 gettid() = 2841
+1552365792.967994 rt_sigprocmask(SIG_BLOCK, NULL, [QUIT], 8) = 0
+1552365792.968015 rt_sigprocmask(SIG_UNBLOCK, [HUP INT ILL BUS FPE SEGV USR2 TERM], NULL, 8) = 0
+1552365792.968034 rt_sigprocmask(SIG_BLOCK, [QUIT], NULL, 8) = 0
+1552365792.968052 futex(0x7f617c00b354, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f617c00b350, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552365792.968090 futex(0x7f617c00b328, FUTEX_WAKE_PRIVATE, 1) = 1
+1552365792.968295 sched_getaffinity(2841, 32, {1, 0, 0, 0}) = 32
+1552365792.968317 sched_getaffinity(2841, 32, {1, 0, 0, 0}) = 32
+1552365792.968337 mmap(0x7f614fcfd000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f614fcfd000
+1552365792.968403 mprotect(0x7f614fcfd000, 12288, PROT_NONE) = 0
+1552365792.968555 lseek(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, 29730358, SEEK_SET) = 29730358
+1552365792.968593 read(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0\330]\372J\vk\250\204~\2\0\0~\2\0\0.\0\0\0", 30) = 30
+1552365792.968618 lseek(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, 29730434, SEEK_SET) = 29730434
+1552365792.968637 read(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0 \t\0\4\0\24\n\0\5\0\25\n\0\22\0\26\7\0\27\7\0\31\7"..., 638) = 638
+1552365792.968738 epoll_ctl(53<anon_inode:[eventpoll]>, EPOLL_CTL_ADD, 50<socket:[20747]>, {EPOLLIN, {u32=50, u64=9462729129741778994}}) = 0
+1552365792.968827 epoll_wait(53<anon_inode:[eventpoll]>, {{EPOLLIN, {u32=50, u64=9462729129741778994}}}, 4096, -1) = 1
+1552365792.968972 futex(0x7f617c13ef54, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f617c13ef50, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552365792.969022 futex(0x7f617c13ef28, FUTEX_WAKE_PRIVATE, 1) = 1
+1552365792.972853 lseek(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, 57692551, SEEK_SET) = 57692551
+1552365792.972948 read(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0\t^\372J\214\336U,\230\t\0\0\230\t\0\0#\0\0\0", 30) = 30
+1552365792.972980 lseek(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, 57692616, SEEK_SET) = 57692616
+1552365792.972999 read(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0b\n\0\24\0K\n\0\23\0L\n\0\23\0M\n\0\23\0N\n\0"..., 2456) = 2456
+1552365792.973084 lseek(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, 57691566, SEEK_SET) = 57691566
+1552365792.973106 read(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0\365]\372J>.\364\204\234\3\0\0\234\3\0\0\37\0\0\0", 30) = 30
+1552365792.973128 lseek(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, 57691627, SEEK_SET) = 57691627
+1552365792.973146 read(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0*\n\0\3\0&\7\0'\7\0(\1\0\7NO_LOCK\1"..., 924) = 924
+1552365792.973325 socketpair(PF_LOCAL, SOCK_STREAM, 0, [54, 55]) = 0
+1552365792.973405 close(55<socket:[20783]>) = 0
+1552365792.973484 read(50<socket:[20747]>, "\1\0\306\1org.gradle.api.internal.task"..., 4096) = 431
+1552365792.973536 lseek(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, 57687964, SEEK_SET) = 57687964
+1552365792.973558 read(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0\365]\372J\332^j*U\3\0\0U\3\0\0\31\0\0\0", 30) = 30
+1552365792.973580 lseek(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, 57688019, SEEK_SET) = 57688019
+1552365792.973599 read(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0)\n\0\t\0&\7\0'\5\377\377\377\377\377\377\377\376\5\377\377\377\377"..., 853) = 853
+1552365792.974059 lseek(19</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/gradle-messaging-5.2.1.jar>, 188481, SEEK_SET) = 188481
+1552365792.974106 read(19</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/gradle-messaging-5.2.1.jar>, "PK\3\4\n\0\0\10\10\0008\240HN\264\32\223S\327\1\0\0,\4\0\0V\0\0\0", 30) = 30
+1552365792.974132 lseek(19</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/gradle-messaging-5.2.1.jar>, 188597, SEEK_SET) = 188597
+1552365792.974159 read(19</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/gradle-messaging-5.2.1.jar>, "\255\223\337N\23A\24\306\277\351\326\226\226\25*(*\250\200b\202\33t#\352\25\4\0231\306M\252"..., 471) = 471
+1552365792.974508 lseek(19</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/gradle-messaging-5.2.1.jar>, 151420, SEEK_SET) = 151420
+1552365792.974548 read(19</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/gradle-messaging-5.2.1.jar>, "PK\3\4\n\0\0\10\10\0008\240HN\351\352L\23\301\2\0\0K\10\0\0^\0\0\0", 30) = 30
+1552365792.974574 lseek(19</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/gradle-messaging-5.2.1.jar>, 151544, SEEK_SET) = 151544
+1552365792.974592 read(19</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/gradle-messaging-5.2.1.jar>, "\265\226]O\23A\24\206\337iK\227\256\253T\276\374\226\252UJA\266ET\224\2!P\324\244J"..., 705) = 705
+1552365792.975031 lseek(19</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/gradle-messaging-5.2.1.jar>, 157601, SEEK_SET) = 157601
+1552365792.975069 read(19</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/gradle-messaging-5.2.1.jar>, "PK\3\4\n\0\0\10\10\0008\240HN\357a\17Dt\2\0\0\242\5\0\0O\0\0\0", 30) = 30
+1552365792.975095 lseek(19</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/gradle-messaging-5.2.1.jar>, 157710, SEEK_SET) = 157710
+1552365792.975114 read(19</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/gradle-messaging-5.2.1.jar>, "\255TmO\23A\20~\226^{\327\343x\261T\220\27\337Q[PN\20\324\244\204\224(\206\306\n"..., 628) = 628
+1552365792.975560 lseek(19</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/gradle-messaging-5.2.1.jar>, 177530, SEEK_SET) = 177530
+1552365792.975589 read(19</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/gradle-messaging-5.2.1.jar>, "PK\3\4\n\0\0\10\10\0008\240HN\3528\261B%\2\0\0R\4\0\0H\0\0\0", 30) = 30
+1552365792.975615 lseek(19</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/gradle-messaging-5.2.1.jar>, 177632, SEEK_SET) = 177632
+1552365792.975635 read(19</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/gradle-messaging-5.2.1.jar>, "\255TmO\23A\20~\266-\275\266\34R\353K\v\276\200rB\353\v\27M\214\0374\6\301\22\32"..., 549) = 549
+1552365792.975857 futex(0x7f617c3b6d74, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f617c3b6d70, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552365792.976000 futex(0x7f617c3b6d48, FUTEX_WAKE_PRIVATE, 1) = 1
+1552365792.978321 futex(0x7f615c089254, FUTEX_WAIT_PRIVATE, 1, NULL) = 0
+1552365792.987085 futex(0x7f615c089228, FUTEX_WAKE_PRIVATE, 1) = 0
+1552365792.987108 lseek(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, 31847138, SEEK_SET) = 31847138
+1552365792.987141 read(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0\331]\372J\374.R\343\207\17\0\0\207\17\0\0\36\0\0\0", 30) = 30
+1552365792.987166 lseek(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, 31847198, SEEK_SET) = 31847198
+1552365792.987185 read(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0\243\n\0#\0a\t\0\31\0b\7\0c\n\0\3\0d\7\0e\n"..., 3975) = 3975
+1552365792.987259 lseek(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, 31661523, SEEK_SET) = 31661523
+1552365792.987810 read(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0\331]\372J\254\371 \267\233\4\0\0\233\4\0\0\34\0\0\0", 30) = 30
+1552365792.987846 lseek(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, 31661581, SEEK_SET) = 31661581
+1552365792.987866 read(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0'\7\0$\7\0%\7\0&\1\0\5lower\1\0&(L"..., 1179) = 1179
+1552365792.987998 lseek(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, 31747605, SEEK_SET) = 31747605
+1552365792.988020 read(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0\331]\372J\313\20\302\364\262\3\0\0\262\3\0\0\31\0\0\0", 30) = 30
+1552365792.988042 lseek(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, 31747660, SEEK_SET) = 31747660
+1552365792.988060 read(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0'\7\0\37\7\0 \n\0\1\0!\7\0\"\7\0#\7\0$\1\0"..., 946) = 946
+1552365792.988096 futex(0x7f617c3da754, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f617c3da750, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552365792.988136 futex(0x7f617c3da728, FUTEX_WAKE_PRIVATE, 1) = 1
+1552365792.988197 futex(0x7f617c3da754, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f617c3da750, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552365792.988231 futex(0x7f617c3da728, FUTEX_WAKE_PRIVATE, 1) = 1
+1552365792.988352 futex(0x7f617c3da754, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f617c3da750, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552365792.988440 futex(0x7f617c3da728, FUTEX_WAKE_PRIVATE, 1) = 1
+1552365792.988484 futex(0x7f617c3da754, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f617c3da750, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552365792.988538 futex(0x7f617c3da728, FUTEX_WAKE_PRIVATE, 1) = 1
+1552365792.988581 futex(0x7f617c3da754, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f617c3da750, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552365792.988632 futex(0x7f617c3da728, FUTEX_WAKE_PRIVATE, 1) = 1
+1552365792.988692 futex(0x7f617c3da754, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f617c3da750, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552365792.988801 futex(0x7f617c3da728, FUTEX_WAKE_PRIVATE, 1) = 1
+1552365792.988860 futex(0x7f617c3da754, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f617c3da750, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552365792.988944 futex(0x7f617c3da728, FUTEX_WAKE_PRIVATE, 1) = 1
+1552365792.989066 futex(0x7f617c3da754, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f617c3da750, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552365792.989457 futex(0x7f617c3da728, FUTEX_WAKE_PRIVATE, 1) = 1
+1552365792.989503 futex(0x7f617c3da754, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f617c3da750, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552365792.989534 futex(0x7f617c3da728, FUTEX_WAKE_PRIVATE, 1) = 1
+1552365792.989577 futex(0x7f617c3da754, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f617c3da750, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552365792.989608 futex(0x7f617c3da728, FUTEX_WAKE_PRIVATE, 1) = 1
+1552365792.989651 futex(0x7f617c3da754, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f617c3da750, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552365792.989682 futex(0x7f617c3da728, FUTEX_WAKE_PRIVATE, 1) = 1
+1552365792.989748 futex(0x7f617c3da754, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f617c3da750, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552365792.989783 futex(0x7f617c3da728, FUTEX_WAKE_PRIVATE, 1) = 1
+1552365792.989915 futex(0x7f617c3da754, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f617c3da750, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552365792.989955 futex(0x7f617c3da728, FUTEX_WAKE_PRIVATE, 1) = 1
+1552365792.990332 futex(0x7f617c3da754, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f617c3da750, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552365792.990364 futex(0x7f617c3da728, FUTEX_WAKE_PRIVATE, 1) = 1
+1552365792.993149 futex(0x7f617c3dc254, FUTEX_WAIT_PRIVATE, 1, NULL) = 0
+1552365792.993426 futex(0x7f617c3dc228, FUTEX_WAKE_PRIVATE, 1) = 0
+1552365792.993512 futex(0x7f617c3dbe54, FUTEX_WAIT_BITSET_PRIVATE, 1, {643, 94857391}, ffffffff) = 0
+1552365792.994946 futex(0x7f617c3dbe28, FUTEX_WAKE_PRIVATE, 1) = 0
+1552365792.995560 lseek(34</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/commons-lang-2.6.jar>, 39, SEEK_SET) = 39
+1552365792.996165 read(34</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/commons-lang-2.6.jar>, "PK\3\4\n\0\0\0\10\0\331\270->\236^\26VH\2\0\0\327\5\0\0\24\0\0\0", 30) = 30
+1552365792.996592 lseek(34</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/commons-lang-2.6.jar>, 89, SEEK_SET) = 89
+1552365792.996674 read(34</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/commons-lang-2.6.jar>, "\215TKo\332@\20\276[\362\177\30\345\322V\212\r\241M\"\250z\10\204J\20\210\242B\243\336\252"..., 584) = 584
+1552365792.996855 futex(0x7f617c13ef54, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f617c13ef50, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552365792.997550 lseek(34</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/commons-lang-2.6.jar>, 89, SEEK_SET) = 89
+1552365792.997641 read(34</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/commons-lang-2.6.jar>, "\215TKo\332@\20\276[\362\177\30\345\322V\212\r\241M\"\250z\10\204J\20\210\242B\243\336\252"..., 584) = 584
+1552365792.997759 lseek(34</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/commons-lang-2.6.jar>, 172229, SEEK_SET) = 172229
+1552365792.997808 read(34</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/commons-lang-2.6.jar>, "PK\3\4\n\0\0\0\10\0\323\270->Gb~\320pA\0\0'\223\0\0)\0\0\0", 30) = 30
+1552365792.998616 lseek(34</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/commons-lang-2.6.jar>, 172300, SEEK_SET) = 172300
+1552365792.998694 read(34</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/commons-lang-2.6.jar>, "\275\275\7x\34\305\371?\376\231\275\275\336O:\335\235ug\313]>\311\226\33r\27\356 \\q\305"..., 8192) = 8192
+1552365792.998958 lseek(34</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/commons-lang-2.6.jar>, 180492, SEEK_SET) = 180492
+1552365792.999029 read(34</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/commons-lang-2.6.jar>, "4\340hO#&{\232P\355i\306<\317i8\301\323\202e\236V\254\360\254\303j\317z4x6"..., 8192) = 8192
+1552365793.000195 lseek(34</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/commons-lang-2.6.jar>, 188684, SEEK_SET) = 188684
+1552365793.000260 read(34</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/commons-lang-2.6.jar>, "\320\2728\243\363\261\232\2\207\212\277I\243v\213\277\213\317\220\335|\322\324\346\2239\321_\2572KI"..., 368) = 368
+1552365793.000455 lstat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+1552365793.000506 lstat("/home/foyzulhassan", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+1552365793.000547 lstat("/home/foyzulhassan/.gradle", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+1552365793.000582 lstat("/home/foyzulhassan/.gradle/wrapper", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+1552365793.000620 lstat("/home/foyzulhassan/.gradle/wrapper/dists", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+1552365793.000810 lstat("/home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+1552365793.000843 lstat("/home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+1552365793.000875 lstat("/home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+1552365793.000958 lstat("/home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+1552365793.000998 lstat("/home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/commons-lang-2.6.jar", {st_mode=S_IFREG|0664, st_size=284220, ...}) = 0
+1552365793.009353 epoll_wait(53<anon_inode:[eventpoll]>, {{EPOLLIN, {u32=50, u64=9462729129741778994}}}, 4096, -1) = 1
+1552365793.422787 read(50<socket:[20747]>, "\2", 4096) = 1
+1552365793.422944 futex(0x7f617c3b6d74, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f617c3b6d70, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552365793.422987 futex(0x7f617c3dc674, FUTEX_WAIT_BITSET_PRIVATE, 1, {703, 523329646}, ffffffff) = 0
+1552365793.423784 futex(0x7f617c3dc648, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+1552365793.423896 futex(0x7f617c3dc648, FUTEX_WAKE_PRIVATE, 1) = 0
+1552365793.423956 futex(0x7f617c3dc674, FUTEX_WAIT_PRIVATE, 3, NULL) = 0
+1552365793.424428 futex(0x7f617c3dc648, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+1552365793.424475 futex(0x7f617c3dc648, FUTEX_WAKE_PRIVATE, 1) = 0
+1552365793.424498 futex(0x7f617c3dd664, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f617c3dd660, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552365793.424541 mmap(0x7f614fcfd000, 12288, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f614fcfd000
+1552365793.424579 rt_sigprocmask(SIG_SETMASK, [QUIT], NULL, 8) = 0
+1552365793.424607 madvise(0x7f614fcfd000, 1028096, MADV_DONTNEED) = 0
+1552365793.424638 _exit(0) = ?
+1552365793.424728 +++ exited with 0 +++

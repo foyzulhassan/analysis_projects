@@ -1,0 +1,21 @@
+1552365702.492029 close(255</usr/share/gradle/bin/gradle>) = 0
+1552365702.492083 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+1552365702.492101 rt_sigaction(SIGTSTP, {SIG_DFL, [], SA_RESTORER, 0x7f28504f7cb0}, {SIG_DFL, [], 0}, 8) = 0
+1552365702.492118 rt_sigaction(SIGTTIN, {SIG_DFL, [], SA_RESTORER, 0x7f28504f7cb0}, {SIG_DFL, [], 0}, 8) = 0
+1552365702.492131 rt_sigaction(SIGTTOU, {SIG_DFL, [], SA_RESTORER, 0x7f28504f7cb0}, {SIG_DFL, [], 0}, 8) = 0
+1552365702.492146 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f28504f7cb0}, {SIG_DFL, [], SA_RESTORER, 0x7f28504f7cb0}, 8) = 0
+1552365702.492160 rt_sigaction(SIGQUIT, {SIG_DFL, [], SA_RESTORER, 0x7f28504f7cb0}, {SIG_IGN, [], SA_RESTORER, 0x7f28504f7cb0}, 8) = 0
+1552365702.492174 rt_sigaction(SIGCHLD, {SIG_DFL, [], SA_RESTORER|SA_RESTART, 0x7f28504f7cb0}, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f28504f7cb0}, 8) = 0
+1552365702.492189 rt_sigaction(SIGCHLD, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f28504f7cb0}, {SIG_DFL, [], SA_RESTORER|SA_RESTART, 0x7f28504f7cb0}, 8) = 0
+1552365702.492205 rt_sigaction(SIGINT, {0x45d1d0, [], SA_RESTORER, 0x7f28504f7cb0}, {SIG_DFL, [], SA_RESTORER, 0x7f28504f7cb0}, 8) = 0
+1552365702.492224 dup2(4<pipe:[18546]>, 1</dev/pts/15>) = 1
+1552365702.492249 close(4<pipe:[18546]>) = 0
+1552365702.492264 close(3<pipe:[18546]>) = 0
+1552365702.492327 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+1552365702.492439 brk(0x247e000) = 0x247e000
+1552365702.492479 readlink("/usr", 0x7ffe86ad2480, 4096) = -1 EINVAL (Invalid argument)
+1552365702.492499 readlink("/usr/share", 0x7ffe86ad2480, 4096) = -1 EINVAL (Invalid argument)
+1552365702.492512 readlink("/usr/share/gradle", 0x7ffe86ad2480, 4096) = -1 EINVAL (Invalid argument)
+1552365702.492537 write(1<pipe:[18546]>, "/usr/share/gradle\n", 18) = 18
+1552365702.492636 exit_group(0) = ?
+1552365702.492768 +++ exited with 0 +++

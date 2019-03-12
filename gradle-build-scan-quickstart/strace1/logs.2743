@@ -1,0 +1,49 @@
+1552365763.648266 close(10</home/foyzulhassan/Desktop/Untitled Folder/analysis_projects/gradle-build-scan-quickstart/gradlew>) = 0
+1552365763.648321 close(3<pipe:[19539]>) = 0
+1552365763.648339 dup2(4<pipe:[19539]>, 1</dev/pts/15>) = 1
+1552365763.648357 close(4<pipe:[19539]>) = 0
+1552365763.648400 stat("/usr/local/sbin/uname", 0x7ffd81a81cf0) = -1 ENOENT (No such file or directory)
+1552365763.648426 stat("/usr/local/bin/uname", 0x7ffd81a81cf0) = -1 ENOENT (No such file or directory)
+1552365763.648441 stat("/usr/sbin/uname", 0x7ffd81a81cf0) = -1 ENOENT (No such file or directory)
+1552365763.648455 stat("/usr/bin/uname", 0x7ffd81a81cf0) = -1 ENOENT (No such file or directory)
+1552365763.648469 stat("/sbin/uname", 0x7ffd81a81cf0) = -1 ENOENT (No such file or directory)
+1552365763.648482 stat("/bin/uname", {st_mode=S_IFREG|0755, st_size=31360, ...}) = 0
+1552365763.648503 execve("/bin/uname", ["uname"], [/* 71 vars */]) = 0
+1552365763.648713 brk(0) = 0x2196000
+1552365763.648735 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+1552365763.648763 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+1552365763.648785 open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+1552365763.648801 fstat(3</etc/ld.so.cache>, {st_mode=S_IFREG|0644, st_size=96113, ...}) = 0
+1552365763.648820 mmap(NULL, 96113, PROT_READ, MAP_PRIVATE, 3</etc/ld.so.cache>, 0) = 0x7f2f6b3cc000
+1552365763.648837 close(3</etc/ld.so.cache>) = 0
+1552365763.648853 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+1552365763.648870 open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+1552365763.648886 read(3</lib/x86_64-linux-gnu/libc-2.19.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P \2\0\0\0\0\0"..., 832) = 832
+1552365763.648903 fstat(3</lib/x86_64-linux-gnu/libc-2.19.so>, {st_mode=S_IFREG|0755, st_size=1857312, ...}) = 0
+1552365763.648919 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2f6b3cb000
+1552365763.648936 mmap(NULL, 3965632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.19.so>, 0) = 0x7f2f6adf9000
+1552365763.648954 mprotect(0x7f2f6afb7000, 2097152, PROT_NONE) = 0
+1552365763.648972 mmap(0x7f2f6b1b7000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.19.so>, 0x1be000) = 0x7f2f6b1b7000
+1552365763.648994 mmap(0x7f2f6b1bd000, 17088, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f2f6b1bd000
+1552365763.649015 close(3</lib/x86_64-linux-gnu/libc-2.19.so>) = 0
+1552365763.649044 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2f6b3c9000
+1552365763.649061 arch_prctl(ARCH_SET_FS, 0x7f2f6b3c9740) = 0
+1552365763.649161 mprotect(0x7f2f6b1b7000, 16384, PROT_READ) = 0
+1552365763.649185 mprotect(0x606000, 4096, PROT_READ) = 0
+1552365763.649204 mprotect(0x7f2f6b3e4000, 4096, PROT_READ) = 0
+1552365763.649221 munmap(0x7f2f6b3cc000, 96113) = 0
+1552365763.649310 brk(0) = 0x2196000
+1552365763.649322 brk(0x21b7000) = 0x21b7000
+1552365763.649339 open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+1552365763.649359 fstat(3</usr/lib/locale/locale-archive>, {st_mode=S_IFREG|0644, st_size=7216688, ...}) = 0
+1552365763.649377 mmap(NULL, 7216688, PROT_READ, MAP_PRIVATE, 3</usr/lib/locale/locale-archive>, 0) = 0x7f2f6a717000
+1552365763.649397 close(3</usr/lib/locale/locale-archive>) = 0
+1552365763.649448 uname({sys="Linux", node="foyzulhassan-VirtualBox", ...}) = 0
+1552365763.649466 fstat(1<pipe:[19539]>, {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+1552365763.649484 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2f6b3e3000
+1552365763.649503 write(1<pipe:[19539]>, "Linux\n", 6) = 6
+1552365763.649552 close(1<pipe:[19539]>) = 0
+1552365763.649649 munmap(0x7f2f6b3e3000, 4096) = 0
+1552365763.649669 close(2</dev/pts/15>) = 0
+1552365763.649690 exit_group(0) = ?
+1552365763.649736 +++ exited with 0 +++

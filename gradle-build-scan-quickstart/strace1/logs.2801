@@ -1,0 +1,46 @@
+1552365782.816520 set_robust_list(0x7f77bb3fb9e0, 24) = 0
+1552365782.820491 gettid() = 2801
+1552365782.820509 rt_sigprocmask(SIG_BLOCK, NULL, [QUIT], 8) = 0
+1552365782.820573 rt_sigprocmask(SIG_UNBLOCK, [HUP INT ILL BUS FPE SEGV USR2 TERM], NULL, 8) = 0
+1552365782.820597 rt_sigprocmask(SIG_BLOCK, [QUIT], NULL, 8) = 0
+1552365782.820617 futex(0x7f77c8191f54, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f77c8191f50, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552365782.820659 futex(0x7f77c8191f28, FUTEX_WAKE_PRIVATE, 1) = 1
+1552365782.822874 sched_getaffinity(2801, 32, {1, 0, 0, 0}) = 32
+1552365782.822898 sched_getaffinity(2801, 32, {1, 0, 0, 0}) = 32
+1552365782.822918 mmap(0x7f77bb2fb000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f77bb2fb000
+1552365782.822951 mprotect(0x7f77bb2fb000, 12288, PROT_NONE) = 0
+1552365782.823030 futex(0x7f77cc192ff4, FUTEX_WAIT_BITSET_PRIVATE, 1, {637, 914995213}, ffffffff) = -1 ETIMEDOUT (Connection timed out)
+1552365787.815775 futex(0x7f77cc192fc8, FUTEX_WAKE_PRIVATE, 1) = 0
+1552365787.816355 open("/proc/meminfo", O_RDONLY) = 258
+1552365787.816626 fstat(258</proc/meminfo>, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+1552365787.816935 read(258</proc/meminfo>, "MemTotal:        3081436 kB\nMemF"..., 8192) = 1254
+1552365787.817007 fstat(258</proc/meminfo>, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+1552365787.817028 lseek(258</proc/meminfo>, 0, SEEK_CUR) = 1254
+1552365787.817044 lseek(258</proc/meminfo>, 0, SEEK_END) = -1 EINVAL (Invalid argument)
+1552365787.817642 read(258</proc/meminfo>, "", 8192) = 0
+1552365787.819345 close(258</proc/meminfo>) = 0
+1552365787.819838 futex(0x7f77cc57d354, FUTEX_WAIT_BITSET_PRIVATE, 1, {637, 921177983}, ffffffff) = -1 ETIMEDOUT (Connection timed out)
+1552365787.821041 futex(0x7f77cc57d350, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+1552365787.821060 futex(0x7f77cc57d350, FUTEX_WAKE_PRIVATE, 1) = 0
+1552365787.821074 futex(0x7f77cc57d328, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+1552365787.821107 futex(0x7f77cc57d328, FUTEX_WAKE_PRIVATE, 1) = 0
+1552365787.821252 lseek(30</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/gradle-process-services-5.2.1.jar>, 2080, SEEK_SET) = 2080
+1552365787.821291 read(30</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/gradle-process-services-5.2.1.jar>, "PK\3\4\n\0\0\10\10\0:\240HNL\340\20\230%\2\0\0R\4\0\0G\0\0\0", 30) = 30
+1552365787.821328 lseek(30</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/gradle-process-services-5.2.1.jar>, 2181, SEEK_SET) = 2181
+1552365787.821346 read(30</home/foyzulhassan/.gradle/wrapper/dists/gradle-5.2.1-bin/9lc4nzslqh3ep7ml2tp68fk8s/gradle-5.2.1/lib/gradle-process-services-5.2.1.jar>, "\245R[k\23A\24\376&\273\271\2721q\255\366bm\23\353e\23\333\256\326'/\10\32\360!$"..., 549) = 549
+1552365787.822359 futex(0x7f77cc192ff4, FUTEX_WAIT_BITSET_PRIVATE, 1, {642, 914994710}, ffffffff) = -1 ETIMEDOUT (Connection timed out)
+1552365792.814815 futex(0x7f77cc192fc8, FUTEX_WAKE_PRIVATE, 1) = 0
+1552365792.814919 open("/proc/meminfo", O_RDONLY) = 271
+1552365792.814968 fstat(271</proc/meminfo>, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+1552365792.815044 read(271</proc/meminfo>, "MemTotal:        3081436 kB\nMemF"..., 8192) = 1254
+1552365792.815106 fstat(271</proc/meminfo>, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+1552365792.815130 lseek(271</proc/meminfo>, 0, SEEK_CUR) = 1254
+1552365792.815150 lseek(271</proc/meminfo>, 0, SEEK_END) = -1 EINVAL (Invalid argument)
+1552365792.815535 read(271</proc/meminfo>, "", 8192) = 0
+1552365792.815590 close(271</proc/meminfo>) = 0
+1552365792.815700 futex(0x7f77ec0a8254, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f77ec0a8250, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552365792.815746 futex(0x7f77ec0a8228, FUTEX_WAKE_PRIVATE, 1) = 1
+1552365792.818384 futex(0x7f77ec0a8254, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f77ec0a8250, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552365792.818436 futex(0x7f77ec0a8228, FUTEX_WAKE_PRIVATE, 1) = 1
+1552365792.818616 futex(0x7f77cc192ff4, FUTEX_WAIT_BITSET_PRIVATE, 1, {647, 914994588}, ffffffff <unfinished ...>
+1552365795.605235 +++ exited with 0 +++

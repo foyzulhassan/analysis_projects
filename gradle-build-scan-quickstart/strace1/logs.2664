@@ -1,0 +1,253 @@
+1552365702.470035 close(255</usr/share/gradle/bin/gradle>) = 0
+1552365702.470077 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+1552365702.470092 rt_sigaction(SIGTSTP, {SIG_DFL, [], SA_RESTORER, 0x7f28504f7cb0}, {SIG_DFL, [], 0}, 8) = 0
+1552365702.470107 rt_sigaction(SIGTTIN, {SIG_DFL, [], SA_RESTORER, 0x7f28504f7cb0}, {SIG_DFL, [], 0}, 8) = 0
+1552365702.470120 rt_sigaction(SIGTTOU, {SIG_DFL, [], SA_RESTORER, 0x7f28504f7cb0}, {SIG_DFL, [], 0}, 8) = 0
+1552365702.470134 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f28504f7cb0}, {SIG_DFL, [], SA_RESTORER, 0x7f28504f7cb0}, 8) = 0
+1552365702.470148 rt_sigaction(SIGQUIT, {SIG_DFL, [], SA_RESTORER, 0x7f28504f7cb0}, {SIG_IGN, [], SA_RESTORER, 0x7f28504f7cb0}, 8) = 0
+1552365702.470162 rt_sigaction(SIGCHLD, {SIG_DFL, [], SA_RESTORER|SA_RESTART, 0x7f28504f7cb0}, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f28504f7cb0}, 8) = 0
+1552365702.470177 rt_sigaction(SIGCHLD, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f28504f7cb0}, {SIG_DFL, [], SA_RESTORER|SA_RESTART, 0x7f28504f7cb0}, 8) = 0
+1552365702.470192 rt_sigaction(SIGINT, {0x45d1d0, [], SA_RESTORER, 0x7f28504f7cb0}, {SIG_DFL, [], SA_RESTORER, 0x7f28504f7cb0}, 8) = 0
+1552365702.470211 dup2(4<pipe:[18494]>, 1</dev/pts/15>) = 1
+1552365702.470233 close(4<pipe:[18494]>) = 0
+1552365702.470247 close(3<pipe:[18494]>) = 0
+1552365702.470297 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+1552365702.470406 stat(".", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+1552365702.470430 stat("/usr/local/sbin/ls", 0x7ffe86ad3140) = -1 ENOENT (No such file or directory)
+1552365702.470449 stat("/usr/local/bin/ls", 0x7ffe86ad3140) = -1 ENOENT (No such file or directory)
+1552365702.470464 stat("/usr/sbin/ls", 0x7ffe86ad3140) = -1 ENOENT (No such file or directory)
+1552365702.470478 stat("/usr/bin/ls", 0x7ffe86ad3140) = -1 ENOENT (No such file or directory)
+1552365702.470493 stat("/sbin/ls", 0x7ffe86ad3140) = -1 ENOENT (No such file or directory)
+1552365702.470507 stat("/bin/ls", {st_mode=S_IFREG|0755, st_size=110080, ...}) = 0
+1552365702.470522 stat("/bin/ls", {st_mode=S_IFREG|0755, st_size=110080, ...}) = 0
+1552365702.470535 geteuid() = 1000
+1552365702.470546 getegid() = 1000
+1552365702.470555 getuid() = 1000
+1552365702.470565 getgid() = 1000
+1552365702.470575 access("/bin/ls", X_OK) = 0
+1552365702.470589 stat("/bin/ls", {st_mode=S_IFREG|0755, st_size=110080, ...}) = 0
+1552365702.470602 geteuid() = 1000
+1552365702.470612 getegid() = 1000
+1552365702.470621 getuid() = 1000
+1552365702.470631 getgid() = 1000
+1552365702.470641 access("/bin/ls", R_OK) = 0
+1552365702.470654 stat("/bin/ls", {st_mode=S_IFREG|0755, st_size=110080, ...}) = 0
+1552365702.470667 stat("/bin/ls", {st_mode=S_IFREG|0755, st_size=110080, ...}) = 0
+1552365702.470680 geteuid() = 1000
+1552365702.470690 getegid() = 1000
+1552365702.470700 getuid() = 1000
+1552365702.470710 getgid() = 1000
+1552365702.470719 access("/bin/ls", X_OK) = 0
+1552365702.470732 stat("/bin/ls", {st_mode=S_IFREG|0755, st_size=110080, ...}) = 0
+1552365702.470745 geteuid() = 1000
+1552365702.470754 getegid() = 1000
+1552365702.470764 getuid() = 1000
+1552365702.470773 getgid() = 1000
+1552365702.470783 access("/bin/ls", R_OK) = 0
+1552365702.470816 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f28504f7cb0}, {0x45d1d0, [], SA_RESTORER, 0x7f28504f7cb0}, 8) = 0
+1552365702.470872 rt_sigaction(SIGQUIT, {SIG_DFL, [], SA_RESTORER, 0x7f28504f7cb0}, {SIG_DFL, [], SA_RESTORER, 0x7f28504f7cb0}, 8) = 0
+1552365702.470886 rt_sigaction(SIGCHLD, {SIG_DFL, [], SA_RESTORER|SA_RESTART, 0x7f28504f7cb0}, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f28504f7cb0}, 8) = 0
+1552365702.470917 execve("/bin/ls", ["ls", "-ld", "/usr/bin/gradle"], [/* 70 vars */]) = 0
+1552365702.471109 brk(0) = 0xae7000
+1552365702.471134 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+1552365702.471159 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+1552365702.471181 open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+1552365702.471198 fstat(3</etc/ld.so.cache>, {st_mode=S_IFREG|0644, st_size=96113, ...}) = 0
+1552365702.471219 mmap(NULL, 96113, PROT_READ, MAP_PRIVATE, 3</etc/ld.so.cache>, 0) = 0x7fb4f183a000
+1552365702.471241 close(3</etc/ld.so.cache>) = 0
+1552365702.471259 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+1552365702.471277 open("/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 3
+1552365702.471293 read(3</lib/x86_64-linux-gnu/libselinux.so.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0[\0\0\0\0\0\0"..., 832) = 832
+1552365702.471368 fstat(3</lib/x86_64-linux-gnu/libselinux.so.1>, {st_mode=S_IFREG|0644, st_size=134296, ...}) = 0
+1552365702.471388 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fb4f1839000
+1552365702.471408 mmap(NULL, 2238192, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libselinux.so.1>, 0) = 0x7fb4f140d000
+1552365702.471427 mprotect(0x7fb4f142d000, 2093056, PROT_NONE) = 0
+1552365702.471445 mmap(0x7fb4f162c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libselinux.so.1>, 0x1f000) = 0x7fb4f162c000
+1552365702.471472 mmap(0x7fb4f162e000, 5872, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fb4f162e000
+1552365702.471495 close(3</lib/x86_64-linux-gnu/libselinux.so.1>) = 0
+1552365702.471526 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+1552365702.471546 open("/lib/x86_64-linux-gnu/libacl.so.1", O_RDONLY|O_CLOEXEC) = 3
+1552365702.471563 read(3</lib/x86_64-linux-gnu/libacl.so.1.1.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\34\0\0\0\0\0\0"..., 832) = 832
+1552365702.471582 fstat(3</lib/x86_64-linux-gnu/libacl.so.1.1.0>, {st_mode=S_IFREG|0644, st_size=31168, ...}) = 0
+1552365702.471600 mmap(NULL, 2126336, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libacl.so.1.1.0>, 0) = 0x7fb4f1205000
+1552365702.471624 mprotect(0x7fb4f120c000, 2093056, PROT_NONE) = 0
+1552365702.471647 mmap(0x7fb4f140b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libacl.so.1.1.0>, 0x6000) = 0x7fb4f140b000
+1552365702.471712 close(3</lib/x86_64-linux-gnu/libacl.so.1.1.0>) = 0
+1552365702.471761 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+1552365702.471790 open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+1552365702.471940 read(3</lib/x86_64-linux-gnu/libc-2.19.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P \2\0\0\0\0\0"..., 832) = 832
+1552365702.471978 fstat(3</lib/x86_64-linux-gnu/libc-2.19.so>, {st_mode=S_IFREG|0755, st_size=1857312, ...}) = 0
+1552365702.472010 mmap(NULL, 3965632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.19.so>, 0) = 0x7fb4f0e3c000
+1552365702.472045 mprotect(0x7fb4f0ffa000, 2097152, PROT_NONE) = 0
+1552365702.472071 mmap(0x7fb4f11fa000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.19.so>, 0x1be000) = 0x7fb4f11fa000
+1552365702.472099 mmap(0x7fb4f1200000, 17088, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fb4f1200000
+1552365702.472122 close(3</lib/x86_64-linux-gnu/libc-2.19.so>) = 0
+1552365702.472148 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+1552365702.472167 open("/lib/x86_64-linux-gnu/libpcre.so.3", O_RDONLY|O_CLOEXEC) = 3
+1552365702.472185 read(3</lib/x86_64-linux-gnu/libpcre.so.3.13.1>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\27\0\0\0\0\0\0"..., 832) = 832
+1552365702.472203 fstat(3</lib/x86_64-linux-gnu/libpcre.so.3.13.1>, {st_mode=S_IFREG|0644, st_size=252032, ...}) = 0
+1552365702.472219 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fb4f1838000
+1552365702.472236 mmap(NULL, 2347200, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpcre.so.3.13.1>, 0) = 0x7fb4f0bfe000
+1552365702.472253 mprotect(0x7fb4f0c3b000, 2093056, PROT_NONE) = 0
+1552365702.472269 mmap(0x7fb4f0e3a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpcre.so.3.13.1>, 0x3c000) = 0x7fb4f0e3a000
+1552365702.472314 close(3</lib/x86_64-linux-gnu/libpcre.so.3.13.1>) = 0
+1552365702.472363 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+1552365702.472383 open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+1552365702.472401 read(3</lib/x86_64-linux-gnu/libdl-2.19.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\16\0\0\0\0\0\0"..., 832) = 832
+1552365702.472420 fstat(3</lib/x86_64-linux-gnu/libdl-2.19.so>, {st_mode=S_IFREG|0644, st_size=14664, ...}) = 0
+1552365702.472446 mmap(NULL, 2109744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdl-2.19.so>, 0) = 0x7fb4f09fa000
+1552365702.472468 mprotect(0x7fb4f09fd000, 2093056, PROT_NONE) = 0
+1552365702.472485 mmap(0x7fb4f0bfc000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdl-2.19.so>, 0x2000) = 0x7fb4f0bfc000
+1552365702.472515 close(3</lib/x86_64-linux-gnu/libdl-2.19.so>) = 0
+1552365702.472538 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+1552365702.472557 open("/lib/x86_64-linux-gnu/libattr.so.1", O_RDONLY|O_CLOEXEC) = 3
+1552365702.472574 read(3</lib/x86_64-linux-gnu/libattr.so.1.1.0>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\20\0\0\0\0\0\0"..., 832) = 832
+1552365702.472592 fstat(3</lib/x86_64-linux-gnu/libattr.so.1.1.0>, {st_mode=S_IFREG|0644, st_size=18624, ...}) = 0
+1552365702.472609 mmap(NULL, 2113760, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libattr.so.1.1.0>, 0) = 0x7fb4f07f5000
+1552365702.472628 mprotect(0x7fb4f07f9000, 2093056, PROT_NONE) = 0
+1552365702.472644 mmap(0x7fb4f09f8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libattr.so.1.1.0>, 0x3000) = 0x7fb4f09f8000
+1552365702.472672 close(3</lib/x86_64-linux-gnu/libattr.so.1.1.0>) = 0
+1552365702.472711 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fb4f1837000
+1552365702.472751 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fb4f1835000
+1552365702.472770 arch_prctl(ARCH_SET_FS, 0x7fb4f1835840) = 0
+1552365702.472910 mprotect(0x7fb4f11fa000, 16384, PROT_READ) = 0
+1552365702.472958 mprotect(0x7fb4f09f8000, 4096, PROT_READ) = 0
+1552365702.472999 mprotect(0x7fb4f0bfc000, 4096, PROT_READ) = 0
+1552365702.473155 mprotect(0x7fb4f0e3a000, 4096, PROT_READ) = 0
+1552365702.473203 mprotect(0x7fb4f140b000, 4096, PROT_READ) = 0
+1552365702.473237 mprotect(0x7fb4f162c000, 4096, PROT_READ) = 0
+1552365702.473264 mprotect(0x619000, 4096, PROT_READ) = 0
+1552365702.473288 mprotect(0x7fb4f1852000, 4096, PROT_READ) = 0
+1552365702.473335 munmap(0x7fb4f183a000, 96113) = 0
+1552365702.473431 statfs("/sys/fs/selinux", 0x7fff659762a0) = -1 ENOENT (No such file or directory)
+1552365702.473488 statfs("/selinux", 0x7fff659762a0) = -1 ENOENT (No such file or directory)
+1552365702.473571 brk(0) = 0xae7000
+1552365702.473598 brk(0xb08000) = 0xb08000
+1552365702.473617 open("/proc/filesystems", O_RDONLY) = 3
+1552365702.473660 fstat(3</proc/filesystems>, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+1552365702.473685 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fb4f1851000
+1552365702.473701 read(3</proc/filesystems>, "nodev\tsysfs\nnodev\trootfs\nnodev\tr"..., 1024) = 348
+1552365702.473740 read(3</proc/filesystems>, "", 1024) = 0
+1552365702.473757 close(3</proc/filesystems>) = 0
+1552365702.473776 munmap(0x7fb4f1851000, 4096) = 0
+1552365702.473899 open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+1552365702.473948 fstat(3</usr/lib/locale/locale-archive>, {st_mode=S_IFREG|0644, st_size=7216688, ...}) = 0
+1552365702.473982 mmap(NULL, 7216688, PROT_READ, MAP_PRIVATE, 3</usr/lib/locale/locale-archive>, 0) = 0x7fb4f0113000
+1552365702.474033 close(3</usr/lib/locale/locale-archive>) = 0
+1552365702.474121 ioctl(1<pipe:[18494]>, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff65975ef0) = -1 ENOTTY (Inappropriate ioctl for device)
+1552365702.474168 ioctl(1<pipe:[18494]>, TIOCGWINSZ, 0x7fff65975fc0) = -1 ENOTTY (Inappropriate ioctl for device)
+1552365702.474285 open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 3
+1552365702.474339 fstat(3</etc/locale.alias>, {st_mode=S_IFREG|0644, st_size=2570, ...}) = 0
+1552365702.474380 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fb4f1851000
+1552365702.474395 read(3</etc/locale.alias>, "# Locale name alias data base.\n#"..., 4096) = 2570
+1552365702.474444 read(3</etc/locale.alias>, "", 4096) = 0
+1552365702.474462 close(3</etc/locale.alias>) = 0
+1552365702.474480 munmap(0x7fb4f1851000, 4096) = 0
+1552365702.474516 open("/usr/share/locale/en_US/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+1552365702.474537 open("/usr/share/locale/en/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+1552365702.474561 open("/usr/share/locale-langpack/en_US/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+1552365702.474581 open("/usr/share/locale-langpack/en/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory)
+1552365702.474613 open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3
+1552365702.474632 fstat(3</usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache>, {st_mode=S_IFREG|0644, st_size=26258, ...}) = 0
+1552365702.474652 mmap(NULL, 26258, PROT_READ, MAP_SHARED, 3</usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache>, 0) = 0x7fb4f184b000
+1552365702.474672 close(3</usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache>) = 0
+1552365702.474707 lstat("/usr/bin/gradle", {st_mode=S_IFLNK|0777, st_size=26, ...}) = 0
+1552365702.474733 lgetxattr("/usr/bin/gradle", "security.selinux", 0xaeede0, 255) = -1 ENODATA (No data available)
+1552365702.474755 readlink("/usr/bin/gradle", "../share/gradle/bin/gradle", 27) = 26
+1552365702.474787 socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+1552365702.474809 connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+1552365702.474870 close(3<socket:[18501]>) = 0
+1552365702.474894 socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+1552365702.474909 connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+1552365702.474937 close(3<socket:[18502]>) = 0
+1552365702.474969 open("/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 3
+1552365702.474993 fstat(3</etc/nsswitch.conf>, {st_mode=S_IFREG|0644, st_size=507, ...}) = 0
+1552365702.475013 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fb4f184a000
+1552365702.475029 read(3</etc/nsswitch.conf>, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 507
+1552365702.475056 read(3</etc/nsswitch.conf>, "", 4096) = 0
+1552365702.475072 close(3</etc/nsswitch.conf>) = 0
+1552365702.475088 munmap(0x7fb4f184a000, 4096) = 0
+1552365702.475116 open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+1552365702.475134 fstat(3</etc/ld.so.cache>, {st_mode=S_IFREG|0644, st_size=96113, ...}) = 0
+1552365702.475153 mmap(NULL, 96113, PROT_READ, MAP_PRIVATE, 3</etc/ld.so.cache>, 0) = 0x7fb4f181d000
+1552365702.475171 close(3</etc/ld.so.cache>) = 0
+1552365702.475190 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+1552365702.475210 open("/lib/x86_64-linux-gnu/libnss_compat.so.2", O_RDONLY|O_CLOEXEC) = 3
+1552365702.475228 read(3</lib/x86_64-linux-gnu/libnss_compat-2.19.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\23\0\0\0\0\0\0"..., 832) = 832
+1552365702.475248 fstat(3</lib/x86_64-linux-gnu/libnss_compat-2.19.so>, {st_mode=S_IFREG|0644, st_size=39824, ...}) = 0
+1552365702.475271 mmap(NULL, 2135368, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libnss_compat-2.19.so>, 0) = 0x7fb4eff09000
+1552365702.475292 mprotect(0x7fb4eff12000, 2093056, PROT_NONE) = 0
+1552365702.475312 mmap(0x7fb4f0111000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libnss_compat-2.19.so>, 0x8000) = 0x7fb4f0111000
+1552365702.475367 close(3</lib/x86_64-linux-gnu/libnss_compat-2.19.so>) = 0
+1552365702.475398 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+1552365702.475418 open("/lib/x86_64-linux-gnu/libnsl.so.1", O_RDONLY|O_CLOEXEC) = 3
+1552365702.475437 read(3</lib/x86_64-linux-gnu/libnsl-2.19.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`A\0\0\0\0\0\0"..., 832) = 832
+1552365702.475464 fstat(3</lib/x86_64-linux-gnu/libnsl-2.19.so>, {st_mode=S_IFREG|0644, st_size=97296, ...}) = 0
+1552365702.475481 mmap(NULL, 2202328, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libnsl-2.19.so>, 0) = 0x7fb4efcef000
+1552365702.475500 mprotect(0x7fb4efd06000, 2093056, PROT_NONE) = 0
+1552365702.475514 mmap(0x7fb4eff05000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libnsl-2.19.so>, 0x16000) = 0x7fb4eff05000
+1552365702.475536 mmap(0x7fb4eff07000, 6872, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fb4eff07000
+1552365702.475557 close(3</lib/x86_64-linux-gnu/libnsl-2.19.so>) = 0
+1552365702.475591 mprotect(0x7fb4eff05000, 4096, PROT_READ) = 0
+1552365702.475615 mprotect(0x7fb4f0111000, 4096, PROT_READ) = 0
+1552365702.475633 munmap(0x7fb4f181d000, 96113) = 0
+1552365702.475662 open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+1552365702.475679 fstat(3</etc/ld.so.cache>, {st_mode=S_IFREG|0644, st_size=96113, ...}) = 0
+1552365702.475697 mmap(NULL, 96113, PROT_READ, MAP_PRIVATE, 3</etc/ld.so.cache>, 0) = 0x7fb4f181d000
+1552365702.475712 close(3</etc/ld.so.cache>) = 0
+1552365702.475728 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+1552365702.475745 open("/lib/x86_64-linux-gnu/libnss_nis.so.2", O_RDONLY|O_CLOEXEC) = 3
+1552365702.475760 read(3</lib/x86_64-linux-gnu/libnss_nis-2.19.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240!\0\0\0\0\0\0"..., 832) = 832
+1552365702.475777 fstat(3</lib/x86_64-linux-gnu/libnss_nis-2.19.so>, {st_mode=S_IFREG|0644, st_size=47760, ...}) = 0
+1552365702.475802 mmap(NULL, 2143784, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libnss_nis-2.19.so>, 0) = 0x7fb4efae3000
+1552365702.475964 mprotect(0x7fb4efaee000, 2093056, PROT_NONE) = 0
+1552365702.475999 mmap(0x7fb4efced000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libnss_nis-2.19.so>, 0xa000) = 0x7fb4efced000
+1552365702.476058 close(3</lib/x86_64-linux-gnu/libnss_nis-2.19.so>) = 0
+1552365702.476106 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+1552365702.476127 open("/lib/x86_64-linux-gnu/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 3
+1552365702.476144 read(3</lib/x86_64-linux-gnu/libnss_files-2.19.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\"\0\0\0\0\0\0"..., 832) = 832
+1552365702.476163 fstat(3</lib/x86_64-linux-gnu/libnss_files-2.19.so>, {st_mode=S_IFREG|0644, st_size=43616, ...}) = 0
+1552365702.476183 mmap(NULL, 2139944, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libnss_files-2.19.so>, 0) = 0x7fb4ef8d8000
+1552365702.476202 mprotect(0x7fb4ef8e2000, 2093056, PROT_NONE) = 0
+1552365702.476217 mmap(0x7fb4efae1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libnss_files-2.19.so>, 0x9000) = 0x7fb4efae1000
+1552365702.476244 close(3</lib/x86_64-linux-gnu/libnss_files-2.19.so>) = 0
+1552365702.476274 mprotect(0x7fb4efae1000, 4096, PROT_READ) = 0
+1552365702.476296 mprotect(0x7fb4efced000, 4096, PROT_READ) = 0
+1552365702.476354 munmap(0x7fb4f181d000, 96113) = 0
+1552365702.476389 open("/etc/passwd", O_RDONLY|O_CLOEXEC) = 3
+1552365702.476420 lseek(3</etc/passwd>, 0, SEEK_CUR) = 0
+1552365702.476461 fstat(3</etc/passwd>, {st_mode=S_IFREG|0644, st_size=1934, ...}) = 0
+1552365702.476487 mmap(NULL, 1934, PROT_READ, MAP_SHARED, 3</etc/passwd>, 0) = 0x7fb4f184a000
+1552365702.476526 lseek(3</etc/passwd>, 1934, SEEK_SET) = 1934
+1552365702.476560 munmap(0x7fb4f184a000, 1934) = 0
+1552365702.476588 close(3</etc/passwd>) = 0
+1552365702.476627 socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+1552365702.476667 connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+1552365702.476727 close(3<socket:[18503]>) = 0
+1552365702.476772 socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+1552365702.476833 connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+1552365702.476882 close(3<socket:[18504]>) = 0
+1552365702.476935 open("/etc/group", O_RDONLY|O_CLOEXEC) = 3
+1552365702.476965 lseek(3</etc/group>, 0, SEEK_CUR) = 0
+1552365702.476983 fstat(3</etc/group>, {st_mode=S_IFREG|0644, st_size=995, ...}) = 0
+1552365702.477006 mmap(NULL, 995, PROT_READ, MAP_SHARED, 3</etc/group>, 0) = 0x7fb4f184a000
+1552365702.477031 lseek(3</etc/group>, 995, SEEK_SET) = 995
+1552365702.477054 munmap(0x7fb4f184a000, 995) = 0
+1552365702.477123 close(3</etc/group>) = 0
+1552365702.477171 fstat(1<pipe:[18494]>, {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+1552365702.477216 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fb4f184a000
+1552365702.477256 open("/etc/localtime", O_RDONLY|O_CLOEXEC) = 3
+1552365702.477288 fstat(3</etc/localtime>, {st_mode=S_IFREG|0644, st_size=1604, ...}) = 0
+1552365702.477369 fstat(3</etc/localtime>, {st_mode=S_IFREG|0644, st_size=1604, ...}) = 0
+1552365702.477406 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fb4f1849000
+1552365702.477434 read(3</etc/localtime>, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0\0\5\0\0\0\0"..., 4096) = 1604
+1552365702.477473 lseek(3</etc/localtime>, -1010, SEEK_CUR) = 594
+1552365702.477502 read(3</etc/localtime>, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\5\0\0\0\5\0\0\0\0"..., 4096) = 1010
+1552365702.477541 close(3</etc/localtime>) = 0
+1552365702.477558 munmap(0x7fb4f1849000, 4096) = 0
+1552365702.477607 write(1<pipe:[18494]>, "lrwxrwxrwx 1 root root 26 dic 16"..., 85) = 85
+1552365702.477668 close(1<pipe:[18494]>) = 0
+1552365702.477762 munmap(0x7fb4f184a000, 4096) = 0
+1552365702.477783 close(2</dev/pts/15>) = 0
+1552365702.477865 exit_group(0) = ?
+1552365702.477989 +++ exited with 0 +++

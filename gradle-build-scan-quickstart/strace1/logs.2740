@@ -1,0 +1,25 @@
+1552365763.631974 close(10</home/foyzulhassan/Desktop/Untitled Folder/analysis_projects/gradle-build-scan-quickstart/gradlew>) = 0
+1552365763.632203 close(3<pipe:[19520]>) = 0
+1552365763.632225 dup2(4<pipe:[19520]>, 1</dev/pts/15>) = 1
+1552365763.632243 close(4<pipe:[19520]>) = 0
+1552365763.632376 pipe([3, 4]) = 0
+1552365763.632638 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f61cf6e5a10) = 2741
+1552365763.632721 close(4<pipe:[19527]>) = 0
+1552365763.632752 stat("/usr/local/sbin/sed", 0x7ffd81a81aa0) = -1 ENOENT (No such file or directory)
+1552365763.632776 stat("/usr/local/bin/sed", 0x7ffd81a81aa0) = -1 ENOENT (No such file or directory)
+1552365763.632792 stat("/usr/sbin/sed", 0x7ffd81a81aa0) = -1 ENOENT (No such file or directory)
+1552365763.632806 stat("/usr/bin/sed", 0x7ffd81a81aa0) = -1 ENOENT (No such file or directory)
+1552365763.632820 stat("/sbin/sed", 0x7ffd81a81aa0) = -1 ENOENT (No such file or directory)
+1552365763.632834 stat("/bin/sed", {st_mode=S_IFREG|0755, st_size=73352, ...}) = 0
+1552365763.632857 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f61cf6e5a10) = 2742
+1552365763.632918 close(3<pipe:[19527]>) = 0
+1552365763.632937 close(-1) = -1 EBADF (Bad file descriptor)
+1552365763.632957 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 2741
+1552365763.642482 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=2741, si_status=0, si_utime=0, si_stime=0} ---
+1552365763.642496 rt_sigreturn() = 2741
+1552365763.642512 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 2742
+1552365763.643518 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=2742, si_status=0, si_utime=0, si_stime=0} ---
+1552365763.643527 rt_sigreturn() = 2742
+1552365763.643554 write(1<pipe:[19520]>, " \n", 2) = 2
+1552365763.643644 exit_group(0) = ?
+1552365763.643689 +++ exited with 0 +++

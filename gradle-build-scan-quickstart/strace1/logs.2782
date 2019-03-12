@@ -1,0 +1,18 @@
+1552365772.058809 set_robust_list(0x7f77d8be79e0, 24) = 0
+1552365772.058934 gettid() = 2782
+1552365772.058948 rt_sigprocmask(SIG_BLOCK, NULL, [QUIT], 8) = 0
+1552365772.058970 rt_sigprocmask(SIG_UNBLOCK, [HUP INT ILL BUS FPE SEGV USR2 TERM], NULL, 8) = 0
+1552365772.058986 rt_sigprocmask(SIG_BLOCK, [QUIT], NULL, 8) = 0
+1552365772.059003 futex(0x7f77c8191f54, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f77c8191f50, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552365772.059040 futex(0x7f77c8191f28, FUTEX_WAKE_PRIVATE, 1) = 1
+1552365772.060283 sched_getaffinity(2782, 32, {1, 0, 0, 0}) = 32
+1552365772.060309 sched_getaffinity(2782, 32, {1, 0, 0, 0}) = 32
+1552365772.060359 mmap(0x7f77d8ae7000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f77d8ae7000
+1552365772.060392 mprotect(0x7f77d8ae7000, 12288, PROT_NONE) = 0
+1552365772.060574 lseek(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, 54329250, SEEK_SET) = 54329250
+1552365772.060608 read(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0\330]\372J\372O$\7\225\2\0\0\225\2\0\0\37\0\0\0", 30) = 30
+1552365772.060629 lseek(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, 54329311, SEEK_SET) = 54329311
+1552365772.060645 read(3</usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0\"\n\0\6\0\25\10\0\26\n\0\27\0\30\n\0\5\0\31\7\0\32\7"..., 661) = 661
+1552365772.060803 stat("/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/libnet.so", {st_mode=S_IFREG|0644, st_size=97088, ...}) = 0
+1552365772.060977 recvfrom(230,  <unfinished ...>
+1552365795.615618 +++ exited with 0 +++

@@ -1,0 +1,54 @@
+1552365702.481916 close(255</usr/share/gradle/bin/gradle>) = 0
+1552365702.481960 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+1552365702.481976 rt_sigaction(SIGTSTP, {SIG_DFL, [], SA_RESTORER, 0x7f28504f7cb0}, {SIG_DFL, [], 0}, 8) = 0
+1552365702.481991 rt_sigaction(SIGTTIN, {SIG_DFL, [], SA_RESTORER, 0x7f28504f7cb0}, {SIG_DFL, [], 0}, 8) = 0
+1552365702.482004 rt_sigaction(SIGTTOU, {SIG_DFL, [], SA_RESTORER, 0x7f28504f7cb0}, {SIG_DFL, [], 0}, 8) = 0
+1552365702.482020 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f28504f7cb0}, {SIG_DFL, [], SA_RESTORER, 0x7f28504f7cb0}, 8) = 0
+1552365702.482035 rt_sigaction(SIGQUIT, {SIG_DFL, [], SA_RESTORER, 0x7f28504f7cb0}, {SIG_IGN, [], SA_RESTORER, 0x7f28504f7cb0}, 8) = 0
+1552365702.482049 rt_sigaction(SIGCHLD, {SIG_DFL, [], SA_RESTORER|SA_RESTART, 0x7f28504f7cb0}, {0x4464c0, [], SA_RESTORER|SA_RESTART, 0x7f28504f7cb0}, 8) = 0
+1552365702.482102 open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+1552365702.482132 dup2(3</dev/null>, 1</dev/pts/15>) = 1
+1552365702.482155 close(3</dev/null>) = 0
+1552365702.482186 execve("/usr/bin/expr", ["expr", "../share/gradle/bin/gradle", ":", "/.*"], [/* 70 vars */]) = 0
+1552365702.482399 brk(0) = 0x1a96000
+1552365702.482420 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+1552365702.482445 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+1552365702.482465 open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+1552365702.482481 fstat(3</etc/ld.so.cache>, {st_mode=S_IFREG|0644, st_size=96113, ...}) = 0
+1552365702.482500 mmap(NULL, 96113, PROT_READ, MAP_PRIVATE, 3</etc/ld.so.cache>, 0) = 0x7f27704e2000
+1552365702.482517 close(3</etc/ld.so.cache>) = 0
+1552365702.482533 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+1552365702.482550 open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+1552365702.482565 read(3</lib/x86_64-linux-gnu/libc-2.19.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P \2\0\0\0\0\0"..., 832) = 832
+1552365702.482582 fstat(3</lib/x86_64-linux-gnu/libc-2.19.so>, {st_mode=S_IFREG|0755, st_size=1857312, ...}) = 0
+1552365702.482598 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f27704e1000
+1552365702.482615 mmap(NULL, 3965632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.19.so>, 0) = 0x7f276ff0f000
+1552365702.482633 mprotect(0x7f27700cd000, 2097152, PROT_NONE) = 0
+1552365702.482649 mmap(0x7f27702cd000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.19.so>, 0x1be000) = 0x7f27702cd000
+1552365702.482672 mmap(0x7f27702d3000, 17088, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f27702d3000
+1552365702.482692 close(3</lib/x86_64-linux-gnu/libc-2.19.so>) = 0
+1552365702.482719 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f27704df000
+1552365702.482736 arch_prctl(ARCH_SET_FS, 0x7f27704df740) = 0
+1552365702.482798 mprotect(0x7f27702cd000, 16384, PROT_READ) = 0
+1552365702.482860 mprotect(0x608000, 4096, PROT_READ) = 0
+1552365702.482881 mprotect(0x7f27704fa000, 4096, PROT_READ) = 0
+1552365702.482898 munmap(0x7f27704e2000, 96113) = 0
+1552365702.482985 brk(0) = 0x1a96000
+1552365702.482997 brk(0x1ab7000) = 0x1ab7000
+1552365702.483015 open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+1552365702.483034 fstat(3</usr/lib/locale/locale-archive>, {st_mode=S_IFREG|0644, st_size=7216688, ...}) = 0
+1552365702.483052 mmap(NULL, 7216688, PROT_READ, MAP_PRIVATE, 3</usr/lib/locale/locale-archive>, 0) = 0x7f276f82d000
+1552365702.483072 close(3</usr/lib/locale/locale-archive>) = 0
+1552365702.483128 open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3
+1552365702.483145 fstat(3</usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache>, {st_mode=S_IFREG|0644, st_size=26258, ...}) = 0
+1552365702.483162 mmap(NULL, 26258, PROT_READ, MAP_SHARED, 3</usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache>, 0) = 0x7f27704f3000
+1552365702.483178 close(3</usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache>) = 0
+1552365702.483222 fstat(1</dev/null>, {st_mode=S_IFCHR|0666, st_rdev=makedev(1, 3), ...}) = 0
+1552365702.483241 ioctl(1</dev/null>, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7fff01f8fa90) = -1 ENOTTY (Inappropriate ioctl for device)
+1552365702.483259 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f27704f2000
+1552365702.483279 write(1</dev/null>, "0\n", 2) = 2
+1552365702.483296 close(1</dev/null>) = 0
+1552365702.483321 munmap(0x7f27704f2000, 4096) = 0
+1552365702.483394 close(2</dev/pts/15>) = 0
+1552365702.483415 exit_group(1) = ?
+1552365702.483463 +++ exited with 1 +++

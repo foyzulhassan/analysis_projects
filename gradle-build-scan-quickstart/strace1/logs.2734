@@ -1,0 +1,7 @@
+1552365763.607082 close(10</home/foyzulhassan/Desktop/Untitled Folder/analysis_projects/gradle-build-scan-quickstart/gradlew>) = 0
+1552365763.607144 close(3<pipe:[19470]>) = 0
+1552365763.607163 dup2(4<pipe:[19470]>, 1</dev/pts/15>) = 1
+1552365763.607183 close(4<pipe:[19470]>) = 0
+1552365763.607238 write(1<pipe:[19470]>, "/home/foyzulhassan/Desktop/Untit"..., 90) = 90
+1552365763.607303 exit_group(0) = ?
+1552365763.607390 +++ exited with 0 +++
