@@ -1,0 +1,10 @@
+1552420293.438565 open("/home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/reports/tests/test/packages/example.html", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 193
+1552420293.443286 read(168</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-jvm-3.1.jar>, "PK\3\4\n\0\0\10\10\0\355f3IK\326\22\\B\2\0\0\265\5\0\0N\0\0\0", 30) = 30
+1552420293.443327 read(168</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-jvm-3.1.jar>, "\255T[o\22A\24\376\6\220\225\25-\266V\353\275\"*\27ei\343\233\265IC \255\242\255b"..., 578) = 578
+1552420293.443863 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0j\212FG\360x\361(\361\t\0\0\361\t\0\0005\0\0\0", 30) = 30
+1552420293.443931 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0c\n\0\24\0009\t\0\23\0:\t\0\23\0;\n\0<\0=\n\0"..., 2545) = 2545
+1552420293.444736 write(193</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/reports/tests/test/packages/example.html>, "<!DOCTYPE html>\n<html>\n<head>\n<m"..., 2150) = 2150
+1552420293.444782 close(193</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/reports/tests/test/packages/example.html>) = 0
+1552420293.474076 --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_ACCERR, si_addr=0x7fa2352c9c80} ---
+1552420293.474516 --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_ACCERR, si_addr=0x7fa2352c9c80} ---
+1552420293.474857 +++ exited with 0 +++

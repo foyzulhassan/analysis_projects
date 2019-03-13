@@ -1,0 +1,20 @@
+1552420290.272754 write(1</dev/pts/17>, "\33[9D\33[1m> Loading > settings\33[22"..., 33) = 33
+1552420290.649227 write(1</dev/pts/17>, "\33[9D\33[1m> Configuring\33[22m", 26) = 26
+1552420290.877600 write(1</dev/pts/17>, "\33[28D\33[1m> Configuring > 0/1 pro"..., 57) = 57
+1552420291.758118 write(1</dev/pts/17>, "\33[28D\33[1m> Building 0%\33[22m\33[0K", 31) = 31
+1552420291.872133 write(1</dev/pts/17>, "\33[13D\33[1m> Building 0% > :compil"..., 87) = 87
+1552420292.509974 read(27</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/jansi-1.13.jar>, "PK\3\4\24\0\10\10\10\0\374B\317H\0\0\0\0\0\0\0\0\0\0\0\0%\0\0\0", 30) = 30
+1552420292.510023 read(27</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/jansi-1.13.jar>, "\215T\355R\333V\20=\27\313\222l\24\20\n!1\201\4\203\1\333iq\23\222\264\r\224b\214!"..., 996) = 996
+1552420292.510526 read(41</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-logging-3.1.jar>, "PK\3\4\n\0\0\10\10\0\325f3I(,\210?\367\1\0\0|\4\0\0I\0\0\0", 30) = 30
+1552420292.510564 read(41</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-logging-3.1.jar>, "\255\224]o\3230\24\206_\247]CB\266\2161>\272\301>\240@\327\216E\300%h\242t\253\204"..., 503) = 503
+1552420292.510949 write(1</dev/pts/17>, "\33[13D:processResources \33[33mUP-T"..., 44) = 44
+1552420292.510991 write(1</dev/pts/17>, ":classes\n", 9) = 9
+1552420292.511017 write(1</dev/pts/17>, ":jar\n", 5) = 5
+1552420292.511042 write(1</dev/pts/17>, ":assemble\n", 10) = 10
+1552420292.511074 write(1</dev/pts/17>, "\33[1m> Building 45% > :compileTes"..., 42) = 42
+1552420292.676446 write(1</dev/pts/17>, "\33[33D:compileTestJava\33[0K\n", 26) = 26
+1552420292.676538 write(1</dev/pts/17>, ":processTestResources \33[33mUP-TO"..., 43) = 43
+1552420292.676583 write(1</dev/pts/17>, ":testClasses\n", 13) = 13
+1552420292.676622 write(1</dev/pts/17>, "\33[1m> Building 72% > :test > 0 t"..., 51) = 51
+1552420293.409806 write(1</dev/pts/17>, "\33[41D\33[1m> Building 72% > :test\33"..., 40) = 40
+1552420293.482061 +++ exited with 0 +++

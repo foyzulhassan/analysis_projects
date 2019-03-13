@@ -1,0 +1,12 @@
+1552420293.296570 read(168</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-jvm-3.1.jar>, "PK\3\4\n\0\0\10\10\0\355f3Is\233\261\312{\4\0\0j\v\0\0I\0\0\0", 30) = 30
+1552420293.296635 read(168</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-jvm-3.1.jar>, "\255VmS\33U\24~n\336\26\226\345\305\24\242X\205T\261$Ka[Zk\2014-RP0"..., 1147) = 1147
+1552420293.298019 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "PK\3\4\n\0\0\10\10\0\355f3I\363\224C\334\21\2\0\0\307\3\0\0?\0\0\0", 30) = 30
+1552420293.298057 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "\235SmO\23A\20~\366z\364\332z@E\324\202\370\312I[T.\22\23b|\211\246i\23b"..., 529) = 529
+1552420293.298430 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "PK\3\4\n\0\0\10\10\0\355f3I\261\366qvU\4\0\0\332\n\0\0E\0\0\0", 30) = 30
+1552420293.298584 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "\255VmS\33U\24~n\10l\22\26\22S\32\244V\n-/a)\215`m\305 P)(\30"..., 1109) = 1109
+1552420293.299169 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "PK\3\4\n\0\0\10\10\0\355f3I\0T'\301/\2\0\0\23\4\0\0E\0\0\0", 30) = 30
+1552420293.299212 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "\245S\357O\323`\20~\336m\254\333,2'\352@\324\31*\333\24\251.*\37\374\235Y\222\205\16"..., 559) = 559
+1552420293.299634 read(168</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-jvm-3.1.jar>, "PK\3\4\n\0\0\10\10\0\355f3I+\10\241\177\21\5\0\0\376\v\0\0H\0\0\0", 30) = 30
+1552420293.299674 read(168</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-jvm-3.1.jar>, "\255V]s\23e\24~\336d\233m\266\33R\372\205\305\217\224\266\330$XR\371Rh\251-m\252"..., 1297) = 1297
+1552420293.300150 write(1</dev/pts/17>, "\33[42D\33[1m> Building 72% > :test "..., 59) = 59
+1552420293.317319 +++ exited with 0 +++

@@ -1,0 +1,21 @@
+1552420293.427350 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "PK\3\4\n\0\0\10\10\0\326f3IH\340\272T\225\3\0\0\200\t\0\0H\0\0\0", 30) = 30
+1552420293.427423 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "\265Vms\22W\24~. \0336[\245\211F\215m\265J\f\1t\23km\325\230\306\4l\264"..., 917) = 917
+1552420293.430491 read(6</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-base-services-3.1.jar>, "PK\3\4\n\0\0\10\10\0\324f3IMcq\220\370\1\0\0\341\3\0\0(\0\0\0", 30) = 30
+1552420293.430553 read(6</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-base-services-3.1.jar>, "\215R\313r\22A\24=\r\3\223\31\321 1h|\345E\10\240\345\224\345N(\252(\305\25j\225"..., 504) = 504
+1552420293.430930 read(6</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-base-services-3.1.jar>, "PK\3\4\n\0\0\10\10\0\324f3I\20\244t\261z\4\0\0\233\t\0\0:\0\0\0", 30) = 30
+1552420293.430960 read(6</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-base-services-3.1.jar>, "\235V\353W\33E\24\377M\22\262\311\262@\32\344Y\221\324>\10I \245R\264\226\242\24ZEy"..., 1146) = 1146
+1552420293.431713 open("/home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/reports/tests/test/index.html", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 188
+1552420293.431907 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "PK\3\4\n\0\0\10\10\0\326f3I!VPZ\300\1\0\0.\3\0\0/\0\0\0", 30) = 30
+1552420293.432027 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "\215Q\313N\333@\24=\343\244v\352\270@\23\240\364E\2\264\"\217\n\213EWEtA\251\250\224"..., 448) = 448
+1552420293.432234 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "PK\3\4\n\0\0\10\10\0\326f3I\334\202E\364\214\3\0\0\30\t\0\0]\0\0\0", 30) = 30
+1552420293.432265 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "\265V]o\23G\24=\23;^{YB\32BH\241\320`\f\330N\302\206\217\322BB\200\304\244"..., 908) = 908
+1552420293.432400 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "PK\3\4\n\0\0\10\10\0\326f3I\261\307\251;\355\0\0\0y\1\0\0*\0\0\0", 30) = 30
+1552420293.432426 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "m\217MN\0031\f\205_\3727t\370i\27=\1b1\335\20\261\245\210\5B\25\213JE\235\341"..., 237) = 237
+1552420293.442581 read(168</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-jvm-3.1.jar>, "PK\3\4\n\0\0\10\10\0\355f3IT/V*G\2\0\0\270\5\0\0O\0\0\0", 30) = 30
+1552420293.442628 read(168</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-jvm-3.1.jar>, "\255T[o\3230\24\376\334\225\206\206\300\312\306\200q\31\243\f\350Zh\272\2117\306\244i\24\250("..., 583) = 583
+1552420293.442970 read(168</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-jvm-3.1.jar>, "PK\3\4\n\0\0\10\10\0\355f3I~\361*\302G\2\0\0\274\5\0\0O\0\0\0", 30) = 30
+1552420293.443002 read(168</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-jvm-3.1.jar>, "\255Tmo\3230\20~\334\226\205\206\300\306\306\200\361:F\307\272\26\232n\342\33cR5\25\230("..., 583) = 583
+1552420293.444875 --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_ACCERR, si_addr=0x7fa2352c9b80} ---
+1552420293.446793 write(188</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/reports/tests/test/index.html>, "<!DOCTYPE html>\n<html>\n<head>\n<m"..., 2496) = 2496
+1552420293.446854 close(188</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/reports/tests/test/index.html>) = 0
+1552420293.474909 +++ exited with 0 +++

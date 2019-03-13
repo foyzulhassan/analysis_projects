@@ -1,0 +1,128 @@
+1552420288.845933 open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+1552420288.846189 close(3</etc/ld.so.cache>) = 0
+1552420288.846386 open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+1552420288.846460 read(3</lib/x86_64-linux-gnu/libc-2.19.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\37\2\0\0\0\0\0"..., 832) = 832
+1552420288.846711 close(3</lib/x86_64-linux-gnu/libc-2.19.so>) = 0
+1552420288.847149 open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+1552420288.847230 close(3</usr/lib/locale/locale-archive>) = 0
+1552420288.847875 open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+1552420288.847947 close(3</etc/ld.so.cache>) = 0
+1552420288.848009 open("/lib/x86_64-linux-gnu/libtinfo.so.5", O_RDONLY|O_CLOEXEC) = 3
+1552420288.848041 read(3</lib/x86_64-linux-gnu/libtinfo.so.5.9>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\303\0\0\0\0\0\0"..., 832) = 832
+1552420288.848175 close(3</lib/x86_64-linux-gnu/libtinfo.so.5.9>) = 0
+1552420288.848234 open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+1552420288.848264 read(3</lib/x86_64-linux-gnu/libdl-2.19.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\16\0\0\0\0\0\0"..., 832) = 832
+1552420288.848394 close(3</lib/x86_64-linux-gnu/libdl-2.19.so>) = 0
+1552420288.848451 open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+1552420288.848481 read(3</lib/x86_64-linux-gnu/libc-2.19.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\37\2\0\0\0\0\0"..., 832) = 832
+1552420288.848653 close(3</lib/x86_64-linux-gnu/libc-2.19.so>) = 0
+1552420288.849064 open("/dev/tty", O_RDWR|O_NONBLOCK) = 3
+1552420288.849103 close(3</dev/tty>) = 0
+1552420288.849214 open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+1552420288.849291 close(3</usr/lib/locale/locale-archive>) = 0
+1552420288.849573 open("/proc/meminfo", O_RDONLY|O_CLOEXEC) = 3
+1552420288.849656 read(3</proc/meminfo>, "MemTotal:       16343840 kB\nMemF"..., 1024) = 1024
+1552420288.849770 close(3</proc/meminfo>) = 0
+1552420288.850380 open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3
+1552420288.850457 close(3</usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache>) = 0
+1552420288.852238 open("/home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle", O_RDONLY) = 3
+1552420288.852340 read(3</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle>, "#!/usr/bin/env bash\n\n###########"..., 80) = 80
+1552420288.852477 close(3</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle>) = 0
+1552420288.852661 read(255</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle>, "#!/usr/bin/env bash\n\n###########"..., 5232) = 5232
+1552420288.853123 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f78a6b4aa10) = 18607
+1552420288.853387 close(4<pipe:[2550447]>) = 0
+1552420288.853417 read(3<pipe:[2550447]>, "/home/foyzulhassan/Fault_Localiz"..., 128) = 101
+1552420288.854028 read(3<pipe:[2550447]>, "", 128) = 0
+1552420288.854214 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=18607, si_status=0, si_utime=0, si_stime=0} ---
+1552420288.854318 close(3<pipe:[2550447]>) = 0
+1552420288.854456 read(255</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle>, "cd \"`dirname \\\"$PRG\\\"`/..\" >/dev"..., 5232) = 4681
+1552420288.854655 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f78a6b4aa10) = 18608
+1552420288.854971 close(4<pipe:[2550448]>) = 0
+1552420288.855012 read(3<pipe:[2550448]>, "/home/foyzulhassan/AutoBuilder_L"..., 128) = 62
+1552420288.857665 read(3<pipe:[2550448]>, "", 128) = 0
+1552420288.857693 close(3<pipe:[2550448]>) = 0
+1552420288.857890 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=18608, si_status=0, si_utime=0, si_stime=0} ---
+1552420288.857984 open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+1552420288.858129 close(3</dev/null>) = 0
+1552420288.858397 close(10</dev/pts/17>) = 0
+1552420288.858439 read(255</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle>, "APP_HOME=\"`pwd -P`\"\ncd \"$SAVED\" "..., 5232) = 4643
+1552420288.858673 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f78a6b4aa10) = 18609
+1552420288.858969 close(4<pipe:[2553092]>) = 0
+1552420288.859003 read(3<pipe:[2553092]>, "/home/foyzulhassan/AutoBuilder_L"..., 128) = 58
+1552420288.859728 read(3<pipe:[2553092]>, "", 128) = 0
+1552420288.859939 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=18609, si_status=0, si_utime=0, si_stime=0} ---
+1552420288.860060 close(3<pipe:[2553092]>) = 0
+1552420288.860216 read(255</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle>, "cd \"$SAVED\" >/dev/null\n\nAPP_NAME"..., 5232) = 4623
+1552420288.860294 open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+1552420288.860447 close(3</dev/null>) = 0
+1552420288.860702 close(10</dev/pts/17>) = 0
+1552420288.860878 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f78a6b4aa10) = 18610
+1552420288.861103 close(4<pipe:[2553093]>) = 0
+1552420288.861139 read(3<pipe:[2553093]>, "gradle\n", 128) = 7
+1552420288.863277 read(3<pipe:[2553093]>, "", 128) = 0
+1552420288.863293 close(3<pipe:[2553093]>) = 0
+1552420288.863387 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=18610, si_status=0, si_utime=0, si_stime=0} ---
+1552420288.863427 read(255</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle>, "\n# Add default JVM options here."..., 5232) = 4551
+1552420288.863577 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f78a6b4aa10) = 18611
+1552420288.863687 close(4<pipe:[2553094]>) = 0
+1552420288.863700 read(3<pipe:[2553094]>, "Linux\n", 128) = 6
+1552420288.865084 read(3<pipe:[2553094]>, "", 128) = 0
+1552420288.865098 close(3<pipe:[2553094]>) = 0
+1552420288.865193 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=18611, si_status=0, si_utime=0, si_stime=0} ---
+1552420288.865235 read(255</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle>, "\nCLASSPATH=$APP_HOME/lib/gradle-"..., 5232) = 3984
+1552420288.865518 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f78a6b4aa10) = 18612
+1552420288.865628 close(4<pipe:[2553095]>) = 0
+1552420288.865646 read(3<pipe:[2553095]>, "4096\n", 128) = 5
+1552420288.865916 read(3<pipe:[2553095]>, "", 128) = 0
+1552420288.865996 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=18612, si_status=0, si_utime=0, si_stime=0} ---
+1552420288.866042 close(3<pipe:[2553095]>) = 0
+1552420288.866201 read(255</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle>, "\n# For Darwin, add options to sp"..., 5232) = 2632
+1552420288.866598 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f78a6b4aa10) = 18613
+1552420288.866713 close(4<pipe:[2550466]>) = 0
+1552420288.866728 read(3<pipe:[2550466]>, "Linux\n", 128) = 6
+1552420288.868104 read(3<pipe:[2550466]>, "", 128) = 0
+1552420288.868118 close(3<pipe:[2550466]>) = 0
+1552420288.868216 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=18613, si_status=0, si_utime=0, si_stime=0} ---
+1552420288.868262 read(255</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle>, "\nexec \"$JAVACMD\" \"${JVM_OPTS[@]}"..., 5232) = 94
+1552420288.868591 open("/usr/local/java/jdk1.8.0_65/bin/../lib/amd64/jli/tls/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1552420288.868629 open("/usr/local/java/jdk1.8.0_65/bin/../lib/amd64/jli/tls/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1552420288.868656 open("/usr/local/java/jdk1.8.0_65/bin/../lib/amd64/jli/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1552420288.868682 open("/usr/local/java/jdk1.8.0_65/bin/../lib/amd64/jli/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1552420288.868709 open("/usr/local/java/jdk1.8.0_65/bin/../lib/amd64/tls/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1552420288.868740 open("/usr/local/java/jdk1.8.0_65/bin/../lib/amd64/tls/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1552420288.868767 open("/usr/local/java/jdk1.8.0_65/bin/../lib/amd64/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1552420288.868793 open("/usr/local/java/jdk1.8.0_65/bin/../lib/amd64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1552420288.868820 open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+1552420288.868857 close(3</etc/ld.so.cache>) = 0
+1552420288.868890 open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+1552420288.868906 read(3</lib/x86_64-linux-gnu/libpthread-2.19.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0po\0\0\0\0\0\0"..., 832) = 832
+1552420288.868992 close(3</lib/x86_64-linux-gnu/libpthread-2.19.so>) = 0
+1552420288.869010 open("/usr/local/java/jdk1.8.0_65/bin/../lib/amd64/jli/libjli.so", O_RDONLY|O_CLOEXEC) = 3
+1552420288.869026 read(3</usr/local/java/jdk1.8.0_65/lib/amd64/jli/libjli.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20#\0\0\0\0\0\0"..., 832) = 832
+1552420288.869102 close(3</usr/local/java/jdk1.8.0_65/lib/amd64/jli/libjli.so>) = 0
+1552420288.869120 open("/usr/local/java/jdk1.8.0_65/bin/../lib/amd64/jli/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1552420288.869136 open("/usr/local/java/jdk1.8.0_65/bin/../lib/amd64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1552420288.869170 open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+1552420288.869193 read(3</lib/x86_64-linux-gnu/libdl-2.19.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\16\0\0\0\0\0\0"..., 832) = 832
+1552420288.869305 close(3</lib/x86_64-linux-gnu/libdl-2.19.so>) = 0
+1552420288.869326 open("/usr/local/java/jdk1.8.0_65/bin/../lib/amd64/jli/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1552420288.869345 open("/usr/local/java/jdk1.8.0_65/bin/../lib/amd64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1552420288.869373 open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+1552420288.869388 read(3</lib/x86_64-linux-gnu/libc-2.19.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\37\2\0\0\0\0\0"..., 832) = 832
+1552420288.869466 close(3</lib/x86_64-linux-gnu/libc-2.19.so>) = 0
+1552420288.869863 open("/usr/local/java/jdk1.8.0_65/jre/lib/amd64/jvm.cfg", O_RDONLY) = 3
+1552420288.869903 read(3</usr/local/java/jdk1.8.0_65/jre/lib/amd64/jvm.cfg>, "# Copyright (c) 2003, 2013, Orac"..., 4096) = 627
+1552420288.869925 read(3</usr/local/java/jdk1.8.0_65/jre/lib/amd64/jvm.cfg>, "", 4096) = 0
+1552420288.869941 close(3</usr/local/java/jdk1.8.0_65/jre/lib/amd64/jvm.cfg>) = 0
+1552420288.870004 open("/usr/local/java/jdk1.8.0_65/jre/lib/amd64/server/libjvm.so", O_RDONLY|O_CLOEXEC) = 3
+1552420288.870019 read(3</usr/local/java/jdk1.8.0_65/jre/lib/amd64/server/libjvm.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\341!\0\0\0\0\0"..., 832) = 832
+1552420288.870095 close(3</usr/local/java/jdk1.8.0_65/jre/lib/amd64/server/libjvm.so>) = 0
+1552420288.870112 open("/usr/local/java/jdk1.8.0_65/bin/../lib/amd64/jli/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1552420288.870128 open("/usr/local/java/jdk1.8.0_65/bin/../lib/amd64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1552420288.870143 open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+1552420288.870178 close(3</etc/ld.so.cache>) = 0
+1552420288.870208 open("/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+1552420288.870224 read(3</lib/x86_64-linux-gnu/libm-2.19.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20V\0\0\0\0\0\0"..., 832) = 832
+1552420288.870288 close(3</lib/x86_64-linux-gnu/libm-2.19.so>) = 0
+1552420288.871487 clone(child_stack=0x7fa2352acfb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fa2352ad9d0, tls=0x7fa2352ad700, child_tidptr=0x7fa2352ad9d0) = 18614
+1552420293.493928 +++ exited with 0 +++

@@ -1,0 +1,4 @@
+1552420292.696765 read(197<pipe:[2554083]>, "", 8192) = 0
+1552420293.312007 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=18637, si_status=0, si_utime=61, si_stime=12} ---
+1552420293.312051 close(197<pipe:[2554083]>) = 0
+1552420293.312657 +++ exited with 0 +++

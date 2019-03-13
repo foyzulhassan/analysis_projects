@@ -1,0 +1,17 @@
+1552506848.039427 close(255</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle>) = 0
+1552506848.039490 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+1552506848.039520 rt_sigaction(SIGTSTP, {SIG_DFL, [], SA_RESTORER, 0x7f2fcb730d40}, {SIG_DFL, [], 0}, 8) = 0
+1552506848.039553 rt_sigaction(SIGTTIN, {SIG_DFL, [], SA_RESTORER, 0x7f2fcb730d40}, {SIG_DFL, [], 0}, 8) = 0
+1552506848.039585 rt_sigaction(SIGTTOU, {SIG_DFL, [], SA_RESTORER, 0x7f2fcb730d40}, {SIG_DFL, [], 0}, 8) = 0
+1552506848.039625 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f2fcb730d40}, {SIG_DFL, [], SA_RESTORER, 0x7f2fcb730d40}, 8) = 0
+1552506848.039658 rt_sigaction(SIGQUIT, {SIG_DFL, [], SA_RESTORER, 0x7f2fcb730d40}, {SIG_IGN, [], SA_RESTORER, 0x7f2fcb730d40}, 8) = 0
+1552506848.039686 rt_sigaction(SIGCHLD, {SIG_DFL, [], SA_RESTORER|SA_RESTART, 0x7f2fcb730d40}, {0x446240, [], SA_RESTORER|SA_RESTART, 0x7f2fcb730d40}, 8) = 0
+1552506848.039715 rt_sigaction(SIGCHLD, {0x446240, [], SA_RESTORER|SA_RESTART, 0x7f2fcb730d40}, {SIG_DFL, [], SA_RESTORER|SA_RESTART, 0x7f2fcb730d40}, 8) = 0
+1552506848.039745 rt_sigaction(SIGINT, {0x45cf40, [], SA_RESTORER, 0x7f2fcb730d40}, {SIG_DFL, [], SA_RESTORER, 0x7f2fcb730d40}, 8) = 0
+1552506848.039777 dup2(4<pipe:[3102456]>, 1</dev/pts/18>) = 1
+1552506848.039812 close(4<pipe:[3102456]>) = 0
+1552506848.039838 close(3<pipe:[3102456]>) = 0
+1552506848.039908 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+1552506848.040029 write(1<pipe:[3102456]>, "/home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart\n", 101) = 101
+1552506848.040117 exit_group(0) = ?
+1552506848.040186 +++ exited with 0 +++

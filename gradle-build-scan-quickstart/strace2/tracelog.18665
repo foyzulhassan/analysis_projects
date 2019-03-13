@@ -1,0 +1,50 @@
+1552420293.350190 open("/home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/TEST-example.ExampleTest.xml", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 189
+1552420293.356173 open("/home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin.idx", O_RDONLY) = 191
+1552420293.356289 read(191</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin.idx>, "\0", 4096) = 1
+1552420293.357305 read(168</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-jvm-3.1.jar>, "PK\3\4\n\0\0\10\10\0\355f3I\251\240\341y\306\3\0\0\356\n\0\0U\0\0\0", 30) = 30
+1552420293.357377 read(168</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-jvm-3.1.jar>, "\315V[o\23G\24\376&\366z\343e &\334\2\275\4\332\0\216C\262\1z!uH\333\4R"..., 966) = 966
+1552420293.358174 read(168</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-jvm-3.1.jar>, "PK\3\4\n\0\0\10\10\0\355f3I\254z\326\325\377\1\0\0\265\4\0\0O\0\0\0", 30) = 30
+1552420293.358339 read(168</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-jvm-3.1.jar>, "\255\223\337n\22A\24\306\277\1\226-\224\nV\254\361/P\253\2\27\256m\274\260\242\325X\323\4$"..., 511) = 511
+1552420293.358461 close(191</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin.idx>) = 0
+1552420293.358647 read(168</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-jvm-3.1.jar>, "PK\3\4\n\0\0\10\10\0\355f3I\4\203O\372\351\2\0\0\367\n\0\0N\0\0\0", 30) = 30
+1552420293.358675 read(168</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-jvm-3.1.jar>, "\325\226[O\23A\24\307\377\323\26\266\255U*T\274\201\242\"\226\266\260\334\274Bx\20%V\253$"..., 745) = 745
+1552420293.409988 open("/home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin", O_RDONLY) = 191
+1552420293.410122 close(191</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin>) = 0
+1552420293.410222 open("/home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin.idx", O_RDONLY) = 191
+1552420293.410253 read(191</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin.idx>, "\0", 4096) = 1
+1552420293.410278 close(191</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin.idx>) = 0
+1552420293.410298 open("/home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin", O_RDONLY) = 191
+1552420293.410321 close(191</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin>) = 0
+1552420293.410365 write(189</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/TEST-example.ExampleTest.xml>, "<?xml version=\"1.0\" encoding=\"UT"..., 399) = 399
+1552420293.410406 close(189</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/TEST-example.ExampleTest.xml>) = 0
+1552420293.431725 open("/home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/reports/tests/test/classes/example.ExampleTest.html", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 189
+1552420293.432745 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "PK\3\4\n\0\0\10\10\0\326f3IP\344\21\341\262\1\0\0\203\3\0\0006\0\0\0", 30) = 30
+1552420293.432789 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "\225\222MO\343@\f\206\337IK\2%\320. >\226\257\362\261\24RD(W\320^\220V\213T"..., 434) = 434
+1552420293.434763 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0g\212FG\213\tH\377\213\2\0\0\213\2\0\0\34\0\0\0", 30) = 30
+1552420293.438529 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0\34\n\0\6\0\26\7\0\27\n\0\2\0\26\n\0\5\0\30\7\0\31\7"..., 651) = 651
+1552420293.438883 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0h\212FG\37+\27F\17\f\0\0\17\f\0\0\33\0\0\0", 30) = 30
+1552420293.438926 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0\244\t\0\31\0_\n\0\31\0`\n\0-\0a\7\0b\10\0c\n"..., 3087) = 3087
+1552420293.439146 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0r\212FG\355\t1\26\267\21\0\0\267\21\0\0\32\0\0\0", 30) = 30
+1552420293.439731 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0\345\n\0F\0\230\6@f\200\0\0\0\0\0\7\0\231\6@\t!\373"..., 4535) = 4535
+1552420293.440134 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0g\212FG+\3265X\16\n\0\0\16\n\0\0.\0\0\0", 30) = 30
+1552420293.440192 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0B\n\0\24\0,\7\0-\n\0\2\0,\t\0\23\0.\t\0\23\0"..., 2574) = 2574
+1552420293.440765 read(168</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-jvm-3.1.jar>, "PK\3\4\n\0\0\10\10\0\355f3I\252\374\362R1\2\0\0\35\4\0\0J\0\0\0", 30) = 30
+1552420293.440887 read(168</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-jvm-3.1.jar>, "\245Smo\22A\20~\26(\7x\265\210Ui\255\212\341,\240\265\247D\355\7_\242R\232\220B"..., 561) = 561
+1552420293.443604 read(168</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-jvm-3.1.jar>, "PK\3\4\n\0\0\10\10\0\355f3IA\223F=\264\2\0\0\254\7\0\0V\0\0\0", 30) = 30
+1552420293.443642 read(168</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-jvm-3.1.jar>, "\255UmO\323P\24~\356VV7\212L\24\0204\nZut@\1\337\220\227\t\2&\300x\t"..., 692) = 692
+1552420293.443910 open("/home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin.idx", O_RDONLY) = 194
+1552420293.443969 read(194</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin.idx>, "\0", 4096) = 1
+1552420293.444009 close(194</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin.idx>) = 0
+1552420293.444050 open("/home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin", O_RDONLY) = 194
+1552420293.444099 close(194</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin>) = 0
+1552420293.444181 open("/home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin.idx", O_RDONLY) = 194
+1552420293.444212 read(194</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin.idx>, "\0", 4096) = 1
+1552420293.444231 close(194</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin.idx>) = 0
+1552420293.444253 open("/home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin", O_RDONLY) = 194
+1552420293.444279 close(194</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin>) = 0
+1552420293.444885 --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_ACCERR, si_addr=0x7fa2352c9a00} ---
+1552420293.446924 --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_ACCERR, si_addr=0x7fa2352c9a00} ---
+1552420293.447419 write(189</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/reports/tests/test/classes/example.ExampleTest.html>, "<!DOCTYPE html>\n<html>\n<head>\n<m"..., 1901) = 1901
+1552420293.447588 close(189</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/reports/tests/test/classes/example.ExampleTest.html>) = 0
+1552420293.474087 --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_ACCERR, si_addr=0x7fa2352c9a00} ---
+1552420293.474433 +++ exited with 0 +++

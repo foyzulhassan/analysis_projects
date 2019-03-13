@@ -1,0 +1,327 @@
+1552420292.647988 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "PK\3\4\n\0\0\10\10\0\355f3I\366\277\235;\255\t\0\0\217\34\0\0L\0\0\0", 30) = 30
+1552420292.648081 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "\325Xwx\33g\31\377\235l\353d\353b'vF\235\206\254&\261-\333Q\233\235:8M\3248"..., 2477) = 2477
+1552420292.648688 read(168</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-jvm-3.1.jar>, "PK\3\4\n\0\0\10\10\0\355f3I\221.Id\206\2\0\0\21\6\0\0F\0\0\0", 30) = 30
+1552420292.648722 read(168</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-jvm-3.1.jar>, "\245T]S\323@\24=\333\6\322\224(\265\242\210\242\242\242\366C\233\202  \310\10\35\231\321\251\310"..., 646) = 646
+1552420292.649035 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "PK\3\4\n\0\0\10\10\0\355f3I\17\315\n\210\247\t\0\0\344\30\0\0=\0\0\0", 30) = 30
+1552420292.649064 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "\255Xw|\24\327\21\376\366t\322\352\356\26\20\222\301\34`,0`\241v\16\21\305B\20c$\201"..., 2471) = 2471
+1552420292.649392 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "PK\3\4\n\0\0\10\10\0\355f3I\205\16\272*\312\0\0\0006\1\0\0K\0\0\0", 30) = 30
+1552420292.649420 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "\215\217\301J\3A\f\206\377\264kW\253\240/\340\275^\34\360\332\243(\10\202R\213\367\270\306e\333"..., 202) = 202
+1552420292.649752 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "PK\3\4\n\0\0\10\10\0\355f3ITl\\\321\357\2\0\0\323\7\0\0Z\0\0\0", 30) = 30
+1552420292.649794 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "\265U\333N\23Q\24]S\nC\207J\5\1QQQ\21{Q\6\213\200\\\23\255\326\2204j\244"..., 751) = 751
+1552420292.650056 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "PK\3\4\n\0\0\10\10\0\326f3I%\\{\231k\v\0\0\374$\0\0D\0\0\0", 30) = 30
+1552420292.650133 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "\315Y{|[u\25\377\376\326$7Mn\237\353\36\31\203u\33\2604\335\26\6\3\244\255\203.\353"..., 2923) = 2923
+1552420292.650646 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "PK\3\4\n\0\0\10\10\0\326f3I\375\214\232\227\317\0\0\0Y\1\0\0006\0\0\0", 30) = 30
+1552420292.650683 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "\225\217\275NBA\20\205\317\360w\25$1\276\1\2356\254&v\226\6*\22\r\24\326\313urs"..., 207) = 207
+1552420292.650919 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "PK\3\4\n\0\0\10\10\0\326f3I\363\376\246$X\f\0\0\254&\0\0007\0\0\0", 30) = 30
+1552420292.650947 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "\255Xy|\24\365\25\377\376r\315f3I \201p)\"\242\204] \\\202\2\242!\204\313\30\320"..., 3160) = 3160
+1552420292.651309 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "PK\3\4\n\0\0\10\10\0\326f3I\252\274\270\35U\10\0\0\272\26\0\0;\0\0\0", 30) = 30
+1552420292.651338 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "\245W\213{\24\325\25\377M\262d\3032\204$\260\1\215&A^\233]d\241\200\17 h\200\245\246"..., 2133) = 2133
+1552420292.651723 read(13</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-process-services-3.1.jar>, "PK\3\4\n\0\0\10\10\0\324f3Ic1\325~o\1\0\0\350\2\0\0,\0\0\0", 30) = 30
+1552420292.651757 read(13</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-process-services-3.1.jar>, "\215\222\273N\3030\24\206\217KK\357W\312\35\6\26\3242`!\6\206\"$\4\255\30\212\220\210\304"..., 367) = 367
+1552420292.651911 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "PK\3\4\n\0\0\10\10\0\326f3Iz\267\333\333\327\0\0\0K\1\0\0008\0\0\0", 30) = 30
+1552420292.651944 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "\205PKJ\3A\20}\225\337\304\370A\360\22\223\215\215ngmp\21P\30\10n+m1Lh"..., 215) = 215
+1552420292.653284 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "PK\3\4\n\0\0\10\10\0\326f3I\266hj\\\317\1\0\0|\3\0\0005\0\0\0", 30) = 30
+1552420292.653332 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "\235S]O\23A\24=\323m\273tY\4\252\225\342'\25\320-\"\223\372\2521\21\242\tIcM"..., 463) = 463
+1552420292.653519 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "PK\3\4\n\0\0\10\10\0\326f3I\25\214\236\213y\1\0\0\255\2\0\0007\0\0\0", 30) = 30
+1552420292.653547 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "\225R_/C1\34=\235\331\265\271\30c\346\377\213\207\261\304\265xC\274\310$\222\341a\342\275\356"..., 377) = 377
+1552420292.653670 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "PK\3\4\n\0\0\10\10\0\326f3I\210O\266Fy\1\0\0\255\2\0\0007\0\0\0", 30) = 30
+1552420292.653696 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "\225R\313J\0031\24=\251\265S\353\370\326\372\326\215Bk\301\361\261Sq#\nB\265\213\212\3738"..., 377) = 377
+1552420292.654961 --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_MAPERR, si_addr=0x8} ---
+1552420292.655145 close(189</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib>) = 0
+1552420292.655445 close(189</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib>) = 0
+1552420292.655634 close(189</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib>) = 0
+1552420292.655809 close(189</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib>) = 0
+1552420292.655971 close(189</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib>) = 0
+1552420292.656136 close(189</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib>) = 0
+1552420292.656302 close(189</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib>) = 0
+1552420292.656503 close(189</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins>) = 0
+1552420292.657585 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "PK\3\4\n\0\0\10\10\0\326f3I_s\251\201\36\v\0\0>\31\0\0=\0\0\0", 30) = 30
+1552420292.657642 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "\235X\t|\24\325\31\377OH2\311f\270\2\242\234\16\nas\220\345\360B\216\2I\320\320\4l"..., 2846) = 2846
+1552420292.658121 read(13</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-process-services-3.1.jar>, "PK\3\4\n\0\0\10\10\0\324f3I*\10Z\375C\1\0\0<\2\0\0/\0\0\0", 30) = 30
+1552420292.658151 read(13</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-process-services-3.1.jar>, "\215\220MO\302@\20\206\337\345\243UDP\0240\321\30\275\t\0307\2361\\\f\32\223\306\v\204\373"..., 323) = 323
+1552420292.658305 read(13</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-process-services-3.1.jar>, "PK\3\4\n\0\0\10\10\0\324f3I\351\200\226,\270\0\0\0C\1\0\0004\0\0\0", 30) = 30
+1552420292.658333 read(13</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-process-services-3.1.jar>, "\215\217\275\n\0021\20\204g\375;\177\32\255|\5E0X[+\"\202\240`\37\357\2263\22r\222"..., 184) = 184
+1552420292.658515 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "PK\3\4\n\0\0\10\10\0\326f3I\311\240\355\360E\2\0\0\353\5\0\0F\0\0\0", 30) = 30
+1552420292.658546 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "\245T]O\23A\24=\263-,]WZ0\340\267\242V\355\7\260\255b\f\21\33J\321\304\244~"..., 581) = 581
+1552420292.658757 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "PK\3\4\n\0\0\10\10\0\324f3I\201\330\275\327\241\2\0\0\215\7\0\0W\0\0\0", 30) = 30
+1552420292.658791 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "\255UkO\323P\30~N7V[*L\20p\342\335\251c\3:TD\21\t\270@ \231\0322"..., 673) = 673
+1552420292.658947 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0h\212FG\27 \261\361d\6\0\0d\6\0\0+\0\0\0", 30) = 30
+1552420292.658978 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0006\n\0\t\0&\n\0'\0(\n\0'\0)\7\0*\n\0\10\0"..., 1636) = 1636
+1552420292.659038 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0h\212FG\2641N\2662\3\0\0002\3\0\0&\0\0\0", 30) = 30
+1552420292.659065 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0\32\7\0\26\7\0\27\7\0\30\1\0\4bind\1\0<(Lj"..., 818) = 818
+1552420292.659128 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0h\212FG>I\261\255\27\21\0\0\27\21\0\0005\0\0\0", 30) = 30
+1552420292.659154 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0\223\n\0'\0Z\t\0%\0[\t\0%\0\\\7\0]\n\0\4\0"..., 4375) = 4375
+1552420292.659243 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0h\212FG\367\34;C\312\3\0\0\312\3\0\0)\0\0\0", 30) = 30
+1552420292.659269 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0&\n\0\4\0\37\n\0\3\0 \7\0!\7\0\"\7\0#\1\0\6"..., 970) = 970
+1552420292.659410 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0h\212FG\5\221L\264\222\r\0\0\222\r\0\0,\0\0\0", 30) = 30
+1552420292.659455 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0\230\n\0\17\0Q\t\0\17\0R\n\0\17\0S\n\0\37\0T\n\0"..., 3474) = 3474
+1552420292.659597 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0h\212FG\200\234\355\r\332\3\0\0\332\3\0\0.\0\0\0", 30) = 30
+1552420292.659624 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0000\n\0\t\0\32\n\0\30\0\33\n\0\30\0\34\n\0\30\0\35\n\0"..., 986) = 986
+1552420292.659766 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0x\212FGw\362jE\312\5\0\0\312\5\0\0(\0\0\0", 30) = 30
+1552420292.659793 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0N\n\0\30\0(\n\0)\0*\7\0+\7\0,\n\0\4\0-\n"..., 1482) = 1482
+1552420292.659884 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0y\212FG\30yO-\206\2\0\0\206\2\0\0&\0\0\0", 30) = 30
+1552420292.659910 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0\36\n\0\6\0\23\7\0\24\n\0\2\0\25\n\0\26\0\27\7\0\30\7"..., 646) = 646
+1552420292.659952 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0p\212FG\314\25\243o\317\4\0\0\317\4\0\0%\0\0\0", 30) = 30
+1552420292.659978 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0,\n\0\f\0 \7\0!\n\0\2\0\"\n\0\2\0#\7\0$\n"..., 1231) = 1231
+1552420292.660084 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0p\212FG\272\22\213_F,\0\0F,\0\0(\0\0\0", 30) = 30
+1552420292.660111 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\1\324\n\0z\0\335\t\0\7\0\336\7\0\337\n\0\3\0\340\t\0\7\0"..., 11334) = 11334
+1552420292.660271 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0p\212FG\314\305&\330\341\1\0\0\341\1\0\0\32\0\0\0", 30) = 30
+1552420292.660298 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0\30\7\0\24\7\0\25\7\0\26\1\0\5getFD\1\0\32()"..., 481) = 481
+1552420292.660465 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0x\212FGFZ>D\205\3\0\0\205\3\0\0!\0\0\0", 30) = 30
+1552420292.660492 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0-\n\0\t\0\33\n\0\34\0\35\n\0\34\0\36\n\0\34\0\37\n\0"..., 901) = 901
+1552420292.660591 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0p\212FG\230\27\276\364\333.\0\0\333.\0\0\24\0\0\0", 30) = 30
+1552420292.660618 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\2\3\n\0\221\1'\t\0\220\1(\n\0\220\1)\t\0\220\1*\t\0"..., 11995) = 11995
+1552420292.660909 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0p\212FG{\370\333\253\202\1\0\0\202\1\0\0\26\0\0\0", 30) = 30
+1552420292.660937 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0\27\n\0\4\0\20\10\0\21\7\0\22\7\0\24\7\0\25\1\0\6<i"..., 386) = 386
+1552420292.660974 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0h\212FG\26\202\336\322\234\0\0\0\234\0\0\0\35\0\0\0", 30) = 30
+1552420292.661001 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0\t\7\0\7\7\0\10\1\0\4name\1\0\24()Ljav"..., 156) = 156
+1552420292.661128 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0p\212FGL)\342\21\307\2\0\0\307\2\0\0\26\0\0\0", 30) = 30
+1552420292.661157 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0%\n\0\6\0\26\10\0\27\n\0\30\0\31\n\0\5\0\32\7\0\33\7"..., 711) = 711
+1552420292.661386 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0p\212FG*\32\307|\354\24\0\0\354\24\0\0$\0\0\0", 30) = 30
+1552420292.661415 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0\363\7\0x\n\0\1\0y\7\0z\7\0{\n\0\4\0|\n\0D"..., 5356) = 5356
+1552420292.661677 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0q\212FGk\344,\\xB\0\0xB\0\0\36\0\0\0", 30) = 30
+1552420292.661705 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0027\t\0\252\1!\t\0\252\1\"\t\0\252\1#\t\0\252\1$\t\0"..., 17016) = 17016
+1552420292.661886 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0q\212FGm\2278\303B\3\0\0B\3\0\0\32\0\0\0", 30) = 30
+1552420292.661913 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0*\7\0(\7\0)\1\0\vPROTO_VERS4\1\0"..., 834) = 834
+1552420292.661998 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0q\212FG^?\327\345\364\t\0\0\364\t\0\0\36\0\0\0", 30) = 30
+1552420292.662025 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0z\n\0\30\0A\t\0\27\0B\t\0C\0D\n\0E\0F\n\0"..., 2548) = 2548
+1552420292.662094 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0q\212FG\244\310\207G++\0\0++\0\0&\0\0\0", 30) = 30
+1552420292.662120 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\1\221\n\0y\0\346\t\0p\0\347\t\0p\0\350\t\0p\0\351\t\0"..., 11051) = 11051
+1552420292.662252 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0h\212FG\2627;bl\16\0\0l\16\0\0\31\0\0\0", 30) = 30
+1552420292.662279 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0\240\n\0&\0k\t\0%\0l\t\0%\0m\7\0n\10\0o\n"..., 3692) = 3692
+1552420292.662504 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0q\212FG!,\260]\260\2\0\0\260\2\0\0(\0\0\0", 30) = 30
+1552420292.662534 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0\"\n\0\6\0\25\10\0\26\n\0\27\0\30\n\0\5\0\31\7\0\32\7"..., 688) = 688
+1552420292.662841 close(191<socket:[2553188]>) = 0
+1552420292.662983 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0w\212FG\324\317\366B\341\2\0\0\341\2\0\0\26\0\0\0", 30) = 30
+1552420292.663011 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0%\n\0\10\0\32\t\0\7\0\33\n\0\t\0\34\n\0\t\0\35\7\0"..., 737) = 737
+1552420292.663077 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0w\212FG\232\317\203\207I\31\0\0I\31\0\0\35\0\0\0", 30) = 30
+1552420292.663103 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0015\n\0Y\0\217\7\0\220\10\0\221\n\0\2\0\222\n\0\223\0\224\7"..., 6473) = 6473
+1552420292.663235 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0w\212FG0\216\322;\271\1\0\0\271\1\0\0\37\0\0\0", 30) = 30
+1552420292.663262 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0\27\n\0\3\0\17\7\0\21\7\0\24\1\0\6<init>\1\0"..., 441) = 441
+1552420292.663356 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0q\212FG\274\343@!\323\3\0\0\323\3\0\0%\0\0\0", 30) = 30
+1552420292.663383 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0.\t\0\4\0!\n\0\"\0#\7\0\22\7\0$\n\0\f\0%\n"..., 979) = 979
+1552420292.663640 read(60</dev/urandom>, ";\344\303\256\213\260\366\273\304\314\365\205\251\306\325\21CK\240p\342\214\v\2718V\37&D\2\222\224", 32) = 32
+1552420292.663786 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "PK\3\4\n\0\0\10\10\0\324f3I\33\300\263\333\225\4\0\0\340\n\0\0A\0\0\0", 30) = 30
+1552420292.663816 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "\245V\337S\33U\24\376\226M\262!\335\322\32(\264\224Jhk\r\t\20\213\320*\1,\204\326F"..., 1173) = 1173
+1552420292.664096 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "PK\3\4\n\0\0\10\10\0\324f3I\305\272\363\\\333\0\0\0B\1\0\0;\0\0\0", 30) = 30
+1552420292.664137 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "}P\335J\202A\20=\243\346\246eY\217\320\225v\321\322EW\206\20Q \10\6>\301\346\16\313"..., 219) = 219
+1552420292.664480 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "PK\3\4\n\0\0\10\10\0\324f3I\333\377\214>t\5\0\0B\r\0\0L\0\0\0", 30) = 30
+1552420292.664508 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "\255W[W\23W\24\376&\27\7\302T\21\4\5\255\215\2125\4!\330Z\253\342\215\246Ri\343\245"..., 1396) = 1396
+1552420292.664700 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0g\212FG(\256\tB/\1\0\0/\1\0\0.\0\0\0", 30) = 30
+1552420292.664727 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0\22\n\0\3\0\17\7\0\20\7\0\21\1\0\20serialVe"..., 303) = 303
+1552420292.664907 clone(child_stack=0x7fa1d37fcfb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fa1d37fd9d0, tls=0x7fa1d37fd700, child_tidptr=0x7fa1d37fd9d0) = 18635
+1552420292.665158 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "PK\3\4\n\0\0\10\10\0\324f3Imc\303\257\271\2\0\0\256\6\0\0E\0\0\0", 30) = 30
+1552420292.665200 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "\245TkO\23A\24=C\267T\332\265\324**\304\27X\241,\217m\361-(6\25\265I\301h"..., 697) = 697
+1552420292.665511 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "PK\3\4\n\0\0\10\10\0\326f3I|\24\205\n\202\n\0\0\32\31\0\0^\0\0\0", 30) = 30
+1552420292.665757 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "\275Xw|\33\325\35\377>\333\322\223OgG\261l'\n\303\n\30\220\235\304\312\202\26'\204\332\316"..., 2690) = 2690
+1552420292.666222 read(15</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/asm-all-5.1.jar>, "PK\3\4\24\0\0\10\10\0\260teH?\213\2\365\240\5\0\0\326\f\0\0(\0\0\0", 30) = 30
+1552420292.666259 read(15</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/asm-all-5.1.jar>, "\225T\353s\23U\24\377m\262ytY\240\26R\10P\20TH\263\t\221\252\10-T\36-\22$"..., 1440) = 1440
+1552420292.666455 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "PK\3\4\n\0\0\10\10\0\326f3I\3624\227\227\377\2\0\0009\7\0\0r\0\0\0", 30) = 30
+1552420292.666503 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "\275U\353R\323@\24\376\266\245\244\204(\310\335;\3\210\255\25\2\336\265x\251\210L\207Z:\224\21"..., 767) = 767
+1552420292.666676 read(15</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/asm-all-5.1.jar>, "PK\3\4\24\0\0\10\10\0\260teHYx\261\233\375\3\0\0\230\f\0\0005\0\0\0", 30) = 30
+1552420292.666705 read(15</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/asm-all-5.1.jar>, "\255Vms\32U\24~6\1\26\310\215\251ic\213`Mc\332\222\r\224\252U\33\250m\323\244/"..., 1021) = 1021
+1552420292.666948 read(15</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/asm-all-5.1.jar>, "PK\3\4\24\0\0\10\10\0\260teH\322\v\\m\33\2\0\0\340\4\0\0002\0\0\0", 30) = 30
+1552420292.666975 read(15</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/asm-all-5.1.jar>, "\225\222]O\23A\24\206\337\351\7\v\245-\264\200R\253 \250\320\226\217\325k\324\244\254K\322\204\0"..., 539) = 539
+1552420292.667119 read(15</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/asm-all-5.1.jar>, "PK\3\4\24\0\0\10\10\0\260teH\322\320\305\377\1\3\0\0N\7\0\0001\0\0\0", 30) = 30
+1552420292.667147 read(15</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/asm-all-5.1.jar>, "\225S\353N\23Q\20\236m\v-u)\245\\\265\210\2\212\333\5ZP\344\16\nD\23\22~\30!"..., 769) = 769
+1552420292.667391 read(15</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/asm-all-5.1.jar>, "PK\3\4\24\0\0\10\10\0\260teH\355\31-\233\373\3\0\0\307\t\0\0001\0\0\0", 30) = 30
+1552420292.667420 read(15</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/asm-all-5.1.jar>, "\265\225mS\23W\24\307\377\vyb\271\362\20\t\232\306>hQC\10\4|@\5\252\5\252mZ"..., 1019) = 1019
+1552420292.667661 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "PK\3\4\n\0\0\10\10\0\326f3I\230c@D[\7\0\0\203\21\0\0Q\0\0\0", 30) = 30
+1552420292.667691 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "\255W\373w\24W\35\377\334d7\223\314Nx\205\2k\323\322\26\n\233\244dy\264\305&\224\232,"..., 1883) = 1883
+1552420292.670550 open("/home/foyzulhassan/.gradle/caches/3.1/workerMain/cache.properties.lock", O_RDWR|O_CREAT|O_EXCL, 0666) = -1 EEXIST (File exists)
+1552420292.670604 open("/home/foyzulhassan/.gradle/caches/3.1/workerMain/cache.properties.lock", O_RDWR|O_CREAT, 0666) = 192
+1552420292.670701 read(192</home/foyzulhassan/.gradle/caches/3.1/workerMain/cache.properties.lock>, "\3\323\32\376mr\233\2428\0\0\0\0\0\0\0\1", 17) = 17
+1552420292.670747 open("/home/foyzulhassan/.gradle/caches/3.1/workerMain/cache.properties", O_RDONLY) = 193
+1552420292.670780 read(193</home/foyzulhassan/.gradle/caches/3.1/workerMain/cache.properties>, "#Wed Jan 03 15:15:42 CST 2018\n", 8192) = 30
+1552420292.670800 read(193</home/foyzulhassan/.gradle/caches/3.1/workerMain/cache.properties>, "", 8192) = 0
+1552420292.670819 close(193</home/foyzulhassan/.gradle/caches/3.1/workerMain/cache.properties>) = 0
+1552420292.672717 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "PK\3\4\n\0\0\10\10\0\326f3IV\272\342\326\264\6\0\0\37\16\0\0009\0\0\0", 30) = 30
+1552420292.673409 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "\245W\355w\24\325\31\377\315\356f';\31\2$\204\260-\341\245F\331\20\310J\201(\33\210\322\0"..., 1716) = 1716
+1552420292.674106 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "PK\3\4\n\0\0\10\10\0\326f3I\264{\234\314\31\7\0\0\377\r\0\0G\0\0\0", 30) = 30
+1552420292.674146 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "\245W\353s\33W\25\377]k\345\225\326\33;\226c'\312\v\271$\266\254\312V\3%\264rH\233"..., 1817) = 1817
+1552420292.674552 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "PK\3\4\n\0\0\10\10\0\326f3I1a\22U\303\1\0\0\27\3\0\0007\0\0\0", 30) = 30
+1552420292.674583 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "\235\221\311n\323P\24\206\377\33;\236\3524\20707\1\251R\27-\v\234\20FQ\265\213P R"..., 451) = 451
+1552420292.675558 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "PK\3\4\n\0\0\10\10\0\324f3I\372S\317&\200\3\0\0\212\7\0\0=\0\0\0", 30) = 30
+1552420292.675605 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "\235\225]s\323V\20\206\337\343\330\221?\0044!\244@\f8|\264\216Mb\240\224\4BCc\223"..., 896) = 896
+1552420292.675956 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "PK\3\4\n\0\0\10\10\0\324f3I\225\220\205\267h\5\0\0~\f\0\0K\0\0\0", 30) = 30
+1552420292.675984 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "\255V\333w\23e\20\377}\311&\333n\26\250\245-\6,\26)\220\264\205PP\204\266T\333P0"..., 1384) = 1384
+1552420292.676432 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "PK\3\4\n\0\0\10\10\0\326f3I\305\201$\224\10\5\0\0T\r\0\0D\0\0\0", 30) = 30
+1552420292.676546 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "\255V[W\23W\24\376&$L\10#\204\253\205\326\226\"\226\20\304\301j\255\n\242\24\1ic@"..., 1288) = 1288
+1552420292.677414 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "PK\3\4\n\0\0\10\10\0\326f3I)\257J`\313\0\0\0$\1\0\0<\0\0\0", 30) = 30
+1552420292.677462 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "U\2161O\2A\20\205\337 r\202\215\221\212\177\200\215\23\32\32*CBEbAa\275\354M\316"..., 203) = 203
+1552420292.677639 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0d\212FG\204\rK\330\204\3\0\0\204\3\0\0!\0\0\0", 30) = 30
+1552420292.677668 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0000\t\0\7\0\32\n\0\10\0\33\n\0\30\0\34\n\0\30\0\35\n\0"..., 900) = 900
+1552420292.677797 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0d\212FGR\315\355\366\35\5\0\0\35\5\0\0/\0\0\0", 30) = 30
+1552420292.677824 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0G\n\0\20\0 \t\0\17\0!\n\0\"\0#\t\0\17\0$\n\0"..., 1309) = 1309
+1552420292.677932 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0d\212FG\211\312y\363\237\3\0\0\237\3\0\0!\0\0\0", 30) = 30
+1552420292.677958 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0*\n\0\7\0\31\t\0\4\0\32\n\0\33\0\34\7\0\35\n\0\6\0"..., 927) = 927
+1552420292.678132 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0d\212FG\321\34\304\257\244\3\0\0\244\3\0\0!\0\0\0", 30) = 30
+1552420292.678159 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0*\n\0\7\0\31\t\0\4\0\32\n\0\33\0\34\7\0\35\n\0\6\0"..., 932) = 932
+1552420292.678247 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0d\212FG\367G\361\226\357\3\0\0\357\3\0\0!\0\0\0", 30) = 30
+1552420292.678273 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0.\n\0\10\0\33\t\0\5\0\34\n\0\35\0\36\t\0\5\0\37\7\0"..., 1007) = 1007
+1552420292.678813 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0p\212FG\322\317m\36j\5\0\0j\5\0\0)\0\0\0", 30) = 30
+1552420292.678845 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0P\n\0\26\0-\7\0.\10\0/\n\0\2\0000\7\0001\n\0\5"..., 1386) = 1386
+1552420292.679247 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "PK\3\4\n\0\0\10\10\0\326f3I\211\17\276N\367\0\0\0\211\1\0\0=\0\0\0", 30) = 30
+1552420292.679277 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "m\220\301J\0031\20\206\377\324\265\253U\253\240\227\276\201^\f\236<x\222\212P(*\354\301s\334"..., 247) = 247
+1552420292.681296 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "PK\3\4\n\0\0\10\10\0\326f3Iy\271L\200\305\4\0\0\26\v\0\0:\0\0\0", 30) = 30
+1552420292.681357 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "\235V[W\33U\24\376\16\4&$\303\245\334Z\250\305x\17\3412h\261*`\25(\351-\205Z"..., 1221) = 1221
+1552420292.681681 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "PK\3\4\n\0\0\10\10\0\326f3I\345\366\260\3520\22\0\0U-\0\0003\0\0\0", 30) = 30
+1552420292.681709 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "\255Z\v|\224\325\225?'\217\371&\223\217\20\2\211\206\347\200 \303\0042<D <l\10\t\4"..., 4656) = 4656
+1552420292.682059 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "PK\3\4\n\0\0\10\10\0\326f3I0\253\304z\32\1\0\0\340\1\0\0001\0\0\0", 30) = 30
+1552420292.682087 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "m\220\301N\0021\20\206\377\"\260\202\210\202\304G0\20\23\33O\0360&F\361\204\321\2707ou"..., 282) = 282
+1552420292.683327 read(13</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-process-services-3.1.jar>, "PK\3\4\n\0\0\10\10\0\324f3Iu\222HW\271\2\0\0T\5\0\0001\0\0\0", 30) = 30
+1552420292.683383 read(13</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-process-services-3.1.jar>, "\225TmO\323P\24~\356\326\255\335\0300\30\f6\6\"/\272\2010P\361m\10\224\255\310\222e"..., 697) = 697
+1552420292.683810 read(26</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/native-platform-0.11.jar>, "PK\3\4\n\0\0\10\10\0Q6\36Ik\367>\10\375\1\0\0\373\3\0\0A\0\0\0", 30) = 30
+1552420292.683844 read(26</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/native-platform-0.11.jar>, "\245RmO\23A\20~\266=z\264\234\5+\202\345M\0210\245\5O?WM\324hbR+\21"..., 509) = 509
+1552420292.684022 read(26</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/native-platform-0.11.jar>, "PK\3\4\n\0\0\10\10\0Q6\36I\20:\365-4\2\0\0a\4\0\0A\0\0\0", 30) = 30
+1552420292.684049 read(26</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/native-platform-0.11.jar>, "\245S\333n\323@\20=\333\\\34\\\323\226\264\205\322\0M\201\220[\251\271#\24\340\201\26$\244P"..., 564) = 564
+1552420292.684222 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "PK\3\4\n\0\0\10\10\0\326f3I\267\222\230C\312\2\0\0\213\5\0\0>\0\0\0", 30) = 30
+1552420292.684251 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "\235T[O\23A\24\376\206^v[\26\251\345**\266 PZJEQ\21\20\5,\227\244\221\4"..., 714) = 714
+1552420292.685478 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "PK\3\4\n\0\0\10\10\0\326f3Ir\23\307\201\376\1\0\0\342\4\0\0?\0\0\0", 30) = 30
+1552420292.685525 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "\235T[o\3230\24\376\334v\v\r\31t\33\267q[\201\2]\207\226N\2M\323\n/\243\23\214"..., 510) = 510
+1552420292.685802 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "PK\3\4\n\0\0\10\10\0\326f3IP\261\215\223\272\6\0\0\204\16\0\0002\0\0\0", 30) = 30
+1552420292.685829 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "\235V\373s\23\327\25\376\326\26^Y^\f\330\230$\270\200 \t\26\262\260\2\241\24\22\240!\330\6"..., 1722) = 1722
+1552420292.686155 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "PK\3\4\n\0\0\10\10\0\326f3IR\212\233d\27\3\0\0\234\6\0\0007\0\0\0", 30) = 30
+1552420292.686182 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "\225T\351R\32A\20\376\6\20\24\326\v\217\250\321\34j\314\202\342\3063\211\230\3\317\230\340\21Q\210"..., 791) = 791
+1552420292.686427 clone(child_stack=0x7fa1d36fbfb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fa1d36fc9d0, tls=0x7fa1d36fc700, child_tidptr=0x7fa1d36fc9d0) = 18636
+1552420293.110748 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "PK\3\4\n\0\0\10\10\0\355f3I\214\357\215n6\4\0\0\24\17\0\0F\0\0\0", 30) = 30
+1552420293.110784 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "\255W\353R\24G\24\376\32\321\206a\243\253\30\5Q.\2\16H\342\204\210!\272@\224k\210\v\30"..., 1078) = 1078
+1552420293.111155 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "PK\3\4\n\0\0\10\10\0\355f3I\317\215\321\333\"\3\0\0l\t\0\0h\0\0\0", 30) = 30
+1552420293.111183 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "\265U[O\23A\24\376\246\267\205m\205\312M\24/\240 \245E\26\274#w\332r1\10\304\22\""..., 802) = 802
+1552420293.111381 read(6</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-base-services-3.1.jar>, "PK\3\4\n\0\0\10\10\0\324f3I\273\n\34N\304\2\0\0\247\5\0\0=\0\0\0", 30) = 30
+1552420293.111410 read(6</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-base-services-3.1.jar>, "\235S\337O\323P\24\376\356\332\256\333\250\200\3DT\20\24a[a\5\5\221\37\262\204%\"\t\352"..., 708) = 708
+1552420293.111639 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "PK\3\4\n\0\0\10\10\0\355f3I\344\246\350\341w\3\0\0\327\t\0\0S\0\0\0", 30) = 30
+1552420293.111667 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "\255V[S\323@\24\376\266\267\224\20\1\25ox\3\5)-\32Q\21\241\210\227R\20)\255Z\304"..., 887) = 887
+1552420293.111940 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "PK\3\4\n\0\0\10\10\0\355f3I\16\27\315\225\v\4\0\0\360\v\0\0k\0\0\0", 30) = 30
+1552420293.111968 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "\275V[s\333D\24\376\3267%\222h\335\244\224B\3-%%\216\235VM\271t\250C\322\306v"..., 1035) = 1035
+1552420293.112251 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "PK\3\4\n\0\0\10\10\0\355f3I\230\7\351\310\224\1\0\0T\3\0\0e\0\0\0", 30) = 30
+1552420293.112280 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "\265\222_K\2331\24\306\237\324\332W\273j\375\267?n\26+\10k\335X\300\333\2161\320\r\204\322"..., 404) = 404
+1552420293.112474 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "PK\3\4\n\0\0\10\10\0\355f3I\21\201\202\20'\4\0\0\367\f\0\0j\0\0\0", 30) = 30
+1552420293.112502 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "\275Wmw\23E\24~&o\333nV(-\"HU\224\"iRX\352\33Jk[H\323R\355"..., 1063) = 1063
+1552420293.112769 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "PK\3\4\n\0\0\10\10\0\355f3I\227\177d\355\312\1\0\0\212\3\0\0F\0\0\0", 30) = 30
+1552420293.112800 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "\245\222\313n\323@\24\206\377\211S;u\r\205P0\224KRnu\312e$\266A\10\332\n\t)"..., 458) = 458
+1552420293.112998 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "PK\3\4\n\0\0\10\10\0\355f3I\316b#\323\2\4\0\0\360\v\0\0k\0\0\0", 30) = 30
+1552420293.113028 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "\275V[w\323F\20\376\3267%\222\n&\241\224\226\264\2454\20\307\16\210\320\v\2478M \266\23"..., 1026) = 1026
+1552420293.113287 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "PK\3\4\n\0\0\10\10\0\355f3IlIL\n\324\1\0\0\225\3\0\0G\0\0\0", 30) = 30
+1552420293.113315 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "\245R]o\3230\24=\267-M\26\f\20326\30_\35\237i\267.\22o\250\10\t:\361T\206"..., 468) = 468
+1552420293.113508 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "PK\3\4\n\0\0\10\10\0\355f3I\324\374;A0\2\0\0X\4\0\0A\0\0\0", 30) = 30
+1552420293.113543 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "\245SMo\323@\20}\353|8\37\246-!P\332\2m\241P'Mj>N(\5\tRq\212"..., 560) = 560
+1552420293.113746 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "PK\3\4\n\0\0\10\10\0\355f3I%\177\242\0238\4\0\0U\f\0\0l\0\0\0", 30) = 30
+1552420293.113774 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "\275WkS\33U\30~Nn\v\233\325R\300\332\213\227Zi\33B\332-Z\255\24\244\320\20(\312"..., 1080) = 1080
+1552420293.114055 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "PK\3\4\n\0\0\10\10\0\355f3I\225\35\177\2760\4\0\0%\f\0\0f\0\0\0", 30) = 30
+1552420293.114083 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "\265V\373S[E\24\3766\257\v7WK\1k\37j\37\3226$\264\267h\265R(\205\206@Q"..., 1072) = 1072
+1552420293.114356 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "PK\3\4\n\0\0\10\10\0\355f3I\3752\276\317\31\4\0\0K\f\0\0_\0\0\0", 30) = 30
+1552420293.114384 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "\265W\377S\33E\24\377l\276-\\\316\22\201\"U\254\250\324\206\4{Ekk\33\244\244\20(\230"..., 1049) = 1049
+1552420293.114777 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "PK\3\4\n\0\0\10\10\0\355f3IE\236\246Ie\3\0\0\204\t\0\0Y\0\0\0", 30) = 30
+1552420293.114805 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "\265V]s\323F\24=k9\26\261MH\0230\264\320:-P\34;D\t\320\322\22c\322|\0"..., 869) = 869
+1552420293.115114 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "PK\3\4\n\0\0\10\10\0\355f3I\341\340&\240<\4\0\0\4\r\0\0b\0\0\0", 30) = 30
+1552420293.115142 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "\265V\377W\23G\20\377l\276\35\271\234\230\202R\243\255E\2135$HD\255\212 \5B\242\322\24"..., 1084) = 1084
+1552420293.115420 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "PK\3\4\n\0\0\10\10\0\355f3I\263D\327\267]\2\0\0\357\4\0\0008\0\0\0", 30) = 30
+1552420293.115448 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "\235S\357O\323`\20~^\326\255[)\33ns:\300\337(\33(\25d\242\331B\266\314\21\27\33"..., 605) = 605
+1552420293.115622 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "PK\3\4\n\0\0\10\10\0\324f3I\6\26d\\\251\3\0\0005\n\0\0H\0\0\0", 30) = 30
+1552420293.115652 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "\255Vms\22W\24~. +\233M\202\250i\265/F\253\225@\224D\333Z\1cM\2\26\245"..., 937) = 937
+1552420293.115934 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "PK\3\4\n\0\0\10\10\0\355f3Ib\246S\314\337\2\0\0\r\6\0\0B\0\0\0", 30) = 30
+1552420293.115963 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "\245TMO\23Q\24=\257\37L\251c\301* \"\"~\266\323\302\10\242 Tc\4ML@\26"..., 735) = 735
+1552420293.116187 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "PK\3\4\n\0\0\10\10\0\355f3I\4\264\376/'\4\0\0\255\f\0\0g\0\0\0", 30) = 30
+1552420293.116217 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "\265VmS\33U\24~n\336\266lVJy\23\254ZTjC\240M\261\276\264\205\"\205\204\266\312"..., 1063) = 1063
+1552420293.116486 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "PK\3\4\n\0\0\10\10\0\355f3I\241G*\206@\2\0\0\352\4\0\0>\0\0\0", 30) = 30
+1552420293.116514 read(167</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-base-3.1.jar>, "\245Smo\22A\20~\226;88\256-/UK\255/U\250@+'U\22#\330\324TLj"..., 576) = 576
+1552420293.116727 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "PK\3\4\n\0\0\10\10\0\324f3I\254n\23A\20\2\0\0\354\3\0\0H\0\0\0", 30) = 30
+1552420293.116753 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "\245RMo\323@\20}\2338\0375\246\r\364\203\322RHiic\247\302*\327 \16\4U\252\24"..., 528) = 528
+1552420293.116952 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "PK\3\4\n\0\0\10\10\0\324f3I\177\361\264l!\4\0\0\260\n\0\0A\0\0\0", 30) = 30
+1552420293.116983 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "\255VmS\33U\24~nHX\222\254\200\24\320\326\212\255R\314\ve\241\250h\3HJ\3\255\206"..., 1057) = 1057
+1552420293.117240 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "PK\3\4\n\0\0\10\10\0\324f3I<\344\201\362T\6\0\0\262\20\0\0@\0\0\0", 30) = 30
+1552420293.117272 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "\255W[S\24G\24\376\316\262\313\3002\212ADWI$\212\21\227\313\252!&\2\242\210\32IP"..., 1620) = 1620
+1552420293.117538 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "PK\3\4\n\0\0\10\10\0\324f3I\375BqM\252\2\0\0\333\6\0\0E\0\0\0", 30) = 30
+1552420293.117569 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "\255TkO\23A\24=\323\327\226e\241PQ\1_\5AJAV|\363\0201%\204\306\202\306\32"..., 682) = 682
+1552420293.117791 clone(child_stack=0x7fa1d35fafb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fa1d35fb9d0, tls=0x7fa1d35fb700, child_tidptr=0x7fa1d35fb9d0) = 18657
+1552420293.118108 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "PK\3\4\n\0\0\10\10\0\324f3I\367\376z\0\23\4\0\0B\v\0\0H\0\0\0", 30) = 30
+1552420293.118134 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "\255VmS\33U\24~.I\263I\272-\220\2m}\201(TCH\272\210\245(A\252\274\225`"..., 1043) = 1043
+1552420293.119111 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "PK\3\4\n\0\0\10\10\0\324f3I\372g<\260\311\2\0\0\37\t\0\0G\0\0\0", 30) = 30
+1552420293.119141 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "\265V\355N\23A\24=\323\226\326.E\240UDT\24E(-\262\200\342\27\225\244\226\362\221\224\222"..., 713) = 713
+1552420293.119563 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "PK\3\4\n\0\0\10\10\0\324f3I%\274\3307\313\0\0\0/\1\0\0000\0\0\0", 30) = 30
+1552420293.119592 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "e\216\301N\302@\20\206\377\201\322\245UTBx\207\312\201\215W5\334\344d\302\201\6\316K\3354"..., 203) = 203
+1552420293.119729 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "PK\3\4\n\0\0\10\10\0\324f3IK\7\246=\323\0\0\0H\1\0\0000\0\0\0", 30) = 30
+1552420293.119756 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "mO\313j\2A\20\254\326u'\232\370\"~\304\352!C\256F\274\351I\20\342\376\300dm\226\221"..., 211) = 211
+1552420293.119879 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "PK\3\4\n\0\0\10\10\0\324f3I\237\225\341\244\375\2\0\0v\n\0\0;\0\0\0", 30) = 30
+1552420293.119905 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "\265VkO\23A\24=\323\26\372Z\245\24Z\24\237(J[*[P\304@\305\7\217DS\37\261"..., 765) = 765
+1552420293.120343 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "PK\3\4\n\0\0\10\10\0\324f3I!:@\331\240\2\0\0\346\10\0\0H\0\0\0", 30) = 30
+1552420293.120637 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "\265VmO\23A\20~\266-\275\266\264B\261\202\342KAA\372\202\34\370\372\1B\202\200\tIQ"..., 672) = 672
+1552420293.120930 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "PK\3\4\n\0\0\10\10\0\324f3I\336\232\320\324n\n\0\0Z\32\0\0?\0\0\0", 30) = 30
+1552420293.120957 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "\315Yy\\\24\327\35\377>\330e\226aTDE\361\312\32\17\226\345X<\222( A\21\225\210!"..., 2670) = 2670
+1552420293.121343 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "PK\3\4\n\0\0\10\10\0\324f3IIu=\372 \1\0\0\351\1\0\0<\0\0\0", 30) = 30
+1552420293.121377 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "\235QMK\0031\20}S\333\256\326\372U[\4Oz\323*.^D\250x\21\205\302\252`K\357"..., 288) = 288
+1552420293.123708 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "PK\3\4\n\0\0\10\10\0\324f3I\205*\341\237\353\5\0\0X\v\0\0R\0\0\0", 30) = 30
+1552420293.123777 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "\255VKP\34U\24=o~\rMC`\302$\201\341\27\363\233\fI&\306\4\305\20\23\231\f2"..., 1515) = 1515
+1552420293.124127 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "PK\3\4\n\0\0\10\10\0\324f3I\237\311\226\276\240\4\0\0\31\t\0\0Q\0\0\0", 30) = 30
+1552420293.124164 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "\255V\337S\33e\24=\233l\330\20\326Bi)PJ+\0255\204\266\241bQ\240\266\25J5\26"..., 1184) = 1184
+1552420293.124768 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "PK\3\4\n\0\0\10\10\0\324f3I\3%\214\363\256\1\0\0\0\4\0\0E\0\0\0", 30) = 30
+1552420293.124810 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "\245\223\311N\3030\20\206\177\267\245\201Pv(\373R\312\201E\"B\202\23\233X\5\242\320CQ%"..., 430) = 430
+1552420293.125239 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0y\212FGK\336\22\333\253\4\0\0\253\4\0\0+\0\0\0", 30) = 30
+1552420293.125275 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0I\n\0\17\0)\n\0\20\0*\t\0\17\0+\7\0,\n\0\4\0"..., 1195) = 1195
+1552420293.125496 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0y\212FG\n\254u6=\1\0\0=\1\0\0/\0\0\0", 30) = 30
+1552420293.125531 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0\22\n\0\3\0\17\7\0\20\7\0\21\1\0\20serialVe"..., 317) = 317
+1552420293.125680 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0h\212FG\360\225^\226P\3\0\0P\3\0\0 \0\0\0", 30) = 30
+1552420293.125715 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0+\n\0\5\0 \n\0!\0\"\n\0!\0#\7\0$\7\0%\7"..., 848) = 848
+1552420293.125897 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0y\212FGb\274\36q\t\22\0\0\t\22\0\0\"\0\0\0", 30) = 30
+1552420293.126013 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\1\t\n\0I\0w\t\0G\0x\7\0y\n\0\3\0z\t\0G\0"..., 4617) = 4617
+1552420293.126151 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0p\212FG<A!\360\306\17\0\0\306\17\0\0\35\0\0\0", 30) = 30
+1552420293.126327 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0\250\n\0-\0]\7\0^\n\0\2\0_\t\0,\0`\t\0,\0"..., 4038) = 4038
+1552420293.126439 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0h\212FG\232\262\21\343M\n\0\0M\n\0\0,\0\0\0", 30) = 30
+1552420293.126590 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0x\n\0\30\0B\7\0C\n\0\2\0D\t\0\27\0E\7\0F\n"..., 2637) = 2637
+1552420293.126941 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0p\212FG\22M\r\273\317\23\0\0\317\23\0\0\25\0\0\0", 30) = 30
+1552420293.126986 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0\365\t\0=\0\202\t\0=\0\203\t\0=\0\204\n\0&\0\205\t\0"..., 5071) = 5071
+1552420293.127247 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0p\212FG\21\v\363\315L\2\0\0L\2\0\0\27\0\0\0", 30) = 30
+1552420293.127307 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0\34\n\0\6\0\26\7\0\27\n\0\2\0\26\n\0\5\0\30\7\0\31\7"..., 588) = 588
+1552420293.127477 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0p\212FGS\225w-\256\7\0\0\256\7\0\0\27\0\0\0", 30) = 30
+1552420293.127512 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0X\t\0\23\0@\n\0\24\0A\v\0\25\0B\v\0\25\0C\v\0"..., 1966) = 1966
+1552420293.127785 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0x\212FG\341\320\232\355\2\26\0\0\2\26\0\0\"\0\0\0", 30) = 30
+1552420293.127820 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\1\26\n\0\2\0\246\7\0\247\t\0\4\0\250\7\0\251\t\0\4\0\252\t"..., 5634) = 5634
+1552420293.128090 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0m\212FGq\370\361\237\276\3\0\0\276\3\0\0*\0\0\0", 30) = 30
+1552420293.128126 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0/\n\0\n\0 \t\0\t\0!\t\0\t\0\"\t\0\t\0#\n\0"..., 958) = 958
+1552420293.128297 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0p\212FG\240\264\30u\337\1\0\0\337\1\0\0&\0\0\0", 30) = 30
+1552420293.128328 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0\36\n\0\6\0\20\t\0\5\0\21\t\0\5\0\22\n\0\23\0\24\7\0"..., 479) = 479
+1552420293.128381 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0p\212FG^Z\253)\341\r\0\0\341\r\0\0\35\0\0\0", 30) = 30
+1552420293.128415 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0\260\n\0/\0m\t\0\7\0n\t\0\7\0o\t\0\7\0p\n\0"..., 3553) = 3553
+1552420293.128764 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0p\212FG^\277#\341\224\6\0\0\224\6\0\0!\0\0\0", 30) = 30
+1552420293.128799 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0F\n\0\23\0.\t\0\22\0/\t\0\22\0000\7\0001\t\0\22\0"..., 1684) = 1684
+1552420293.128867 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0h\212FG-\363e\276\374\2\0\0\374\2\0\0000\0\0\0", 30) = 30
+1552420293.128912 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0#\n\0\7\0\27\t\0\6\0\30\n\0\6\0\31\7\0\32\n\0\4\0"..., 764) = 764
+1552420293.129017 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0h\212FG\310\20X8\333\6\0\0\333\6\0\0$\0\0\0", 30) = 30
+1552420293.129232 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0B\n\0\7\0004\t\0\4\0005\n\0\4\0006\7\0007\t\0\4\0"..., 1755) = 1755
+1552420293.129891 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "PK\3\4\n\0\0\10\10\0\324f3I\302i0\365*\4\0\0`\n\0\0@\0\0\0", 30) = 30
+1552420293.129932 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "\245UKs\333T\24\376\256\37\221\243\312y\270ih\323\2644\305\24?\332:Ni\v\261I\232:"..., 1066) = 1066
+1552420293.130282 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "PK\3\4\n\0\0\10\10\0\324f3I\255\341\267;\324\3\0\0003\v\0\0K\0\0\0", 30) = 30
+1552420293.130318 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "\255Vmw\23U\20~n\336\266l\226\220\264X\265\212\242RI\223\312\266x|kb\260)i\211"..., 980) = 980
+1552420293.130648 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "PK\3\4\n\0\0\10\10\0\324f3I \347r\325\212\4\0\0\22\f\0\0U\0\0\0", 30) = 30
+1552420293.130679 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "\265V]S\33U\30~6\tlY\226B\201\242-\212\330BIB\332\265B\265\25Z\204\0%\232"..., 1162) = 1162
+1552420293.131415 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "PK\3\4\n\0\0\10\10\0\324f3Ie\244!v\0\7\0\0O\22\0\0_\0\0\0", 30) = 30
+1552420293.131446 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "\265X\373W\24U\34\377\f\273\354\3002( \240\200\212\225\345\262\240\253=\324\0Q\24\320-^\271"..., 1792) = 1792
+1552420293.131825 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "PK\3\4\n\0\0\10\10\0\324f3I\30sQ;\377\1\0\0\7\5\0\0=\0\0\0", 30) = 30
+1552420293.131852 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "\235T]O\23A\24=\323\256]\273\254\266\n\2~#Tm\227\302\312\0031F\302\vBb,\232"..., 511) = 511
+1552420293.132060 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "PK\3\4\n\0\0\10\10\0\324f3I\343\252\353\232\351\4\0\0.\r\0\0U\0\0\0", 30) = 30
+1552420293.132087 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "\265WiW\23W\30~n\22\30\30\6ETZ\227\252\245\n!\244F\273\332JA\300(iY\264"..., 1257) = 1257
+1552420293.132388 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "PK\3\4\n\0\0\10\10\0\324f3I\372\363\201R3\6\0\0}\20\0\0_\0\0\0", 30) = 30
+1552420293.132422 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "\265WiW\23g\24~\336,\214\t#`\4\352Z\323\326%$h\324\266\26\5\343\2*\251\240h"..., 1587) = 1587
+1552420293.132754 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "PK\3\4\n\0\0\10\10\0\324f3I\316\326uZU\2\0\0\362\5\0\0=\0\0\0", 30) = 30
+1552420293.132793 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "\235T[O\23A\24\376\246\267\245\313J+X\360.j\305v[Y@\21Q\302\v\301D\255\232X"..., 597) = 597
+1552420293.133010 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "PK\3\4\n\0\0\10\10\0\324f3I\362&\255\36\362\2\0\0\377\10\0\0=\0\0\0", 30) = 30
+1552420293.133041 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "\275\225\353N\23A\24\307\377\323+]\266\5+R\304\v\210V\333\345\262\202rm\301\17\250\221\244\336"..., 754) = 754
+1552420293.133590 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "PK\3\4\n\0\0\10\10\0\324f3I\264\27W\na\5\0\0%\16\0\0K\0\0\0", 30) = 30
+1552420293.133660 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "\275V\333S\23W\30\377\235\\\330\20V\211\10T\224\252\255XC\22]H\251\27@\5\243(m\270"..., 1377) = 1377
+1552420293.134092 clone(child_stack=0x7fa1d31f6fb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fa1d31f79d0, tls=0x7fa1d31f7700, child_tidptr=0x7fa1d31f79d0) = 18658
+1552420293.134406 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "PK\3\4\n\0\0\10\10\0\324f3I\233\361\305\357\377\3\0\0z\n\0\0J\0\0\0", 30) = 30
+1552420293.134458 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "\255V\335S\33U\24\377\335|\260e\3314\1J[\374*\325(!\241,\245 - \266M\301\202"..., 1023) = 1023
+1552420293.134804 clone(child_stack=0x7fa1d30f5fb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fa1d30f69d0, tls=0x7fa1d30f6700, child_tidptr=0x7fa1d30f69d0) = 18659
+1552420293.135268 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "PK\3\4\n\0\0\10\10\0\324f3Ik<\347\302*\2\0\0p\4\0\0H\0\0\0", 30) = 30
+1552420293.135857 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "\255SmO\23A\20~\266-\275k9\244\326\27\n\242\242\234\264E\345\304D\375\2401\10\226\320\320"..., 554) = 554
+1552420293.136206 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "PK\3\4\n\0\0\10\10\0\324f3I\10.4\340u\2\0\0\250\5\0\0O\0\0\0", 30) = 30
+1552420293.138275 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "\255T[O\23A\24\376\206n\273\333v\241\330V\260\200w\324\26\224\25\25/)!%\210\241\261\302"..., 629) = 629
+1552420293.315066 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "PK\3\4\n\0\0\10\10\0\324f3I\232\264|L\272\1\0\0\263\3\0\0A\0\0\0", 30) = 30
+1552420293.315138 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "\245\222MO\23A\34\306\237\241-\333\256\253\226\227\342\v\250\250U\261&\256\34\r\312\245\201@R\345"..., 442) = 442
+1552420293.315449 write(193<pipe:[2553409]>, "\1", 1) = 1
+1552420293.315850 close(189<pipe:[2553409]>) = 0
+1552420293.315879 close(193<pipe:[2553409]>) = 0
+1552420293.315912 close(194<anon_inode:[eventpoll]>) = 0
+1552420293.316075 close(191<socket:[2553116]>) = 0
+1552420293.316423 +++ exited with 0 +++

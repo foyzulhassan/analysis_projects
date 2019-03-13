@@ -1,0 +1,6 @@
+1552425127.922639 write(1</dev/pts/17>, "\33[9D\33[1m> Loading > settings\33[22m", 33) = 33
+1552425128.303416 write(1</dev/pts/17>, "\33[9D\33[1m> Configuring\33[22m", 26) = 26
+1552425128.532844 write(1</dev/pts/17>, "\33[28D\33[1m> Configuring > 0/1 projects > root project\33[22m", 57) = 57
+1552425129.398076 write(1</dev/pts/17>, "\33[28D\33[1m> Building 0%\33[22m\33[0K", 31) = 31
+1552425129.514136 write(1</dev/pts/17>, "\33[13D\33[1m> Building 0% > :compileJava > Resolving dependencies ':compileClasspath'\33[22m", 87) = 87
+1552425129.758538 +++ exited with 0 +++

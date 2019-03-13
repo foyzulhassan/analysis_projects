@@ -1,0 +1,5 @@
+1552425126.406545 close(255</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle>) = 0
+1552425126.406710 close(4<pipe:[2569450]>) = 0
+1552425126.406728 close(3<pipe:[2569450]>) = 0
+1552425126.406938 write(1<pipe:[2569450]>, "/home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1\n", 58) = 58
+1552425126.407043 +++ exited with 0 +++

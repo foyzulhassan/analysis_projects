@@ -1,0 +1,23 @@
+1552507004.329299 close(255</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle>) = 0
+1552507004.329372 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+1552507004.329413 rt_sigaction(SIGTSTP, {SIG_DFL, [], SA_RESTORER, 0x7f1c714a7d40}, {SIG_DFL, [], 0}, 8) = 0
+1552507004.329451 rt_sigaction(SIGTTIN, {SIG_DFL, [], SA_RESTORER, 0x7f1c714a7d40}, {SIG_DFL, [], 0}, 8) = 0
+1552507004.329487 rt_sigaction(SIGTTOU, {SIG_DFL, [], SA_RESTORER, 0x7f1c714a7d40}, {SIG_DFL, [], 0}, 8) = 0
+1552507004.329528 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f1c714a7d40}, {SIG_DFL, [], SA_RESTORER, 0x7f1c714a7d40}, 8) = 0
+1552507004.329566 rt_sigaction(SIGQUIT, {SIG_DFL, [], SA_RESTORER, 0x7f1c714a7d40}, {SIG_IGN, [], SA_RESTORER, 0x7f1c714a7d40}, 8) = 0
+1552507004.329603 rt_sigaction(SIGCHLD, {SIG_DFL, [], SA_RESTORER|SA_RESTART, 0x7f1c714a7d40}, {0x446240, [], SA_RESTORER|SA_RESTART, 0x7f1c714a7d40}, 8) = 0
+1552507004.329642 rt_sigaction(SIGCHLD, {0x446240, [], SA_RESTORER|SA_RESTART, 0x7f1c714a7d40}, {SIG_DFL, [], SA_RESTORER|SA_RESTART, 0x7f1c714a7d40}, 8) = 0
+1552507004.329682 rt_sigaction(SIGINT, {0x45cf40, [], SA_RESTORER, 0x7f1c714a7d40}, {SIG_DFL, [], SA_RESTORER, 0x7f1c714a7d40}, 8) = 0
+1552507004.329724 dup2(4<pipe:[3104516]>, 1</dev/pts/18>) = 1
+1552507004.329769 close(4<pipe:[3104516]>) = 0
+1552507004.329804 close(3<pipe:[3104516]>) = 0
+1552507004.329899 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+1552507004.330030 brk(0xcb6000) = 0xcb6000
+1552507004.330106 readlink("/home", 0x7fffeb7da560, 4096) = -1 EINVAL (Invalid argument)
+1552507004.330164 readlink("/home/foyzulhassan", 0x7fffeb7da560, 4096) = -1 EINVAL (Invalid argument)
+1552507004.330201 readlink("/home/foyzulhassan/AutoBuilder_Lib_Path", 0x7fffeb7da560, 4096) = -1 EINVAL (Invalid argument)
+1552507004.330236 readlink("/home/foyzulhassan/AutoBuilder_Lib_Path/Gradle", 0x7fffeb7da560, 4096) = -1 EINVAL (Invalid argument)
+1552507004.330277 readlink("/home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1", 0x7fffeb7da560, 4096) = -1 EINVAL (Invalid argument)
+1552507004.330335 write(1<pipe:[3104516]>, "/home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1\n", 58) = 58
+1552507004.330505 exit_group(0) = ?
+1552507004.330599 +++ exited with 0 +++

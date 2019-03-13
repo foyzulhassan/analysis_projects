@@ -1,0 +1,14 @@
+1552420288.863650 close(255</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle>) = 0
+1552420288.863797 close(4<pipe:[2553094]>) = 0
+1552420288.863814 close(3<pipe:[2553094]>) = 0
+1552420288.864505 open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+1552420288.864541 close(3</etc/ld.so.cache>) = 0
+1552420288.864572 open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+1552420288.864588 read(3</lib/x86_64-linux-gnu/libc-2.19.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\37\2\0\0\0\0\0"..., 832) = 832
+1552420288.864667 close(3</lib/x86_64-linux-gnu/libc-2.19.so>) = 0
+1552420288.864943 open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+1552420288.864985 close(3</usr/lib/locale/locale-archive>) = 0
+1552420288.865059 write(1<pipe:[2553094]>, "Linux\n", 6) = 6
+1552420288.865079 close(1<pipe:[2553094]>) = 0
+1552420288.865108 close(2</dev/pts/17>) = 0
+1552420288.865153 +++ exited with 0 +++

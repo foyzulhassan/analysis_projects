@@ -1,0 +1,59 @@
+1552506848.892690 set_robust_list(0x7f2fbe11a9e0, 24) = 0
+1552506848.892722 gettid() = 23004
+1552506848.892738 rt_sigprocmask(SIG_BLOCK, NULL, [QUIT], 8) = 0
+1552506848.892756 rt_sigprocmask(SIG_UNBLOCK, [HUP INT ILL BUS FPE SEGV USR2 TERM], NULL, 8) = 0
+1552506848.892773 rt_sigprocmask(SIG_BLOCK, [QUIT], NULL, 8) = 0
+1552506848.892789 futex(0x7f2fd400ab54, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f2fd400ab50, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552506848.892805 futex(0x7f2fd4574254, FUTEX_WAIT_PRIVATE, 1, NULL) = 0
+1552506848.892844 futex(0x7f2fd4574228, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+1552506848.892859 futex(0x7f2fd4574228, FUTEX_WAKE_PRIVATE, 1) = 0
+1552506848.892876 mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f2f7c000000
+1552506848.892894 munmap(0x7f2f80000000, 67108864) = 0
+1552506848.892914 mprotect(0x7f2f7c000000, 135168, PROT_READ|PROT_WRITE) = 0
+1552506848.892933 sched_getaffinity(23004, 32, {f, 0, 0, 0}) = 32
+1552506848.892951 sched_getaffinity(23004, 32, {f, 0, 0, 0}) = 32
+1552506848.892969 mmap(0x7f2fbe0e2000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f2fbe0e2000
+1552506848.892988 mprotect(0x7f2fbe0e2000, 12288, PROT_NONE) = 0
+1552506848.893081 wait4(23003, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 23003
+1552506848.905252 futex(0x7f2fd400a854, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f2fd400a850, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552506848.905297 fstat(68<pipe:[3101623]>, {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+1552506848.905343 ioctl(68<pipe:[3101623]>, FIONREAD, [0]) = 0
+1552506848.905385 close(68<pipe:[3101623]>) = 0
+1552506848.905410 futex(0x7f2f7c000c54, FUTEX_WAIT_PRIVATE, 1, NULL) = 0
+1552506848.905464 futex(0x7f2f7c000c28, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+1552506848.905479 futex(0x7f2f7c000c28, FUTEX_WAKE_PRIVATE, 1) = 0
+1552506848.905496 lseek(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, 29652471, SEEK_SET) = 29652471
+1552506848.905515 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0r\212FG\17\206{\365*\2\0\0*\2\0\0.\0\0\0", 30) = 30
+1552506848.905534 lseek(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, 29652547, SEEK_SET) = 29652547
+1552506848.905550 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0\32\n\0\5\0\24\7\0\26\n\0\2\0\24\t\0\2\0\27\7\0\30\1\0\10INSTANCE\1\0\17NullInputStream\1\0\fInnerClasses\1\0*Ljava/lang/ProcessBuilder$NullInputStream;\1\0\6<init>\1\0\3()V\1\0\4Code\1\0\17LineNumberTable\1\0\4read\1\0\3()I\1\0\tavailable\1\0\10<clinit>\1\0\nSourceFile\1\0\23ProcessBuilder.java\f\0\n\0\v\7\0\31\1\0(java/lang/ProcessBuilder$NullInputStream\f\0\6\0\t\1\0\23java/io/InputStream\1\0\30java/lang/ProcessBuilder\0 \0\2\0\5\0\0\0\1\0\30\0\6\0\t\0\0\0\4\0\2\0\n\0\v\0\1\0\f\0\0\0\35\0\1\0\1\0\0\0\5*\267\0\1\261\0\0\0\1\0\r\0\0\0\6\0\1\0\0\1\245\0\1\0\16\0\17\0\1\0\f\0\0\0\32\0\1\0\1\0\0\0\2\2\254\0\0\0\1\0\r\0\0\0\6\0\1\0\0\1\246\0\1\0\20\0\17\0\1\0\f\0\0\0\32\0\1\0\1\0\0\0\2\3\254\0\0\0\1\0\r\0\0\0\6\0\1\0\0\1\247\0\10\0\21\0\v\0\1\0\f\0\0\0#\0\2\0\0\0\0\0\v\273\0\2Y\267\0\3\263\0\4\261\0\0\0\1\0\r\0\0\0\6\0\1\0\0\1\244\0\2\0\22\0\0\0\2\0\23\0\10\0\0\0\n\0\1\0\2\0\25\0\7\0\10", 554) = 554
+1552506848.905571 futex(0x7f2f7c000c54, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f2f7c000c50, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 0
+1552506848.905587 futex(0x7f2f7c000c28, FUTEX_WAKE_PRIVATE, 1) = 0
+1552506848.905652 fstat(70<pipe:[3101624]>, {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+1552506848.905673 ioctl(70<pipe:[3101624]>, FIONREAD, [0]) = 0
+1552506848.905695 close(70<pipe:[3101624]>) = 0
+1552506848.905724 close(67<pipe:[3101622]>) = 0
+1552506848.905749 lseek(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, 54364573, SEEK_SET) = 54364573
+1552506848.905768 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0r\212FG\350<\300\326i\2\0\0i\2\0\0/\0\0\0", 30) = 30
+1552506848.905787 lseek(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, 54364650, SEEK_SET) = 54364650
+1552506848.905803 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0!\n\0\10\0\27\7\0\30\10\0\31\n\0\2\0\32\7\0\34\n\0\5\0\27\t\0\5\0\35\7\0\36\1\0\10INSTANCE\1\0\20NullOutputStream\1\0\fInnerClasses\1\0+Ljava/lang/ProcessBuilder$NullOutputStream;\1\0\6<init>\1\0\3()V\1\0\4Code\1\0\17LineNumberTable\1\0\5write\1\0\4(I)V\1\0\nExceptions\1\0\10<clinit>\1\0\nSourceFile\1\0\23ProcessBuilder.java\f\0\r\0\16\1\0\23java/io/IOException\1\0\rStream closed\f\0\r\0\37\7\0 \1\0)java/lang/ProcessBuilder$NullOutputStream\f\0\t\0\f\1\0\24java/io/OutputStream\1\0\25(Ljava/lang/String;)V\1\0\30java/lang/ProcessBuilder\0 \0\5\0\10\0\0\0\1\0\30\0\t\0\f\0\0\0\3\0\2\0\r\0\16\0\1\0\17\0\0\0\35\0\1\0\1\0\0\0\5*\267\0\1\261\0\0\0\1\0\20\0\0\0\6\0\1\0\0\1\257\0\1\0\21\0\22\0\2\0\17\0\0\0\"\0\3\0\2\0\0\0\n\273\0\2Y\22\3\267\0\4\277\0\0\0\1\0\20\0\0\0\6\0\1\0\0\1\261\0\23\0\0\0\4\0\1\0\2\0\10\0\24\0\16\0\1\0\17\0\0\0#\0\2\0\0\0\0\0\v\273\0\5Y\267\0\6\263\0\7\261\0\0\0\1\0\20\0\0\0\6\0\1\0\0\1\256\0\2\0\25\0\0\0\2\0\26\0\v\0\0\0\n\0\1\0\5\0\33\0\n\0\10", 617) = 617
+1552506848.905983 lseek(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, 59907904, SEEK_SET) = 59907904
+1552506848.906009 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0q\212FG\260\363[\331\4\n\0\0\4\n\0\0,\0\0\0", 30) = 30
+1552506848.906027 lseek(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, 59907978, SEEK_SET) = 59907978
+1552506848.906049 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0x\n\0\37\0?\t\0\36\0@\t\0\36\0A\n\0B\0C\n\0B\0D\n\0\22\0E\n\0\36\0F\n\0B\0G\7\0H\n\0\t\0?\n\0B\0I\t\0\36\0J\n\0B\0K\n\0L\0M\n\0L\0N\n\0B\0O\n\0B\0P\7\0Q\10\0R\n\0S\0T\n\0B\0U\10\0V\t\0\36\0W\10\0X\t\0\36\0Y\10\0Z\7\0[\7\0\\\n\0\34\0]\7\0^\7\0_\1\0\6UNSAFE\1\0\21Lsun/misc/Unsafe;\1\0\21parkBlockerOffset\1\0\1J\1\0\4SEED\1\0\5PROBE\1\0\tSECONDARY\1\0\6<init>\1\0\3()V\1\0\4Code\1\0\17LineNumberTable\1\0\nsetBlocker\1\0'(Ljava/lang/Thread;Ljava/lang/Object;)V\1\0\6unpark\1\0\25(Ljava/lang/Thread;)V\1\0\rStackMapTable\1\0\4park\1\0\25(Ljava/lang/Object;)V\1\0\tparkNanos\1\0\26(Ljava/lang/Object;J)V\1\0\tparkUntil\1\0\ngetBlocker\1\0&(Ljava/lang/Thread;)Ljava/lang/Object;\1\0\4(J)V\1\0\21nextSecondarySeed\1\0\3()I\7\0Q\1\0\10<clinit>\7\0[\1\0\nSourceFile\1\0\20LockSupport.java\f\0'\0(\f\0 \0!\f\0\"\0#\7\0`\f\0a\0b\f\0-\0001\f\0c\0d\f\0+\0,\f\0000\0e\1\0\36java/lang/NullPointerException\f\0f\0g\f\0&\0#\f\0h\0i\7\0j\f\0k\0l\f\0m\0009\f\0n\0o\f\0p\0q\1\0\20java/lang/Thread\1\0\vparkBlocker\7\0r\f\0s\0t\f\0u\0v\1\0\25threadLocalRandomSeed\f\0$\0#\1\0\26threadLocalRandomProbe\f\0%\0#\1\0\36threadLocalRandomSecondarySeed\1\0\23java/lang/Exception\1\0\17java/lang/Error\f\0'\0w\1\0&java/util/concurrent/locks/LockSupport\1\0\20java/lang/Object\1\0\17sun/misc/Unsafe\1\0\tputObject\1\0((Ljava/lang/Object;JLjava"..., 2564) = 2564
+1552506848.906192 futex(0x7f2fd40bc654, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f2fd40bc650, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552506848.906243 futex(0x7f2fd4574714, FUTEX_WAIT_BITSET_PRIVATE, 1, {776722, 711759345}, ffffffff) = 0
+1552506850.734382 futex(0x7f2fd45746e8, FUTEX_WAKE_PRIVATE, 1) = 0
+1552506850.734409 wait4(23006, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 23006
+1552506850.735465 futex(0x7f2fd4573f54, FUTEX_WAIT_BITSET_PRIVATE, 1, {776664, 541997572}, ffffffff) = -1 EAGAIN (Resource temporarily unavailable)
+1552506850.735485 futex(0x7f2fd4573f28, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+1552506850.735499 futex(0x7f2fd4573f28, FUTEX_WAKE_PRIVATE, 1) = 0
+1552506850.735514 fstat(181<pipe:[3101664]>, {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+1552506850.735538 ioctl(181<pipe:[3101664]>, FIONREAD, [0]) = 0
+1552506850.735560 close(181<pipe:[3101664]>) = 0
+1552506850.735578 futex(0x7f2fd400a854, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f2fd400a850, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552506850.735602 fstat(183<pipe:[3101665]>, {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+1552506850.735625 ioctl(183<pipe:[3101665]>, FIONREAD, [0]) = 0
+1552506850.735641 close(183<pipe:[3101665]>) = 0
+1552506850.735662 close(180<pipe:[3101663]>) = 0
+1552506850.735704 futex(0x7f2fd4574714, FUTEX_WAIT_BITSET_PRIVATE, 3, {776724, 541221990}, ffffffff <unfinished ...>
+1552506851.914518 +++ exited with 0 +++

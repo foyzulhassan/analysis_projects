@@ -1,0 +1,10 @@
+1552420293.138953 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "PK\3\4\n\0\0\10\10\0\324f3I\7\233\227<\330\1\0\0,\4\0\0V\0\0\0", 30) = 30
+1552420293.139003 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "\255\223]k\23A\24\206\337\223]\223&]\333X\265j\253\266\326\nuQ\27\277\256Z*X\21\27"..., 472) = 472
+1552420293.139695 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "PK\3\4\n\0\0\10\10\0\324f3Ij\257\326\227\331\2\0\0\201\10\0\0^\0\0\0", 30) = 30
+1552420293.139734 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "\265\226[S\323@\24\307\377\333\226\206\306(\225\233w\251Z\245\26$\255\242\"T\260\3A\234)2"..., 729) = 729
+1552420293.140381 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "PK\3\4\n\0\0\10\10\0\324f3Ir\336:\313+\3\0\0\21\10\0\0Y\0\0\0", 30) = 30
+1552420293.140421 read(36</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-messaging-3.1.jar>, "\265U[O\23Q\20\376N\267t\355R\1\301\v^Z\21PK[Y\300\33Bi\271\10\321\244h"..., 811) = 811
+1552420293.140795 write(191<socket:[2554080]>, "\1\0\306\1org.gradle.api.internal.task"..., 328) = 328
+1552420293.140914 write(191<socket:[2554080]>, "\1\0\1\224example.ExampleTest\1\0\2\306\1org."..., 103) = 103
+1552420293.306079 write(191<socket:[2554080]>, "\2", 1) = 1
+1552420293.315106 +++ exited with 0 +++

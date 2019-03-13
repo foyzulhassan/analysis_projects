@@ -1,0 +1,43 @@
+1552420293.346969 open("/home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/TEST-example.SimpleTest.xml", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 188
+1552420293.349031 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "PK\3\4\n\0\0\10\10\0\326f3I-\212\10Y\224\2\0\0^\5\0\0008\0\0\0", 30) = 30
+1552420293.349100 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "\235TQO\323P\24\376\312\272\265\33E` c\23E\4u\33J\1A\324M\34\231\20I\246<"..., 660) = 660
+1552420293.349325 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "PK\3\4\n\0\0\10\10\0\326f3I\273Xc;<\4\0\0\f\7\0\0+\0\0\0", 30) = 30
+1552420293.349353 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "\215U\337S\33U\30=\313n\210\204\0\v\26\204$\5\n\266%\24\22\252\205\261@\2514\35\24\315"..., 1084) = 1084
+1552420293.350449 read(7</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/ant-1.9.6.jar>, "PK\3\4\n\0\0\10\10\0)4\335F\365&*\242\2\n\0\0m\23\0\0)\0\0\0", 30) = 30
+1552420293.350487 read(7</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/ant-1.9.6.jar>, "\215X\t|\234E\25\377\177\331\343\333l\276\246\333m\222&mZ\203\34\335\\M\"\230b/\33\222"..., 2562) = 2562
+1552420293.350922 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0r\212FGYI\240pt\27\0\0t\27\0\0\34\0\0\0", 30) = 30
+1552420293.350960 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0\374\7\0\210\n\0\1\0\211\7\0\212\7\0\213\6\177\370\0\0\0\0\0"..., 6004) = 6004
+1552420293.352355 read(168</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-jvm-3.1.jar>, "PK\3\4\n\0\0\10\10\0\355f3I\360\317\346f\271\2\0\0\331\7\0\0V\0\0\0", 30) = 30
+1552420293.352395 read(168</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-jvm-3.1.jar>, "\255UmO\23A\20~\226\36=[N\250(`\305h\325\252\345\n\34\3267\344M*bR,/"..., 697) = 697
+1552420293.352703 read(168</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-jvm-3.1.jar>, "PK\3\4\n\0\0\10\10\0\355f3I\7\277\244\201}\r\0\0\231\36\0\0O\0\0\0", 30) = 30
+1552420293.352731 read(168</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-jvm-3.1.jar>, "\315Yy|\24\327}\377\376\244\335\235\335\331\321\205X\301`\260$\220A\222\201\5\343\212 \331\16H"..., 3453) = 3453
+1552420293.358494 open("/home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin.idx", O_RDONLY) = 191
+1552420293.358535 read(191</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin.idx>, "\0", 4096) = 1
+1552420293.358561 close(191</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin.idx>) = 0
+1552420293.410347 open("/home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin", O_RDONLY) = 191
+1552420293.411039 close(191</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin>) = 0
+1552420293.411122 open("/home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin.idx", O_RDONLY) = 189
+1552420293.411154 read(189</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin.idx>, "\0", 4096) = 1
+1552420293.411181 close(189</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin.idx>) = 0
+1552420293.411199 open("/home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin", O_RDONLY) = 189
+1552420293.411232 close(189</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin>) = 0
+1552420293.411267 write(188</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/TEST-example.SimpleTest.xml>, "<?xml version=\"1.0\" encoding=\"UT"..., 403) = 403
+1552420293.411298 close(188</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/TEST-example.SimpleTest.xml>) = 0
+1552420293.431939 open("/home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/reports/tests/test/classes/example.SimpleTest.html", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 191
+1552420293.441563 read(168</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-jvm-3.1.jar>, "PK\3\4\n\0\0\10\10\0\355f3Io\220\366\223B\2\0\0\243\5\0\0L\0\0\0", 30) = 30
+1552420293.441679 read(168</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-jvm-3.1.jar>, "\255T\333n\0231\20=NB\226,\v\r--w(%@.P\247\25o\224JQI\325J\201"..., 578) = 578
+1552420293.442028 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "PK\3\4\n\0\0\10\10\0\326f3I\342E\337^D\2\0\0\255\5\0\0005\0\0\0", 30) = 30
+1552420293.442069 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "\265T]o\22A\24=\263|\343\326n\261\255\237Qj\251\362\275E\215/4\370Qc4!\232\24"..., 580) = 580
+1552420293.443948 open("/home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin.idx", O_RDONLY) = 195
+1552420293.443989 read(195</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin.idx>, "\0", 4096) = 1
+1552420293.444015 close(195</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin.idx>) = 0
+1552420293.444056 open("/home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin", O_RDONLY) = 195
+1552420293.444113 close(195</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin>) = 0
+1552420293.444187 open("/home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin.idx", O_RDONLY) = 195
+1552420293.444225 read(195</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin.idx>, "\0", 4096) = 1
+1552420293.444245 close(195</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin.idx>) = 0
+1552420293.444273 open("/home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin", O_RDONLY) = 195
+1552420293.444319 close(195</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin>) = 0
+1552420293.444749 write(191</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/reports/tests/test/classes/example.SimpleTest.html>, "<!DOCTYPE html>\n<html>\n<head>\n<m"..., 1904) = 1904
+1552420293.444788 close(191</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/reports/tests/test/classes/example.SimpleTest.html>) = 0
+1552420293.474763 +++ exited with 0 +++

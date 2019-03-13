@@ -1,0 +1,71 @@
+1552507006.058793 set_robust_list(0x7fdfaed659e0, 24) = 0
+1552507006.058821 gettid() = 23206
+1552507006.058836 rt_sigprocmask(SIG_BLOCK, NULL, [QUIT], 8) = 0
+1552507006.058853 rt_sigprocmask(SIG_UNBLOCK, [HUP INT ILL BUS FPE SEGV USR2 TERM], NULL, 8) = 0
+1552507006.058870 rt_sigprocmask(SIG_BLOCK, [QUIT], NULL, 8) = 0
+1552507006.058885 futex(0x7fdfc800ac54, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7fdfc800ac50, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552507006.058902 futex(0x7fdfc8de7354, FUTEX_WAIT_PRIVATE, 1, NULL) = 0
+1552507006.058939 futex(0x7fdfc8de7328, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+1552507006.058954 futex(0x7fdfc8de7328, FUTEX_WAKE_PRIVATE, 1) = 0
+1552507006.058970 mmap(0x7fdf70000000, 67108864, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7fdf70000000
+1552507006.058987 mprotect(0x7fdf70000000, 135168, PROT_READ|PROT_WRITE) = 0
+1552507006.059006 sched_getaffinity(23206, 32, {f, 0, 0, 0}) = 32
+1552507006.059025 sched_getaffinity(23206, 32, {f, 0, 0, 0}) = 32
+1552507006.059041 mmap(0x7fdfaec65000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fdfaec65000
+1552507006.059063 mprotect(0x7fdfaec65000, 12288, PROT_NONE) = 0
+1552507006.059174 futex(0x7fdfc8ddc7a4, FUTEX_WAIT_BITSET_PRIVATE, 1, {776819, 949065342}, ffffffff) = -1 ETIMEDOUT (Connection timed out)
+1552507006.143595 futex(0x7fdfc8ddc778, FUTEX_WAKE_PRIVATE, 1) = 0
+1552507006.143735 ioctl(1</dev/pts/18>, TIOCGWINSZ, {ws_row=24, ws_col=80, ws_xpixel=0, ws_ypixel=0}) = 0
+1552507006.143862 write(1</dev/pts/18>, "\33[9D\33[1m> Loading > settings\33[22m", 33) = 33
+1552507006.143929 futex(0x7fdfc8ddc7a4, FUTEX_WAIT_PRIVATE, 1, NULL) = 0
+1552507006.488669 futex(0x7fdfc8ddc778, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+1552507006.488689 futex(0x7fdfc8ddc778, FUTEX_WAKE_PRIVATE, 1) = 0
+1552507006.488725 futex(0x7fdfc8ddc7a4, FUTEX_WAIT_BITSET_PRIVATE, 3, {776820, 379135418}, ffffffff) = -1 ETIMEDOUT (Connection timed out)
+1552507006.574484 futex(0x7fdfc8ddc778, FUTEX_WAKE_PRIVATE, 1) = 0
+1552507006.574601 ioctl(1</dev/pts/18>, TIOCGWINSZ, {ws_row=24, ws_col=80, ws_xpixel=0, ws_ypixel=0}) = 0
+1552507006.574701 write(1</dev/pts/18>, "\33[9D\33[1m> Configuring\33[22m", 26) = 26
+1552507006.574751 futex(0x7fdfc8ddc7a4, FUTEX_WAIT_PRIVATE, 1, NULL) = 0
+1552507006.766214 futex(0x7fdfc8ddc778, FUTEX_WAKE_PRIVATE, 1) = 0
+1552507006.766246 futex(0x7fdfc8ddc7a4, FUTEX_WAIT_BITSET_PRIVATE, 3, {776820, 656695996}, ffffffff) = -1 ETIMEDOUT (Connection timed out)
+1552507006.851229 futex(0x7fdfc8ddc778, FUTEX_WAKE_PRIVATE, 1) = 0
+1552507006.851294 ioctl(1</dev/pts/18>, TIOCGWINSZ, {ws_row=24, ws_col=80, ws_xpixel=0, ws_ypixel=0}) = 0
+1552507006.851390 write(1</dev/pts/18>, "\33[28D\33[1m> Configuring > 0/1 projects > root project\33[22m", 57) = 57
+1552507006.851480 futex(0x7fdfc8ddc7a4, FUTEX_WAIT_PRIVATE, 1, NULL) = 0
+1552507007.824298 futex(0x7fdfc8ddc778, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+1552507007.824317 futex(0x7fdfc8ddc778, FUTEX_WAKE_PRIVATE, 1) = 0
+1552507007.824348 futex(0x7fdfc8ddc7a4, FUTEX_WAIT_BITSET_PRIVATE, 3, {776821, 714779241}, ffffffff) = -1 ETIMEDOUT (Connection timed out)
+1552507007.909455 futex(0x7fdfc8ddc778, FUTEX_WAKE_PRIVATE, 1) = 0
+1552507007.909533 ioctl(1</dev/pts/18>, TIOCGWINSZ, {ws_row=24, ws_col=80, ws_xpixel=0, ws_ypixel=0}) = 0
+1552507007.909630 futex(0x7fdfc80be854, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7fdfc80be850, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552507007.910233 write(1</dev/pts/18>, "\33[28D\33[1m> Configuring > 1/1 projects\33[22m", 42) = 42
+1552507007.910375 futex(0x7fdfc8ddc7a4, FUTEX_WAIT_PRIVATE, 1, NULL) = 0
+1552507007.917336 futex(0x7fdfc8ddc778, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+1552507007.917358 futex(0x7fdfc8ddc778, FUTEX_WAKE_PRIVATE, 1) = 0
+1552507007.917391 futex(0x7fdfc8ddc7a4, FUTEX_WAIT_BITSET_PRIVATE, 3, {776821, 807829712}, ffffffff) = -1 ETIMEDOUT (Connection timed out)
+1552507008.002364 futex(0x7fdfc8ddc778, FUTEX_WAKE_PRIVATE, 1) = 0
+1552507008.002479 ioctl(1</dev/pts/18>, TIOCGWINSZ, {ws_row=24, ws_col=80, ws_xpixel=0, ws_ypixel=0}) = 0
+1552507008.002600 write(1</dev/pts/18>, "\33[28D\33[1m> Building 0% > :compileJava\33[22m", 42) = 42
+1552507008.002661 futex(0x7fdfc8ddc7a4, FUTEX_WAIT_PRIVATE, 1, NULL) = 0
+1552507008.031301 futex(0x7fdfc8ddc778, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+1552507008.031324 futex(0x7fdfc8ddc778, FUTEX_WAKE_PRIVATE, 1) = 0
+1552507008.031364 futex(0x7fdfc8ddc7a4, FUTEX_WAIT_BITSET_PRIVATE, 3, {776821, 921779497}, ffffffff) = -1 ETIMEDOUT (Connection timed out)
+1552507008.116312 futex(0x7fdfc8ddc778, FUTEX_WAKE_PRIVATE, 1) = 0
+1552507008.116379 ioctl(1</dev/pts/18>, TIOCGWINSZ, {ws_row=24, ws_col=80, ws_xpixel=0, ws_ypixel=0}) = 0
+1552507008.116461 futex(0x7fdfc80bc654, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7fdfc80bc650, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552507008.116489 write(1</dev/pts/18>, "\33[28D\33[1m> Building 0% > :compileJava > Resolving dependencies ':compileClasspath'\33[22m", 87) = 87
+1552507008.116533 futex(0x7fdfc8ddc7a4, FUTEX_WAIT_PRIVATE, 1, NULL) = 0
+1552507008.162101 futex(0x7fdfc8ddc778, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+1552507008.162142 futex(0x7fdfc8ddc778, FUTEX_WAKE_PRIVATE, 1) = 0
+1552507008.162211 futex(0x7fdfc8ddc7a4, FUTEX_WAIT_BITSET_PRIVATE, 3, {776822, 52548049}, ffffffff) = -1 ETIMEDOUT (Connection timed out)
+1552507008.247102 futex(0x7fdfc8ddc778, FUTEX_WAKE_PRIVATE, 1) = 0
+1552507008.247172 ioctl(1</dev/pts/18>, TIOCGWINSZ, {ws_row=24, ws_col=80, ws_xpixel=0, ws_ypixel=0}) = 0
+1552507008.247265 write(1</dev/pts/18>, "\33[73D\33[1m> Building 0% > :compileJava\33[22m\33[0K", 46) = 46
+1552507008.247366 futex(0x7fdfc8ddc7a4, FUTEX_WAIT_PRIVATE, 1, NULL) = 0
+1552507008.741942 futex(0x7fdfc8ddc778, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+1552507008.741959 futex(0x7fdfc8ddc778, FUTEX_WAKE_PRIVATE, 1) = 0
+1552507008.741992 futex(0x7fdfc8ddc7a4, FUTEX_WAIT_BITSET_PRIVATE, 3, {776822, 632439709}, ffffffff) = 0
+1552507008.821773 futex(0x7fdfc8ddc778, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+1552507008.821802 futex(0x7fdfc8ddc778, FUTEX_WAKE_PRIVATE, 1) = 0
+1552507008.821899 futex(0x7fdfc800b034, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7fdfc800b030, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 0
+1552507008.821926 futex(0x7fdfc8ddc7a4, FUTEX_WAIT_BITSET_PRIVATE, 5, {776822, 632467413}, ffffffff <unfinished ...>
+1552507008.825541 +++ exited with 0 +++

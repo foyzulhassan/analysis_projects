@@ -1,0 +1,2 @@
+1552420293.349632 --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_ACCERR, si_addr=0x7fa2352c9880} ---
+1552420293.482107 +++ exited with 0 +++

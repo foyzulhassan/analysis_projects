@@ -1,0 +1,2 @@
+strace -ff -y -ttt -qq -a1 -e trace=open,close,read,write,clone,fork -o strace2/tracelog gradle build
+

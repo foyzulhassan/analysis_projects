@@ -1,0 +1,5 @@
+1552425126.401287 close(255</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle>) = 0
+1552425126.401534 close(4<pipe:[2570315]>) = 0
+1552425126.401562 close(3<pipe:[2570315]>) = 0
+1552425126.401741 write(1<pipe:[2570315]>, "/home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart\n", 101) = 101
+1552425126.401930 +++ exited with 0 +++

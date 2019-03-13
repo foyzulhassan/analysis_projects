@@ -1,0 +1,144 @@
+1552428497.682963 set_robust_list(0x7f83db9ff9e0, 24) = 0
+1552428497.682990 gettid() = 21191
+1552428497.683005 rt_sigprocmask(SIG_BLOCK, NULL, [QUIT], 8) = 0
+1552428497.684854 rt_sigprocmask(SIG_UNBLOCK, [HUP INT ILL BUS FPE SEGV USR2 TERM], NULL, 8) = 0
+1552428497.684871 rt_sigprocmask(SIG_BLOCK, [QUIT], NULL, 8) = 0
+1552428497.685435 futex(0x7f843400ab54, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f843400ab50, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552428497.685452 futex(0x7f8436042e54, FUTEX_WAIT_PRIVATE, 1, NULL) = 0
+1552428497.688702 futex(0x7f8436042e28, FUTEX_WAKE_PRIVATE, 1) = 0
+1552428497.688722 sched_getaffinity(21191, 32, {f, 0, 0, 0}) = 32
+1552428497.688744 sched_getaffinity(21191, 32, {f, 0, 0, 0}) = 32
+1552428497.688763 mmap(0x7f83db8ff000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f83db8ff000
+1552428497.688790 mprotect(0x7f83db8ff000, 12288, PROT_NONE) = 0
+1552428497.688806 futex(0x7f8436042e54, FUTEX_WAIT_PRIVATE, 3, NULL) = 0
+1552428497.689155 futex(0x7f8436042e28, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+1552428497.689214 futex(0x7f8436042e28, FUTEX_WAKE_PRIVATE, 1) = 0
+1552428497.689229 futex(0x7f84340b7a54, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f84340b7a50, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552428497.689282 futex(0x7f8436042e54, FUTEX_WAIT_PRIVATE, 5, NULL) = 0
+1552428497.689554 futex(0x7f8436042e28, FUTEX_WAKE_PRIVATE, 1) = 0
+1552428497.689575 futex(0x7f8436042e54, FUTEX_WAIT_PRIVATE, 7, NULL) = 0
+1552428497.689777 futex(0x7f8436042e28, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+1552428497.689793 futex(0x7f8436042e28, FUTEX_WAKE_PRIVATE, 1) = 0
+1552428497.689809 futex(0x7f843400ab54, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f843400ab50, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552428497.689856 open("/home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/TEST-example.ExampleTest.xml", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 188
+1552428497.689898 fstat(188</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/TEST-example.ExampleTest.xml>, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+1552428497.689971 --- SIGSEGV {si_signo=SIGSEGV, si_code=SEGV_ACCERR, si_addr=0x7f843d2be600} ---
+1552428497.689979 futex(0x7f8436042a54, FUTEX_WAIT_PRIVATE, 1, NULL) = 0
+1552428497.690017 futex(0x7f8436042a28, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+1552428497.690034 futex(0x7f8436042a28, FUTEX_WAKE_PRIVATE, 1) = 0
+1552428497.690049 rt_sigreturn() = 140205938697728
+1552428497.690067 futex(0x7f843400ab54, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f843400ab50, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552428497.690083 futex(0x7f8436042e54, FUTEX_WAIT_PRIVATE, 9, NULL) = 0
+1552428497.690337 futex(0x7f8436042e28, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+1552428497.690369 futex(0x7f8436042e28, FUTEX_WAKE_PRIVATE, 1) = 0
+1552428497.690386 futex(0x7f8436042e54, FUTEX_WAIT_PRIVATE, 11, NULL) = 0
+1552428497.690683 futex(0x7f8436042e28, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+1552428497.690699 futex(0x7f8436042e28, FUTEX_WAKE_PRIVATE, 1) = 0
+1552428497.690715 futex(0x7f843400ab54, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f843400ab50, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552428497.690776 futex(0x7f84340bc654, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f84340bc650, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552428497.690794 futex(0x7f8436042e54, FUTEX_WAIT_PRIVATE, 13, NULL) = 0
+1552428497.690924 futex(0x7f8436042e28, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+1552428497.690941 futex(0x7f8436042e28, FUTEX_WAKE_PRIVATE, 1) = 0
+1552428497.690957 futex(0x7f8434078754, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f8434078750, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552428497.690974 futex(0x7f8436042e54, FUTEX_WAIT_PRIVATE, 15, NULL) = 0
+1552428497.691498 futex(0x7f8436042e28, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+1552428497.691553 futex(0x7f8436042e28, FUTEX_WAKE_PRIVATE, 1) = 0
+1552428497.691569 futex(0x7f8436042e54, FUTEX_WAIT_PRIVATE, 17, NULL) = 0
+1552428497.691762 futex(0x7f8436042e28, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+1552428497.691779 futex(0x7f8436042e28, FUTEX_WAKE_PRIVATE, 1) = 0
+1552428497.691798 futex(0x7f84340bc654, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f84340bc650, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552428497.692329 stat("/home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin", {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+1552428497.692376 stat("/home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin.idx", {st_mode=S_IFREG|0664, st_size=1, ...}) = 0
+1552428497.692404 open("/home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin.idx", O_RDONLY) = 189
+1552428497.692426 fstat(189</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin.idx>, {st_mode=S_IFREG|0664, st_size=1, ...}) = 0
+1552428497.692458 read(189</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin.idx>, "\0", 4096) = 1
+1552428497.692488 close(189</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin.idx>) = 0
+1552428497.692516 open("/home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin", O_RDONLY) = 189
+1552428497.692536 fstat(189</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin>, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+1552428497.692562 close(189</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin>) = 0
+1552428497.692593 stat("/home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin", {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+1552428497.692611 stat("/home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin.idx", {st_mode=S_IFREG|0664, st_size=1, ...}) = 0
+1552428497.692633 open("/home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin.idx", O_RDONLY) = 189
+1552428497.692728 fstat(189</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin.idx>, {st_mode=S_IFREG|0664, st_size=1, ...}) = 0
+1552428497.692766 read(189</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin.idx>, "\0", 4096) = 1
+1552428497.692792 close(189</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin.idx>) = 0
+1552428497.692823 open("/home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin", O_RDONLY) = 189
+1552428497.693025 fstat(189</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin>, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+1552428497.693050 close(189</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin>) = 0
+1552428497.693105 write(188</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/TEST-example.ExampleTest.xml>, "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<testsuite name=\"example.ExampleTest\" tests=\"1\" skipped=\"0\" failures=\"0\" errors=\"0\" timestamp=\"2019-03-12T22:08:17\" hostname=\"foyzulhassan-HP-ProDesk-600-G1-TWR\" time=\"0.005\">\n  <properties/>\n  <testcase name=\"testJoin\" classname=\"example.ExampleTest\" time=\"0.005\"/>\n  <system-out><![CDATA[]]></system-out>\n  <system-err><![CDATA[]]></system-err>\n</testsuite>\n", 399) = 399
+1552428497.693148 close(188</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/TEST-example.ExampleTest.xml>) = 0
+1552428497.693262 futex(0x7f8436041fd4, FUTEX_WAIT_PRIVATE, 15, NULL) = 0
+1552428497.787173 futex(0x7f8436041fa8, FUTEX_WAKE_PRIVATE, 1) = 0
+1552428497.787214 stat("/home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/reports/tests/test/classes", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+1552428497.787238 stat("/home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/reports/tests/test/classes", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+1552428497.787268 open("/home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/reports/tests/test/classes/example.SimpleTest.html", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 191
+1552428497.787303 fstat(191</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/reports/tests/test/classes/example.SimpleTest.html>, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+1552428497.787584 futex(0x7f84340bc654, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f84340bc650, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552428497.787850 futex(0x7f84340bc628, FUTEX_WAKE_PRIVATE, 1) = 1
+1552428497.788473 futex(0x7f8436042e54, FUTEX_WAIT_PRIVATE, 19, NULL) = 0
+1552428497.788969 futex(0x7f8436042e28, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+1552428497.789399 futex(0x7f8436042e28, FUTEX_WAKE_PRIVATE, 1) = 0
+1552428497.789420 futex(0x7f83c802ca54, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f83c802ca50, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552428497.789510 futex(0x7f8436041d54, FUTEX_WAIT_BITSET_PRIVATE, 1, {698311, 596030556}, ffffffff) = 0
+1552428497.789682 futex(0x7f8436041d28, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+1552428497.789702 futex(0x7f8436041d28, FUTEX_WAKE_PRIVATE, 1) = 0
+1552428497.789766 futex(0x7f8436042e54, FUTEX_WAIT_PRIVATE, 21, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+1552428497.789844 futex(0x7f8436042e28, FUTEX_WAKE_PRIVATE, 1) = 0
+1552428497.790089 futex(0x7f8436041d54, FUTEX_WAIT_BITSET_PRIVATE, 3, {698311, 596437570}, ffffffff) = -1 ETIMEDOUT (Connection timed out)
+1552428497.790966 futex(0x7f8436041d28, FUTEX_WAKE_PRIVATE, 1) = 0
+1552428497.790978 futex(0x7f8436045f54, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f8436045f50, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552428497.791141 lseek(168</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-jvm-3.1.jar>, 56299, SEEK_SET) = 56299
+1552428497.791162 read(168</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-jvm-3.1.jar>, "PK\3\4\n\0\0\10\10\0\355f3IA\223F=\264\2\0\0\254\7\0\0V\0\0\0", 30) = 30
+1552428497.791180 lseek(168</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-jvm-3.1.jar>, 56415, SEEK_SET) = 56415
+1552428497.791197 read(168</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/plugins/gradle-testing-jvm-3.1.jar>, "\255UmO\323P\24~\356VV7\212L\24\0204\nZut@\1\337\220\227\t\2&\300x\t\20>\300\247\313v3\212\245%\355\355\202\377\302\277b\3420\361\203\361\263?\312xn\267\10\231\304DX\223\236s\357\271\347>\347\265\247?\177}\373\16`\2\363i\2441\252\210\255\310\230\"\343\31d0\221\201\216\21\35/2$y\251\343\225\216\327:&\31:\252\3345\17y\270\21\311\223H2$\366\367\30RJ\350\224\31\330\nC\247\332\224E(\35\217K\307\367tL1\264/\236\v\30\214e\317\23\301\202\313\303P\204\fSE?\250\330\225\200\227]a\363\23\307\226<\374\20\3322\276R\261w\210\327\315-U\205'\315\vP\323d[\36:\2419\306\260\331\214\342xR\4\36w\233\340\216\"\317\221v \302\310\225\366\262\267&\216\375\340\243\262\261\25\213\302\315\300\257:e\21(\354\31\207t\v\f\237r\255\6\337\337[\271z\324C\273\f\332\202_\26\224\355\242\343\211\365\350\370@\4;\374\300%IW\321/qw\227\7\216\3327\204\232\312\22\3\30\266Z\34\2119N\211\322\305\251(E\222\f\245\266\4')\303\372\225Rv\36\365\266\364\3a\326\321\342\200SA\3y\265\205\300\f\335\271\342\21\257r\333\345te\343\340H\224dl.q:\246r\371\327\31Cz\333\251P!\242\200\302\255\376\255\320\354\335|I\325l\246\205N\27\310\211\314\266\37\5%\361\336Q\325\35\370G}F\225\203\324'K^\311\365C2\261&\344\241_\3261m`\6\263\6\272\321c\300@\207\201\233\3504\220\305\35\3\275(\350x\313\260\3342\247\r<\304 }\244\255n>\206ls\5\250\246\227\226@\307\34\303\344U?:\352\350\326\372N\215ta\216\26r\327\231\0074\203\2239\325\265\357\256_0\206\341\377q\4\3\364\207\310\320`i\207\226\315\252F\2\210S/\305\234\332)\346\324e\364\307I\322\333\213\273\244\335G\253E\332\247\210\367[\371\32\2305\\C\302\32\254!i\365\265\325\240Y_\321\366\231N\23\350'\232\242;\200\211{D\215x\335\217\373x\0005\322\250\263\32\210\253\244\227 ~\333\372\202D2O4I\257v\206\324\3169T&Vy\206.\344b\270\236\372\225\6\234Z=\302c\260\354<\1\233\r\340Y\322QZi+\377\3\372\31n\\\356Y\35*\375\7*\215'xJ\347\32\231S\3729\f\305\334B\236\270\206a\214\2209\25K\22\267\360\6]s}t\247\376\350xN\271e\277\1", 692) = 692
+1552428497.791301 futex(0x7f8436045f54, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f8436045f50, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552428497.791614 stat("/home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin", {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+1552428497.791651 stat("/home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin.idx", {st_mode=S_IFREG|0664, st_size=1, ...}) = 0
+1552428497.791675 open("/home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin.idx", O_RDONLY) = 194
+1552428497.791700 fstat(194</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin.idx>, {st_mode=S_IFREG|0664, st_size=1, ...}) = 0
+1552428497.791730 read(194</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin.idx>, "\0", 4096) = 1
+1552428497.791757 close(194</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin.idx>) = 0
+1552428497.791785 open("/home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin", O_RDONLY) = 194
+1552428497.791804 fstat(194</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin>, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+1552428497.792123 close(194</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin>) = 0
+1552428497.792178 stat("/home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin", {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+1552428497.792227 stat("/home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin.idx", {st_mode=S_IFREG|0664, st_size=1, ...}) = 0
+1552428497.792246 open("/home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin.idx", O_RDONLY) = 189
+1552428497.792261 fstat(189</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin.idx>, {st_mode=S_IFREG|0664, st_size=1, ...}) = 0
+1552428497.792282 read(189</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin.idx>, "\0", 4096) = 1
+1552428497.792301 close(189</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin.idx>) = 0
+1552428497.792321 open("/home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin", O_RDONLY) = 189
+1552428497.792335 fstat(189</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin>, {st_mode=S_IFREG|0664, st_size=0, ...}) = 0
+1552428497.792353 close(189</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/test-results/test/binary/output.bin>) = 0
+1552428497.792775 write(191</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/reports/tests/test/classes/example.SimpleTest.html>, "<!DOCTYPE html>\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"/>\n<meta http-equiv=\"x-ua-compatible\" content=\"IE=edge\"/>\n<title>Test results - Class example.SimpleTest</title>\n<link href=\"../css/base-style.css\" rel=\"stylesheet\" type=\"text/css\"/>\n<link href=\"../css/style.css\" rel=\"stylesheet\" type=\"text/css\"/>\n<script src=\"../js/report.js\" type=\"text/javascript\"></script>\n</head>\n<body>\n<div id=\"content\">\n<h1>Class example.SimpleTest</h1>\n<div class=\"breadcrumbs\">\n<a href=\"../index.html\">all</a> &gt; \n<a href=\"../packages/example.html\">example</a> &gt; SimpleTest</div>\n<div id=\"summary\">\n<table>\n<tr>\n<td>\n<div class=\"summaryGroup\">\n<table>\n<tr>\n<td>\n<div class=\"infoBox\" id=\"tests\">\n<div class=\"counter\">1</div>\n<p>tests</p>\n</div>\n</td>\n<td>\n<div class=\"infoBox\" id=\"failures\">\n<div class=\"counter\">0</div>\n<p>failures</p>\n</div>\n</td>\n<td>\n<div class=\"infoBox\" id=\"ignored\">\n<div class=\"counter\">0</div>\n<p>ignored</p>\n</div>\n</td>\n<td>\n<div class=\"infoBox\" "..., 1904) = 1904
+1552428497.792839 close(191</home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart/build/reports/tests/test/classes/example.SimpleTest.html>) = 0
+1552428497.793134 futex(0x7f8436042e54, FUTEX_WAIT_PRIVATE, 23, NULL) = 0
+1552428497.794570 futex(0x7f8436042e28, FUTEX_WAKE_PRIVATE, 1) = 0
+1552428497.794584 futex(0x7f8436045c54, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f8436045c50, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552428497.794617 futex(0x7f8436041fd4, FUTEX_WAIT_PRIVATE, 17, NULL) = 0
+1552428497.825227 futex(0x7f8436041fa8, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+1552428497.825250 futex(0x7f8436041fa8, FUTEX_WAKE_PRIVATE, 1) = 0
+1552428497.825354 futex(0x7f8436041fd4, FUTEX_WAIT_PRIVATE, 19, NULL) = 0
+1552428497.825396 futex(0x7f8436041fa8, FUTEX_WAKE_PRIVATE, 1) = 0
+1552428497.825427 futex(0x7f8436041fd4, FUTEX_WAIT_PRIVATE, 21, NULL) = 0
+1552428497.826187 futex(0x7f8436041fa8, FUTEX_WAKE_PRIVATE, 1) = 0
+1552428497.826216 futex(0x7f8436042e54, FUTEX_WAIT_PRIVATE, 25, NULL) = 0
+1552428497.826366 futex(0x7f8436042e28, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+1552428497.826383 futex(0x7f8436042e28, FUTEX_WAKE_PRIVATE, 1) = 0
+1552428497.826401 futex(0x7f8434078754, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f8434078750, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552428497.826419 futex(0x7f8436042e54, FUTEX_WAIT_PRIVATE, 27, NULL) = 0
+1552428497.826544 futex(0x7f8436042e28, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+1552428497.826561 futex(0x7f8436042e28, FUTEX_WAKE_PRIVATE, 1) = 0
+1552428497.826580 futex(0x7f843400ab54, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f843400ab50, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552428497.826601 futex(0x7f83c0003e74, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f83c0003e70, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552428497.826624 futex(0x7f83c0003e48, FUTEX_WAKE_PRIVATE, 1) = 0
+1552428497.826649 futex(0x7f8436042e54, FUTEX_WAIT_PRIVATE, 29, NULL) = 0
+1552428497.827312 futex(0x7f8436042e28, FUTEX_WAIT_PRIVATE, 2, NULL) = 0
+1552428497.827349 futex(0x7f8436042e28, FUTEX_WAKE_PRIVATE, 1) = 0
+1552428497.827368 futex(0x7f83c0001854, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f83c0001850, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552428497.827391 futex(0x7f83c0001828, FUTEX_WAKE_PRIVATE, 1) = 0
+1552428497.827411 mmap(0x7f83db8ff000, 12288, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f83db8ff000
+1552428497.827440 rt_sigprocmask(SIG_SETMASK, [QUIT], NULL, 8) = 0
+1552428497.827460 madvise(0x7f83db8ff000, 1028096, MADV_DONTNEED) = 0
+1552428497.827492 _exit(0) = ?
+1552428497.827517 +++ exited with 0 +++

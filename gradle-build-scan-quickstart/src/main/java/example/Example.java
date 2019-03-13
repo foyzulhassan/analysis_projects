@@ -8,4 +8,15 @@ public class Example {
         return Joiner.on(' ').join(args);
     }
 
+    public void Test()
+    {
+
+	UtilOne one=new UtilOne();
+        one.UtilOneTest();
+
+        UtilTwo two=new UtilTwo();
+	two.UtilTwoTest();
+
+    }
+
 }

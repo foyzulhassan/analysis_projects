@@ -1,0 +1,30 @@
+1552506851.671513 set_robust_list(0x7f2fbc80c9e0, 24) = 0
+1552506851.671544 gettid() = 23007
+1552506851.671558 rt_sigprocmask(SIG_BLOCK, NULL, [QUIT], 8) = 0
+1552506851.671575 rt_sigprocmask(SIG_UNBLOCK, [HUP INT ILL BUS FPE SEGV USR2 TERM], NULL, 8) = 0
+1552506851.671592 rt_sigprocmask(SIG_BLOCK, [QUIT], NULL, 8) = 0
+1552506851.671607 futex(0x7f2fd400ab54, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f2fd400ab50, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 1
+1552506851.671628 futex(0x7f2fd5c00854, FUTEX_WAIT_PRIVATE, 1, NULL) = 0
+1552506851.671668 futex(0x7f2fd5c00828, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+1552506851.671685 futex(0x7f2fd5c00828, FUTEX_WAKE_PRIVATE, 1) = 0
+1552506851.671829 mmap(NULL, 134217728, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f2f74000000
+1552506851.671851 munmap(0x7f2f78000000, 67108864) = 0
+1552506851.671874 mprotect(0x7f2f74000000, 135168, PROT_READ|PROT_WRITE) = 0
+1552506851.672068 sched_getaffinity(23007, 32, {f, 0, 0, 0}) = 32
+1552506851.672121 sched_getaffinity(23007, 32, {f, 0, 0, 0}) = 32
+1552506851.672139 mmap(0x7f2fbc70c000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f2fbc70c000
+1552506851.672161 mprotect(0x7f2fbc70c000, 12288, PROT_NONE) = 0
+1552506851.672911 lseek(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, 55424485, SEEK_SET) = 55424485
+1552506851.672950 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "PK\3\4\n\0\0\10\0\0h\212FG\372O$\7\225\2\0\0\225\2\0\0\37\0\0\0", 30) = 30
+1552506851.672976 lseek(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, 55424546, SEEK_SET) = 55424546
+1552506851.673076 read(3</usr/local/java/jdk1.8.0_65/jre/lib/rt.jar>, "\312\376\272\276\0\0\0004\0\"\n\0\6\0\25\10\0\26\n\0\27\0\30\n\0\5\0\31\7\0\32\7\0\34\7\0\35\1\0\6<init>\1\0\3()V\1\0\4Code\1\0\17LineNumberTable\1\0\3run\1\0\22()Ljava/lang/Void;\1\0\24()Ljava/lang/Object;\1\0\tSignature\1\0DLjava/lang/Object;Ljava/security/PrivilegedAction<Ljava/lang/Void;>;\1\0\nSourceFile\1\0\23DatagramPacket.java\1\0\17EnclosingMethod\7\0\36\f\0\10\0\t\1\0\3net\7\0\37\f\0 \0!\f\0\f\0\r\1\0\31java/net/DatagramPacket$1\1\0\fInnerClasses\1\0\20java/lang/Object\1\0\36java/security/PrivilegedAction\1\0\27java/net/DatagramPacket\1\0\20java/lang/System\1\0\vloadLibrary\1\0\25(Ljava/lang/String;)V\0000\0\5\0\6\0\1\0\7\0\0\0\3\0\0\0\10\0\t\0\1\0\n\0\0\0\35\0\1\0\1\0\0\0\5*\267\0\1\261\0\0\0\1\0\v\0\0\0\6\0\1\0\0\0002\0\1\0\f\0\r\0\1\0\n\0\0\0#\0\1\0\1\0\0\0\7\22\2\270\0\3\1\260\0\0\0\1\0\v\0\0\0\n\0\2\0\0\0004\0\5\0005\20A\0\f\0\16\0\1\0\n\0\0\0\35\0\1\0\1\0\0\0\5*\266\0\4\260\0\0\0\1\0\v\0\0\0\6\0\1\0\0\0002\0\4\0\17\0\0\0\2\0\20\0\21\0\0\0\2\0\22\0\23\0\0\0\4\0\24\0\0\0\33\0\0\0\n\0\1\0\5\0\0\0\0\0\10", 661) = 661
+1552506851.673239 stat("/usr/local/java/jdk1.8.0_65/jre/lib/amd64/libnet.so", {st_mode=S_IFREG|0755, st_size=116037, ...}) = 0
+1552506851.673698 recvfrom(178, 0x7f2fbc7fb3a0, 9, 0, 0x7f2fbc80b3a0, 0x7f2fbc7fb33c) = ? ERESTARTSYS (To be restarted if SA_RESTART is set)
+1552506851.903035 --- SIGRT_30 {si_signo=SIGRT_30, si_code=SI_TKILL, si_pid=22981, si_uid=1000} ---
+1552506851.903043 rt_sigreturn() = -1 EINTR (Interrupted system call)
+1552506851.903191 futex(0x7f2fd400b014, FUTEX_WAKE_OP_PRIVATE, 1, 1, 0x7f2fd400b010, {FUTEX_OP_SET, 0, FUTEX_OP_CMP_GT, 1}) = 0
+1552506851.903229 mmap(0x7f2fbc70c000, 12288, PROT_NONE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0x7f2fbc70c000
+1552506851.903257 rt_sigprocmask(SIG_SETMASK, [QUIT], NULL, 8) = 0
+1552506851.903284 madvise(0x7f2fbc70c000, 1028096, MADV_DONTNEED) = 0
+1552506851.903314 _exit(0) = ?
+1552506851.903435 +++ exited with 0 +++

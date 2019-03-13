@@ -1,0 +1,519 @@
+1552428491.962495 execve("/home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle", ["gradle", "build"], [/* 72 vars */]) = 0
+1552428491.962672 brk(0) = 0xda4000
+1552428491.962697 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+1552428491.962723 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5f20989000
+1552428491.962747 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+1552428491.962767 open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+1552428491.962787 fstat(3</etc/ld.so.cache>, {st_mode=S_IFREG|0644, st_size=101133, ...}) = 0
+1552428491.962825 mmap(NULL, 101133, PROT_READ, MAP_PRIVATE, 3</etc/ld.so.cache>, 0) = 0x7f5f20970000
+1552428491.962843 close(3</etc/ld.so.cache>) = 0
+1552428491.962860 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+1552428491.962882 open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+1552428491.962899 read(3</lib/x86_64-linux-gnu/libc-2.19.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\37\2\0\0\0\0\0@\0\0\0\0\0\0\0 \6\34\0\0\0\0\0\0\0\0\0@\0008\0\n\0@\0D\0C\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0000\2\0\0\0\0\0\0000\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0000\177\30\0\0\0\0\0000\177\30\0\0\0\0\0000\177\30\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\24\240\33\0\0\0\0\0\24\240\33\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0@\247\33\0\0\0\0\0@\247;\0\0\0\0\0@\247;\0\0\0\0\0`Q\0\0\0\0\0\0\200\233\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\240\333\33\0\0\0\0\0\240\333;\0\0\0\0\0\240\333;\0\0\0\0\0\340\1\0\0\0\0\0\0\340\1\0\0\0\0\0\0\10\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0p\2\0\0\0\0\0\0p\2\0\0\0\0\0\0p\2\0\0\0\0\0\0D\0\0\0\0\0\0\0D\0\0\0\0\0\0\0\4\0\0\0\0\0\0\0\7\0\0\0\4\0\0\0@\247\33\0\0\0\0\0@\247;\0\0\0\0\0@\247;\0\0\0\0\0\20\0\0\0\0\0\0\0\260\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0P\345td\4\0\0\0L\177\30\0\0\0\0\0L\177\30\0\0\0\0\0L\177\30\0\0\0\0\0\4g\0\0\0\0\0\0\4g\0\0\0\0\0\0\4\0\0\0\0\0\0\0Q\345td\6\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0R\345td\4\0\0\0@\247\33\0\0\0\0\0@\247;\0\0\0\0\0@\247;\0\0\0\0\0\3008\0\0\0\0\0\0\3008\0\0\0\0\0\0\1\0\0\0\0\0\0\0\4\0\0\0\24\0\0\0\3\0\0\0GNU\0000\311M\306j\37\351Q\200\303\326\215+\211\345v\325\256!<\4\0\0\0\20\0\0\0\1\0\0\0GNU\0\0\0\0\0\2\0\0\0\6\0\0\0\30\0\0\0\0\0\0\0\363\3\0\0\n\0\0\0\0\1\0\0\16\0\0\0\0000\20D\240 \2\1\210\3\346\220\305E\214\0\300\0\10\0\5\200\0`\300\200\0\r\212\f\0\4\20\0\210D2\10.@\210P4, \16\"H&\204\300\214\4\10\0\2\2\16\241\254\32\4f\300\0\3002\0\300\0P\1 \201\10\204\v  ($\0\4 P\0\20X\200\312DB(\0\6\200\20\30B\0 @\200\0\tP\0Q\212@\20\0\0\0\0\10\0\0\21\20", 832) = 832
+1552428491.962926 fstat(3</lib/x86_64-linux-gnu/libc-2.19.so>, {st_mode=S_IFREG|0755, st_size=1840928, ...}) = 0
+1552428491.962945 mmap(NULL, 3949248, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.19.so>, 0) = 0x7f5f203a4000
+1552428491.962966 mprotect(0x7f5f2055f000, 2093056, PROT_NONE) = 0
+1552428491.962984 mmap(0x7f5f2075e000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.19.so>, 0x1ba000) = 0x7f5f2075e000
+1552428491.963007 mmap(0x7f5f20764000, 17088, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f5f20764000
+1552428491.963026 close(3</lib/x86_64-linux-gnu/libc-2.19.so>) = 0
+1552428491.963047 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5f2096f000
+1552428491.963063 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5f2096d000
+1552428491.963081 arch_prctl(ARCH_SET_FS, 0x7f5f2096d740) = 0
+1552428491.963138 mprotect(0x7f5f2075e000, 16384, PROT_READ) = 0
+1552428491.963159 mprotect(0x605000, 4096, PROT_READ) = 0
+1552428491.963176 mprotect(0x7f5f2098b000, 4096, PROT_READ) = 0
+1552428491.963192 munmap(0x7f5f20970000, 101133) = 0
+1552428491.963256 brk(0) = 0xda4000
+1552428491.963272 brk(0xdc5000) = 0xdc5000
+1552428491.963290 open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+1552428491.963314 fstat(3</usr/lib/locale/locale-archive>, {st_mode=S_IFREG|0644, st_size=7216688, ...}) = 0
+1552428491.963333 mmap(NULL, 7216688, PROT_READ, MAP_PRIVATE, 3</usr/lib/locale/locale-archive>, 0) = 0x7f5f1fcc2000
+1552428491.963353 close(3</usr/lib/locale/locale-archive>) = 0
+1552428491.963392 execve("/home/foyzulhassan/Android/android-sdk-linux/tools/bash", ["bash", "/home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle", "build"], [/* 72 vars */]) = -1 ENOENT (No such file or directory)
+1552428491.963437 execve("/home/foyzulhassan/Android/android-sdk-linux/platform-tools/bash", ["bash", "/home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle", "build"], [/* 72 vars */]) = -1 ENOENT (No such file or directory)
+1552428491.963479 execve("/usr/local/java/jdk1.8.0_65/bin/bash", ["bash", "/home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle", "build"], [/* 72 vars */]) = -1 ENOENT (No such file or directory)
+1552428491.963521 execve("/usr/local/apache-maven/apache-maven-3.3.9/bin/bash", ["bash", "/home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle", "build"], [/* 72 vars */]) = -1 ENOENT (No such file or directory)
+1552428491.963563 execve("/home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/bash", ["bash", "/home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle", "build"], [/* 72 vars */]) = -1 ENOENT (No such file or directory)
+1552428491.963605 execve("/home/foyzulhassan/Android/android-ndk-r12b//bash", ["bash", "/home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle", "build"], [/* 72 vars */]) = -1 ENOENT (No such file or directory)
+1552428491.963647 execve("/usr/local/sbin/bash", ["bash", "/home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle", "build"], [/* 72 vars */]) = -1 ENOENT (No such file or directory)
+1552428491.963688 execve("/usr/local/bin/bash", ["bash", "/home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle", "build"], [/* 72 vars */]) = -1 ENOENT (No such file or directory)
+1552428491.963730 execve("/usr/sbin/bash", ["bash", "/home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle", "build"], [/* 72 vars */]) = -1 ENOENT (No such file or directory)
+1552428491.963772 execve("/usr/bin/bash", ["bash", "/home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle", "build"], [/* 72 vars */]) = -1 ENOENT (No such file or directory)
+1552428491.963813 execve("/sbin/bash", ["bash", "/home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle", "build"], [/* 72 vars */]) = -1 ENOENT (No such file or directory)
+1552428491.963855 execve("/bin/bash", ["bash", "/home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle", "build"], [/* 72 vars */]) = 0
+1552428491.963986 brk(0) = 0x1c71000
+1552428491.964015 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+1552428491.964033 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f967e1d6000
+1552428491.964053 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+1552428491.964073 open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+1552428491.964090 fstat(3</etc/ld.so.cache>, {st_mode=S_IFREG|0644, st_size=101133, ...}) = 0
+1552428491.964108 mmap(NULL, 101133, PROT_READ, MAP_PRIVATE, 3</etc/ld.so.cache>, 0) = 0x7f967e1bd000
+1552428491.964125 close(3</etc/ld.so.cache>) = 0
+1552428491.964142 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+1552428491.964163 open("/lib/x86_64-linux-gnu/libtinfo.so.5", O_RDONLY|O_CLOEXEC) = 3
+1552428491.964180 read(3</lib/x86_64-linux-gnu/libtinfo.so.5.9>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\303\0\0\0\0\0\0@\0\0\0\0\0\0\0\370\205\2\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\33\0\32\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\354C\2\0\0\0\0\0\354C\2\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\230M\2\0\0\0\0\0\230M\"\0\0\0\0\0\230M\"\0\0\0\0\0P7\0\0\0\0\0\0H?\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0(}\2\0\0\0\0\0(}\"\0\0\0\0\0(}\"\0\0\0\0\0\320\1\0\0\0\0\0\0\320\1\0\0\0\0\0\0\10\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0\310\1\0\0\0\0\0\0\310\1\0\0\0\0\0\0\310\1\0\0\0\0\0\0$\0\0\0\0\0\0\0$\0\0\0\0\0\0\0\4\0\0\0\0\0\0\0P\345td\4\0\0\0H\36\2\0\0\0\0\0H\36\2\0\0\0\0\0H\36\2\0\0\0\0\0\224\5\0\0\0\0\0\0\224\5\0\0\0\0\0\0\4\0\0\0\0\0\0\0Q\345td\6\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0R\345td\4\0\0\0\230M\2\0\0\0\0\0\230M\"\0\0\0\0\0\230M\"\0\0\0\0\0h2\0\0\0\0\0\0h2\0\0\0\0\0\0\1\0\0\0\0\0\0\0\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\0N=\261\177\10%\27\260L\3075\16\352\366\360\212H\350\3\0\0\0\0\203\0\0\0;\0\0\0\20\0\0\0\n\0\0\0B\23\0\20\2\230\0\204\200\21\220\30\2 \26\270a\0\4\0\31\20\2408]\2625}q\6\204\312\250W\27\345z\306&@\212\343\6h\0\20H*R$!,\f\203 E(\31\0\25\22\220 \24!\10H`\252 \4\t\36\4`\21\201\301b!\301\1\212P\33\32b@\4\220\0\0\246\304\1\25P\307HyI\1\256\10\20\300\31\16\341\v\2A\272\224\244\312+(2)4d\317)\0\16\276@;\0\0\0<\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0>\0\0\0?\0\0\0A\0\0\0B\0\0\0\0\0\0\0D\0\0\0G\0\0\0I\0\0\0J\0\0\0K\0\0\0M\0\0\0\0\0\0\0N\0\0\0\0\0\0\0Q\0\0\0S\0\0\0W\0\0\0Z\0\0\0[\0\0\0]\0\0\0^\0\0\0b\0\0\0c\0\0\0d\0\0\0f\0\0\0g\0\0\0h\0\0\0\0\0\0\0\0\0\0\0k\0\0\0r\0\0\0s\0\0\0\0\0\0\0v\0\0\0x\0\0\0\0\0\0\0y\0\0\0z\0\0\0{\0\0\0~\0\0\0\177\0\0\0\0\0\0\0", 832) = 832
+1552428491.964208 fstat(3</lib/x86_64-linux-gnu/libtinfo.so.5.9>, {st_mode=S_IFREG|0644, st_size=167096, ...}) = 0
+1552428491.964226 mmap(NULL, 2264288, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libtinfo.so.5.9>, 0) = 0x7f967dd8d000
+1552428491.964244 mprotect(0x7f967ddb2000, 2093056, PROT_NONE) = 0
+1552428491.964261 mmap(0x7f967dfb1000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libtinfo.so.5.9>, 0x24000) = 0x7f967dfb1000
+1552428491.964284 close(3</lib/x86_64-linux-gnu/libtinfo.so.5.9>) = 0
+1552428491.964302 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+1552428491.964321 open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+1552428491.964338 read(3</lib/x86_64-linux-gnu/libdl-2.19.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\16\0\0\0\0\0\0@\0\0\0\0\0\0\0\3101\0\0\0\0\0\0\0\0\0\0@\0008\0\t\0@\0\36\0\35\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0\370\1\0\0\0\0\0\0\370\1\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0\200\32\0\0\0\0\0\0\200\32\0\0\0\0\0\0\200\32\0\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0` \0\0\0\0\0\0` \0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0`-\0\0\0\0\0\0`- \0\0\0\0\0`- \0\0\0\0\0@\3\0\0\0\0\0\0\320\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210-\0\0\0\0\0\0\210- \0\0\0\0\0\210- \0\0\0\0\0\20\2\0\0\0\0\0\0\20\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0008\2\0\0\0\0\0\0008\2\0\0\0\0\0\0008\2\0\0\0\0\0\0D\0\0\0\0\0\0\0D\0\0\0\0\0\0\0\4\0\0\0\0\0\0\0P\345td\4\0\0\0\234\32\0\0\0\0\0\0\234\32\0\0\0\0\0\0\234\32\0\0\0\0\0\0\274\0\0\0\0\0\0\0\274\0\0\0\0\0\0\0\4\0\0\0\0\0\0\0Q\345td\6\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0R\345td\4\0\0\0`-\0\0\0\0\0\0`- \0\0\0\0\0`- \0\0\0\0\0\240\2\0\0\0\0\0\0\240\2\0\0\0\0\0\0\1\0\0\0\0\0\0\0\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\301\256L\267\31]3zw\243\306\211\5\35\253\2529\200\312\f\4\0\0\0\20\0\0\0\1\0\0\0GNU\0\0\0\0\0\2\0\0\0\6\0\0\0\30\0\0\0\0\0\0\0\33\0\0\0\33\0\0\0\2\0\0\0\7\0\0\0\230\2\21\0\200H\0\4\22\0\0@\203(\10\236\33\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\0\0\0\0\35\0\0\0\0\0\0\0\36\0\0\0\0\0\0\0\37\0\0\0\0\0\0\0 \0\0\0\0\0\0\0!\0\0\0#\0\0\0$\0\0\0&\0\0\0'\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0(\0\0\0\0\0\0\0\0\0\0\0\353\26\251\30a\257\0\371\301S\200\30\273\25sB\257\304M\17\221!\374\370\6\2\4\371\3733\373\17\371\31sB\372\31sB\225\263_\31\177\236\320\30a\242\222\6", 832) = 832
+1552428491.964361 fstat(3</lib/x86_64-linux-gnu/libdl-2.19.so>, {st_mode=S_IFREG|0644, st_size=14664, ...}) = 0
+1552428491.964379 mmap(NULL, 2109744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdl-2.19.so>, 0) = 0x7f967db89000
+1552428491.964400 mprotect(0x7f967db8c000, 2093056, PROT_NONE) = 0
+1552428491.964417 mmap(0x7f967dd8b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdl-2.19.so>, 0x2000) = 0x7f967dd8b000
+1552428491.964440 close(3</lib/x86_64-linux-gnu/libdl-2.19.so>) = 0
+1552428491.964458 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+1552428491.964476 open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+1552428491.964492 read(3</lib/x86_64-linux-gnu/libc-2.19.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\37\2\0\0\0\0\0@\0\0\0\0\0\0\0 \6\34\0\0\0\0\0\0\0\0\0@\0008\0\n\0@\0D\0C\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0000\2\0\0\0\0\0\0000\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0000\177\30\0\0\0\0\0000\177\30\0\0\0\0\0000\177\30\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\24\240\33\0\0\0\0\0\24\240\33\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0@\247\33\0\0\0\0\0@\247;\0\0\0\0\0@\247;\0\0\0\0\0`Q\0\0\0\0\0\0\200\233\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\240\333\33\0\0\0\0\0\240\333;\0\0\0\0\0\240\333;\0\0\0\0\0\340\1\0\0\0\0\0\0\340\1\0\0\0\0\0\0\10\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0p\2\0\0\0\0\0\0p\2\0\0\0\0\0\0p\2\0\0\0\0\0\0D\0\0\0\0\0\0\0D\0\0\0\0\0\0\0\4\0\0\0\0\0\0\0\7\0\0\0\4\0\0\0@\247\33\0\0\0\0\0@\247;\0\0\0\0\0@\247;\0\0\0\0\0\20\0\0\0\0\0\0\0\260\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0P\345td\4\0\0\0L\177\30\0\0\0\0\0L\177\30\0\0\0\0\0L\177\30\0\0\0\0\0\4g\0\0\0\0\0\0\4g\0\0\0\0\0\0\4\0\0\0\0\0\0\0Q\345td\6\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0R\345td\4\0\0\0@\247\33\0\0\0\0\0@\247;\0\0\0\0\0@\247;\0\0\0\0\0\3008\0\0\0\0\0\0\3008\0\0\0\0\0\0\1\0\0\0\0\0\0\0\4\0\0\0\24\0\0\0\3\0\0\0GNU\0000\311M\306j\37\351Q\200\303\326\215+\211\345v\325\256!<\4\0\0\0\20\0\0\0\1\0\0\0GNU\0\0\0\0\0\2\0\0\0\6\0\0\0\30\0\0\0\0\0\0\0\363\3\0\0\n\0\0\0\0\1\0\0\16\0\0\0\0000\20D\240 \2\1\210\3\346\220\305E\214\0\300\0\10\0\5\200\0`\300\200\0\r\212\f\0\4\20\0\210D2\10.@\210P4, \16\"H&\204\300\214\4\10\0\2\2\16\241\254\32\4f\300\0\3002\0\300\0P\1 \201\10\204\v  ($\0\4 P\0\20X\200\312DB(\0\6\200\20\30B\0 @\200\0\tP\0Q\212@\20\0\0\0\0\10\0\0\21\20", 832) = 832
+1552428491.964515 fstat(3</lib/x86_64-linux-gnu/libc-2.19.so>, {st_mode=S_IFREG|0755, st_size=1840928, ...}) = 0
+1552428491.964532 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f967e1bc000
+1552428491.964550 mmap(NULL, 3949248, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.19.so>, 0) = 0x7f967d7c4000
+1552428491.964568 mprotect(0x7f967d97f000, 2093056, PROT_NONE) = 0
+1552428491.964584 mmap(0x7f967db7e000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.19.so>, 0x1ba000) = 0x7f967db7e000
+1552428491.964605 mmap(0x7f967db84000, 17088, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f967db84000
+1552428491.964623 close(3</lib/x86_64-linux-gnu/libc-2.19.so>) = 0
+1552428491.964648 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f967e1ba000
+1552428491.964665 arch_prctl(ARCH_SET_FS, 0x7f967e1ba740) = 0
+1552428491.964727 mprotect(0x7f967db7e000, 16384, PROT_READ) = 0
+1552428491.964747 mprotect(0x7f967dd8b000, 4096, PROT_READ) = 0
+1552428491.964783 mprotect(0x7f967dfb1000, 16384, PROT_READ) = 0
+1552428491.964805 mprotect(0x6ee000, 4096, PROT_READ) = 0
+1552428491.964824 mprotect(0x7f967e1d8000, 4096, PROT_READ) = 0
+1552428491.964839 munmap(0x7f967e1bd000, 101133) = 0
+1552428491.964875 open("/dev/tty", O_RDWR|O_NONBLOCK) = 3
+1552428491.964897 close(3</dev/tty>) = 0
+1552428491.964929 brk(0) = 0x1c71000
+1552428491.964944 brk(0x1c72000) = 0x1c72000
+1552428491.964964 open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+1552428491.964982 fstat(3</usr/lib/locale/locale-archive>, {st_mode=S_IFREG|0644, st_size=7216688, ...}) = 0
+1552428491.965002 mmap(NULL, 7216688, PROT_READ, MAP_PRIVATE, 3</usr/lib/locale/locale-archive>, 0) = 0x7f967d0e2000
+1552428491.965022 close(3</usr/lib/locale/locale-archive>) = 0
+1552428491.965041 brk(0x1c73000) = 0x1c73000
+1552428491.965058 brk(0x1c74000) = 0x1c74000
+1552428491.965092 getuid() = 1000
+1552428491.965107 getgid() = 1000
+1552428491.965121 geteuid() = 1000
+1552428491.965135 getegid() = 1000
+1552428491.965154 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+1552428491.965180 brk(0x1c75000) = 0x1c75000
+1552428491.965204 open("/proc/meminfo", O_RDONLY|O_CLOEXEC) = 3
+1552428491.965228 fstat(3</proc/meminfo>, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+1552428491.965246 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f967e1d5000
+1552428491.965262 read(3</proc/meminfo>, "MemTotal:       16343840 kB\nMemFree:         2868148 kB\nBuffers:         1064140 kB\nCached:          5145084 kB\nSwapCached:            0 kB\nActive:          7339336 kB\nInactive:        3542008 kB\nActive(anon):    4676148 kB\nInactive(anon):  1113976 kB\nActive(file):    2663188 kB\nInactive(file):  2428032 kB\nUnevictable:         956 kB\nMlocked:             956 kB\nSwapTotal:             0 kB\nSwapFree:              0 kB\nDirty:              4636 kB\nWriteback:             0 kB\nAnonPages:       4672772 kB\nMapped:           569712 kB\nShmem:           1118004 kB\nSlab:            2389532 kB\nSReclaimable:    2328200 kB\nSUnreclaim:        61332 kB\nKernelStack:        6000 kB\nPageTables:        59068 kB\nNFS_Unstable:          0 kB\nBounce:                0 kB\nWritebackTmp:          0 kB\nCommitLimit:     8171920 kB\nCommitted_AS:   12113080 kB\nVmallocTotal:   34359738367 kB\nVmallocUsed:      379796 kB\nVmallocChunk:   34359350188 kB\nHardwareCorrupted:     0 kB\nAnonHugePages:   2629632 kB\nHugePages_Tota"..., 1024) = 1024
+1552428491.965347 close(3</proc/meminfo>) = 0
+1552428491.965365 munmap(0x7f967e1d5000, 4096) = 0
+1552428491.965383 brk(0x1c76000) = 0x1c76000
+1552428491.965422 rt_sigaction(SIGCHLD, {SIG_DFL, [], SA_RESTORER|SA_RESTART, 0x7f967d7fad40}, {SIG_DFL, [], 0}, 8) = 0
+1552428491.965444 rt_sigaction(SIGCHLD, {SIG_DFL, [], SA_RESTORER|SA_RESTART, 0x7f967d7fad40}, {SIG_DFL, [], SA_RESTORER|SA_RESTART, 0x7f967d7fad40}, 8) = 0
+1552428491.965461 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f967d7fad40}, {SIG_DFL, [], 0}, 8) = 0
+1552428491.965478 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f967d7fad40}, {SIG_DFL, [], SA_RESTORER, 0x7f967d7fad40}, 8) = 0
+1552428491.965495 rt_sigaction(SIGQUIT, {SIG_DFL, [], SA_RESTORER, 0x7f967d7fad40}, {SIG_DFL, [], 0}, 8) = 0
+1552428491.965512 rt_sigaction(SIGQUIT, {SIG_DFL, [], SA_RESTORER, 0x7f967d7fad40}, {SIG_DFL, [], SA_RESTORER, 0x7f967d7fad40}, 8) = 0
+1552428491.965530 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+1552428491.965546 rt_sigaction(SIGQUIT, {SIG_IGN, [], SA_RESTORER, 0x7f967d7fad40}, {SIG_DFL, [], SA_RESTORER, 0x7f967d7fad40}, 8) = 0
+1552428491.965565 uname({sys="Linux", node="foyzulhassan-HP-ProDesk-600-G1-TWR", ...}) = 0
+1552428491.965589 brk(0x1c77000) = 0x1c77000
+1552428491.965617 brk(0x1c78000) = 0x1c78000
+1552428491.965635 brk(0x1c79000) = 0x1c79000
+1552428491.965656 brk(0x1c7a000) = 0x1c7a000
+1552428491.965677 brk(0x1c7b000) = 0x1c7b000
+1552428491.965698 brk(0x1c7c000) = 0x1c7c000
+1552428491.965717 stat("/home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+1552428491.965738 stat(".", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+1552428491.965756 getpid() = 21118
+1552428491.965778 open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3
+1552428491.965797 fstat(3</usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache>, {st_mode=S_IFREG|0644, st_size=26258, ...}) = 0
+1552428491.965815 mmap(NULL, 26258, PROT_READ, MAP_SHARED, 3</usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache>, 0) = 0x7f967e1cf000
+1552428491.965834 close(3</usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache>) = 0
+1552428491.965856 brk(0x1c7d000) = 0x1c7d000
+1552428491.965880 getppid() = 21113
+1552428491.965899 stat(".", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+1552428491.965919 stat("/home/foyzulhassan/Android/android-sdk-linux/tools/bash", 0x7ffceb019650) = -1 ENOENT (No such file or directory)
+1552428491.965937 stat("/home/foyzulhassan/Android/android-sdk-linux/platform-tools/bash", 0x7ffceb019650) = -1 ENOENT (No such file or directory)
+1552428491.965953 stat("/usr/local/java/jdk1.8.0_65/bin/bash", 0x7ffceb019650) = -1 ENOENT (No such file or directory)
+1552428491.965970 stat("/usr/local/apache-maven/apache-maven-3.3.9/bin/bash", 0x7ffceb019650) = -1 ENOENT (No such file or directory)
+1552428491.965986 stat("/home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/bash", 0x7ffceb019650) = -1 ENOENT (No such file or directory)
+1552428491.966002 stat("/home/foyzulhassan/Android/android-ndk-r12b/bash", 0x7ffceb019650) = -1 ENOENT (No such file or directory)
+1552428491.966019 stat("/usr/local/sbin/bash", 0x7ffceb019650) = -1 ENOENT (No such file or directory)
+1552428491.966035 stat("/usr/local/bin/bash", 0x7ffceb019650) = -1 ENOENT (No such file or directory)
+1552428491.966051 stat("/usr/sbin/bash", 0x7ffceb019650) = -1 ENOENT (No such file or directory)
+1552428491.966067 stat("/usr/bin/bash", 0x7ffceb019650) = -1 ENOENT (No such file or directory)
+1552428491.966083 stat("/sbin/bash", 0x7ffceb019650) = -1 ENOENT (No such file or directory)
+1552428491.966099 stat("/bin/bash", {st_mode=S_IFREG|0755, st_size=1017016, ...}) = 0
+1552428491.966117 stat("/bin/bash", {st_mode=S_IFREG|0755, st_size=1017016, ...}) = 0
+1552428491.966133 geteuid() = 1000
+1552428491.966147 getegid() = 1000
+1552428491.966161 getuid() = 1000
+1552428491.966175 getgid() = 1000
+1552428491.966189 access("/bin/bash", X_OK) = 0
+1552428491.966205 stat("/bin/bash", {st_mode=S_IFREG|0755, st_size=1017016, ...}) = 0
+1552428491.966222 geteuid() = 1000
+1552428491.966236 getegid() = 1000
+1552428491.966250 getuid() = 1000
+1552428491.966264 getgid() = 1000
+1552428491.966281 access("/bin/bash", R_OK) = 0
+1552428491.966297 stat("/bin/bash", {st_mode=S_IFREG|0755, st_size=1017016, ...}) = 0
+1552428491.966313 stat("/bin/bash", {st_mode=S_IFREG|0755, st_size=1017016, ...}) = 0
+1552428491.966330 geteuid() = 1000
+1552428491.966344 getegid() = 1000
+1552428491.966357 getuid() = 1000
+1552428491.966371 getgid() = 1000
+1552428491.966385 access("/bin/bash", X_OK) = 0
+1552428491.966401 stat("/bin/bash", {st_mode=S_IFREG|0755, st_size=1017016, ...}) = 0
+1552428491.966417 geteuid() = 1000
+1552428491.966431 getegid() = 1000
+1552428491.966445 getuid() = 1000
+1552428491.966458 getgid() = 1000
+1552428491.966478 access("/bin/bash", R_OK) = 0
+1552428491.966511 brk(0x1c7e000) = 0x1c7e000
+1552428491.966528 brk(0x1c7f000) = 0x1c7f000
+1552428491.966546 getpgrp() = 21113
+1552428491.966561 rt_sigaction(SIGCHLD, {0x446240, [], SA_RESTORER|SA_RESTART, 0x7f967d7fad40}, {SIG_DFL, [], SA_RESTORER|SA_RESTART, 0x7f967d7fad40}, 8) = 0
+1552428491.966583 getrlimit(RLIMIT_NPROC, {rlim_cur=126857, rlim_max=126857}) = 0
+1552428491.966610 brk(0x1c80000) = 0x1c80000
+1552428491.966635 brk(0x1c81000) = 0x1c81000
+1552428491.966689 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+1552428491.966706 open("/home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle", O_RDONLY) = 3
+1552428491.966727 ioctl(3</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle>, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0x7ffceb019920) = -1 ENOTTY (Inappropriate ioctl for device)
+1552428491.966752 lseek(3</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle>, 0, SEEK_CUR) = 0
+1552428491.966769 read(3</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle>, "#!/usr/bin/env bash\n\n###########################################################", 80) = 80
+1552428491.966787 lseek(3</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle>, 0, SEEK_SET) = 0
+1552428491.966804 getrlimit(RLIMIT_NOFILE, {rlim_cur=1024, rlim_max=4*1024}) = 0
+1552428491.966820 fcntl(255, F_GETFD) = -1 EBADF (Bad file descriptor)
+1552428491.966843 dup2(3</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle>, 255) = 255
+1552428491.966863 close(3</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle>) = 0
+1552428491.966879 fcntl(255</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle>, F_SETFD, FD_CLOEXEC) = 0
+1552428491.966898 fcntl(255</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle>, F_GETFL) = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+1552428491.967023 fstat(255</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle>, {st_mode=S_IFREG|0755, st_size=5232, ...}) = 0
+1552428491.967057 lseek(255</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle>, 0, SEEK_CUR) = 0
+1552428491.967076 brk(0x1c83000) = 0x1c83000
+1552428491.967096 brk(0x1c84000) = 0x1c84000
+1552428491.967122 read(255</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle>, "#!/usr/bin/env bash\n\n##############################################################################\n##\n##  Gradle start up script for UN*X\n##\n##############################################################################\n\n# Attempt to set APP_HOME\n# Resolve links: $0 may be a link\nPRG=\"$0\"\n# Need this for relative symlinks.\nwhile [ -h \"$PRG\" ] ; do\n    ls=`ls -ld \"$PRG\"`\n    link=`expr \"$ls\" : '.*-> \\(.*\\)$'`\n    if expr \"$link\" : '/.*' > /dev/null; then\n        PRG=\"$link\"\n    else\n        PRG=`dirname \"$PRG\"`\"/$link\"\n    fi\ndone\nSAVED=\"`pwd`\"\ncd \"`dirname \\\"$PRG\\\"`/..\" >/dev/null\nAPP_HOME=\"`pwd -P`\"\ncd \"$SAVED\" >/dev/null\n\nAPP_NAME=\"Gradle\"\nAPP_BASE_NAME=`basename \"$0\"`\n\n# Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.\nDEFAULT_JVM_OPTS=\"\"\n\n# Use the maximum available, or set MAX_FD != -1 to use that value.\nMAX_FD=\"maximum\"\n\nwarn ( ) {\n    echo \"$*\"\n}\n\ndie ( ) {\n    echo\n    echo \"$*\"\n    echo\n    exit 1\n}\n\n# OS specific su"..., 5232) = 5232
+1552428491.967185 brk(0x1c85000) = 0x1c85000
+1552428491.967245 brk(0x1c86000) = 0x1c86000
+1552428491.967269 lstat("/home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle", {st_mode=S_IFREG|0755, st_size=5232, ...}) = 0
+1552428491.967312 brk(0x1c87000) = 0x1c87000
+1552428491.967333 pipe([3, 4]) = 0
+1552428491.967355 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+1552428491.967373 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+1552428491.967390 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0
+1552428491.967408 lseek(255</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle>, -4681, SEEK_CUR) = 551
+1552428491.967426 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f967e1baa10) = 21119
+1552428491.967506 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+1552428491.967540 rt_sigaction(SIGCHLD, {0x446240, [], SA_RESTORER|SA_RESTART, 0x7f967d7fad40}, {0x446240, [], SA_RESTORER|SA_RESTART, 0x7f967d7fad40}, 8) = 0
+1552428491.967560 close(4<pipe:[2604312]>) = 0
+1552428491.967582 read(3<pipe:[2604312]>, "/home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart\n", 128) = 101
+1552428491.967897 read(3<pipe:[2604312]>, "", 128) = 0
+1552428491.967988 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=21119, si_status=0, si_utime=0, si_stime=0} ---
+1552428491.968001 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 21119
+1552428491.968027 wait4(-1, 0x7ffceb018cd8, WNOHANG, NULL) = -1 ECHILD (No child processes)
+1552428491.968044 rt_sigreturn() = 0
+1552428491.968059 close(3<pipe:[2604312]>) = 0
+1552428491.968079 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+1552428491.968097 rt_sigaction(SIGINT, {0x443620, [], SA_RESTORER, 0x7f967d7fad40}, {SIG_DFL, [], SA_RESTORER, 0x7f967d7fad40}, 8) = 0
+1552428491.968115 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f967d7fad40}, {0x443620, [], SA_RESTORER, 0x7f967d7fad40}, 8) = 0
+1552428491.968134 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+1552428491.968164 read(255</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle>, "cd \"`dirname \\\"$PRG\\\"`/..\" >/dev/null\nAPP_HOME=\"`pwd -P`\"\ncd \"$SAVED\" >/dev/null\n\nAPP_NAME=\"Gradle\"\nAPP_BASE_NAME=`basename \"$0\"`\n\n# Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.\nDEFAULT_JVM_OPTS=\"\"\n\n# Use the maximum available, or set MAX_FD != -1 to use that value.\nMAX_FD=\"maximum\"\n\nwarn ( ) {\n    echo \"$*\"\n}\n\ndie ( ) {\n    echo\n    echo \"$*\"\n    echo\n    exit 1\n}\n\n# OS specific support (must be 'true' or 'false').\ncygwin=false\nmsys=false\ndarwin=false\nnonstop=false\ncase \"`uname`\" in\n  CYGWIN* )\n    cygwin=true\n    ;;\n  Darwin* )\n    darwin=true\n    ;;\n  MINGW* )\n    msys=true\n    ;;\n  NONSTOP* )\n    nonstop=true\n    ;;\nesac\n\nCLASSPATH=$APP_HOME/lib/gradle-launcher-3.1.jar\n\n# Determine the Java command to use to start the JVM.\nif [ -n \"$JAVA_HOME\" ] ; then\n    if [ -x \"$JAVA_HOME/jre/sh/java\" ] ; then\n        # IBM's JDK on AIX uses strange locations for the executables\n        JAVACMD=\"$JAVA_HOME/jre/sh/java\"\n    else\n   "..., 5232) = 4681
+1552428491.968198 pipe([3, 4]) = 0
+1552428491.968216 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+1552428491.968233 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+1552428491.968250 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0
+1552428491.968267 lseek(255</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle>, -4643, SEEK_CUR) = 589
+1552428491.968284 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f967e1baa10) = 21120
+1552428491.968351 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+1552428491.968381 rt_sigaction(SIGCHLD, {0x446240, [], SA_RESTORER|SA_RESTART, 0x7f967d7fad40}, {0x446240, [], SA_RESTORER|SA_RESTART, 0x7f967d7fad40}, 8) = 0
+1552428491.968400 close(4<pipe:[2604313]>) = 0
+1552428491.968420 read(3<pipe:[2604313]>, "/home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin\n", 128) = 62
+1552428491.970221 read(3<pipe:[2604313]>, "", 128) = 0
+1552428491.970237 close(3<pipe:[2604313]>) = 0
+1552428491.970255 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+1552428491.970272 rt_sigaction(SIGINT, {0x443620, [], SA_RESTORER, 0x7f967d7fad40}, {SIG_DFL, [], SA_RESTORER, 0x7f967d7fad40}, 8) = 0
+1552428491.970291 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 21120
+1552428491.970318 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f967d7fad40}, {0x443620, [], SA_RESTORER, 0x7f967d7fad40}, 8) = 0
+1552428491.970336 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+1552428491.970352 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=21120, si_status=0, si_utime=0, si_stime=0} ---
+1552428491.970362 wait4(-1, 0x7ffceb018c98, WNOHANG, NULL) = -1 ECHILD (No child processes)
+1552428491.970378 rt_sigreturn() = 0
+1552428491.970406 open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+1552428491.970427 fcntl(1</dev/pts/17>, F_GETFD) = 0
+1552428491.970447 fcntl(1</dev/pts/17>, F_DUPFD, 10) = 10
+1552428491.970467 fcntl(1</dev/pts/17>, F_GETFD) = 0
+1552428491.970485 fcntl(10</dev/pts/17>, F_SETFD, FD_CLOEXEC) = 0
+1552428491.970504 dup2(3</dev/null>, 1</dev/pts/17>) = 1
+1552428491.970521 close(3</dev/null>) = 0
+1552428491.970540 stat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+1552428491.970557 stat("/home/foyzulhassan", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+1552428491.970574 stat("/home/foyzulhassan/AutoBuilder_Lib_Path", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+1552428491.970590 stat("/home/foyzulhassan/AutoBuilder_Lib_Path/Gradle", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+1552428491.970606 stat("/home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+1552428491.970668 stat("/home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+1552428491.970685 stat("/home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+1552428491.970706 chdir("/home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1") = 0
+1552428491.970727 dup2(10</dev/pts/17>, 1</dev/null>) = 1
+1552428491.970746 fcntl(10</dev/pts/17>, F_GETFD) = 0x1 (flags FD_CLOEXEC)
+1552428491.970763 close(10</dev/pts/17>) = 0
+1552428491.970781 read(255</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle>, "APP_HOME=\"`pwd -P`\"\ncd \"$SAVED\" >/dev/null\n\nAPP_NAME=\"Gradle\"\nAPP_BASE_NAME=`basename \"$0\"`\n\n# Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.\nDEFAULT_JVM_OPTS=\"\"\n\n# Use the maximum available, or set MAX_FD != -1 to use that value.\nMAX_FD=\"maximum\"\n\nwarn ( ) {\n    echo \"$*\"\n}\n\ndie ( ) {\n    echo\n    echo \"$*\"\n    echo\n    exit 1\n}\n\n# OS specific support (must be 'true' or 'false').\ncygwin=false\nmsys=false\ndarwin=false\nnonstop=false\ncase \"`uname`\" in\n  CYGWIN* )\n    cygwin=true\n    ;;\n  Darwin* )\n    darwin=true\n    ;;\n  MINGW* )\n    msys=true\n    ;;\n  NONSTOP* )\n    nonstop=true\n    ;;\nesac\n\nCLASSPATH=$APP_HOME/lib/gradle-launcher-3.1.jar\n\n# Determine the Java command to use to start the JVM.\nif [ -n \"$JAVA_HOME\" ] ; then\n    if [ -x \"$JAVA_HOME/jre/sh/java\" ] ; then\n        # IBM's JDK on AIX uses strange locations for the executables\n        JAVACMD=\"$JAVA_HOME/jre/sh/java\"\n    else\n        JAVACMD=\"$JAVA_HOME/bin/java\"\n   "..., 5232) = 4643
+1552428491.970810 pipe([3, 4]) = 0
+1552428491.970826 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+1552428491.970843 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+1552428491.970858 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0
+1552428491.970874 lseek(255</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle>, -4623, SEEK_CUR) = 609
+1552428491.970891 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f967e1baa10) = 21121
+1552428491.970960 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+1552428491.970990 rt_sigaction(SIGCHLD, {0x446240, [], SA_RESTORER|SA_RESTART, 0x7f967d7fad40}, {0x446240, [], SA_RESTORER|SA_RESTART, 0x7f967d7fad40}, 8) = 0
+1552428491.971009 close(4<pipe:[2604314]>) = 0
+1552428491.971028 read(3<pipe:[2604314]>, "/home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1\n", 128) = 58
+1552428491.971943 read(3<pipe:[2604314]>, "", 128) = 0
+1552428491.972048 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=21121, si_status=0, si_utime=0, si_stime=0} ---
+1552428491.972059 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 21121
+1552428491.972084 wait4(-1, 0x7ffceb018cd8, WNOHANG, NULL) = -1 ECHILD (No child processes)
+1552428491.972100 rt_sigreturn() = 0
+1552428491.972115 close(3<pipe:[2604314]>) = 0
+1552428491.972135 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+1552428491.972152 rt_sigaction(SIGINT, {0x443620, [], SA_RESTORER, 0x7f967d7fad40}, {SIG_DFL, [], SA_RESTORER, 0x7f967d7fad40}, 8) = 0
+1552428491.972170 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f967d7fad40}, {0x443620, [], SA_RESTORER, 0x7f967d7fad40}, 8) = 0
+1552428491.972187 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+1552428491.972216 read(255</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle>, "cd \"$SAVED\" >/dev/null\n\nAPP_NAME=\"Gradle\"\nAPP_BASE_NAME=`basename \"$0\"`\n\n# Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.\nDEFAULT_JVM_OPTS=\"\"\n\n# Use the maximum available, or set MAX_FD != -1 to use that value.\nMAX_FD=\"maximum\"\n\nwarn ( ) {\n    echo \"$*\"\n}\n\ndie ( ) {\n    echo\n    echo \"$*\"\n    echo\n    exit 1\n}\n\n# OS specific support (must be 'true' or 'false').\ncygwin=false\nmsys=false\ndarwin=false\nnonstop=false\ncase \"`uname`\" in\n  CYGWIN* )\n    cygwin=true\n    ;;\n  Darwin* )\n    darwin=true\n    ;;\n  MINGW* )\n    msys=true\n    ;;\n  NONSTOP* )\n    nonstop=true\n    ;;\nesac\n\nCLASSPATH=$APP_HOME/lib/gradle-launcher-3.1.jar\n\n# Determine the Java command to use to start the JVM.\nif [ -n \"$JAVA_HOME\" ] ; then\n    if [ -x \"$JAVA_HOME/jre/sh/java\" ] ; then\n        # IBM's JDK on AIX uses strange locations for the executables\n        JAVACMD=\"$JAVA_HOME/jre/sh/java\"\n    else\n        JAVACMD=\"$JAVA_HOME/bin/java\"\n    fi\n    if [ ! -x \"$"..., 5232) = 4623
+1552428491.972262 open("/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+1552428491.972283 fcntl(1</dev/pts/17>, F_GETFD) = 0
+1552428491.972300 fcntl(1</dev/pts/17>, F_DUPFD, 10) = 10
+1552428491.972316 fcntl(1</dev/pts/17>, F_GETFD) = 0
+1552428491.972332 fcntl(10</dev/pts/17>, F_SETFD, FD_CLOEXEC) = 0
+1552428491.972350 dup2(3</dev/null>, 1</dev/pts/17>) = 1
+1552428491.972367 close(3</dev/null>) = 0
+1552428491.972384 stat("/home", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+1552428491.972402 stat("/home/foyzulhassan", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+1552428491.972419 stat("/home/foyzulhassan/Fault_Localization_strace", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+1552428491.972436 stat("/home/foyzulhassan/Fault_Localization_strace/analysis", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+1552428491.972452 stat("/home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+1552428491.972469 stat("/home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+1552428491.972486 chdir("/home/foyzulhassan/Fault_Localization_strace/analysis/analysis_projects/gradle-build-scan-quickstart") = 0
+1552428491.972505 dup2(10</dev/pts/17>, 1</dev/null>) = 1
+1552428491.972523 fcntl(10</dev/pts/17>, F_GETFD) = 0x1 (flags FD_CLOEXEC)
+1552428491.972542 close(10</dev/pts/17>) = 0
+1552428491.972570 pipe([3, 4]) = 0
+1552428491.972588 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+1552428491.972604 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+1552428491.972619 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0
+1552428491.972636 lseek(255</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle>, -4551, SEEK_CUR) = 681
+1552428491.972652 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f967e1baa10) = 21122
+1552428491.972711 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+1552428491.972768 rt_sigaction(SIGCHLD, {0x446240, [], SA_RESTORER|SA_RESTART, 0x7f967d7fad40}, {0x446240, [], SA_RESTORER|SA_RESTART, 0x7f967d7fad40}, 8) = 0
+1552428491.972805 close(4<pipe:[2604315]>) = 0
+1552428491.972828 read(3<pipe:[2604315]>, "gradle\n", 128) = 7
+1552428491.975049 read(3<pipe:[2604315]>, "", 128) = 0
+1552428491.975080 close(3<pipe:[2604315]>) = 0
+1552428491.975131 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+1552428491.975165 rt_sigaction(SIGINT, {0x443620, [], SA_RESTORER, 0x7f967d7fad40}, {SIG_DFL, [], SA_RESTORER, 0x7f967d7fad40}, 8) = 0
+1552428491.975224 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 21122
+1552428491.975272 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f967d7fad40}, {0x443620, [], SA_RESTORER, 0x7f967d7fad40}, 8) = 0
+1552428491.975306 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+1552428491.975337 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=21122, si_status=0, si_utime=0, si_stime=0} ---
+1552428491.975357 wait4(-1, 0x7ffceb018cd8, WNOHANG, NULL) = -1 ECHILD (No child processes)
+1552428491.975388 rt_sigreturn() = 0
+1552428491.975438 read(255</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle>, "\n# Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.\nDEFAULT_JVM_OPTS=\"\"\n\n# Use the maximum available, or set MAX_FD != -1 to use that value.\nMAX_FD=\"maximum\"\n\nwarn ( ) {\n    echo \"$*\"\n}\n\ndie ( ) {\n    echo\n    echo \"$*\"\n    echo\n    exit 1\n}\n\n# OS specific support (must be 'true' or 'false').\ncygwin=false\nmsys=false\ndarwin=false\nnonstop=false\ncase \"`uname`\" in\n  CYGWIN* )\n    cygwin=true\n    ;;\n  Darwin* )\n    darwin=true\n    ;;\n  MINGW* )\n    msys=true\n    ;;\n  NONSTOP* )\n    nonstop=true\n    ;;\nesac\n\nCLASSPATH=$APP_HOME/lib/gradle-launcher-3.1.jar\n\n# Determine the Java command to use to start the JVM.\nif [ -n \"$JAVA_HOME\" ] ; then\n    if [ -x \"$JAVA_HOME/jre/sh/java\" ] ; then\n        # IBM's JDK on AIX uses strange locations for the executables\n        JAVACMD=\"$JAVA_HOME/jre/sh/java\"\n    else\n        JAVACMD=\"$JAVA_HOME/bin/java\"\n    fi\n    if [ ! -x \"$JAVACMD\" ] ; then\n        die \"ERROR: JAVA_HOME is set to an invalid dir"..., 5232) = 4551
+1552428491.975638 pipe([3, 4]) = 0
+1552428491.975673 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+1552428491.975705 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+1552428491.975735 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0
+1552428491.975767 lseek(255</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle>, -3984, SEEK_CUR) = 1248
+1552428491.975801 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f967e1baa10) = 21123
+1552428491.975944 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+1552428491.976005 rt_sigaction(SIGCHLD, {0x446240, [], SA_RESTORER|SA_RESTART, 0x7f967d7fad40}, {0x446240, [], SA_RESTORER|SA_RESTART, 0x7f967d7fad40}, 8) = 0
+1552428491.976042 close(4<pipe:[2604316]>) = 0
+1552428491.976081 read(3<pipe:[2604316]>, "Linux\n", 128) = 6
+1552428491.979870 read(3<pipe:[2604316]>, "", 128) = 0
+1552428491.979902 close(3<pipe:[2604316]>) = 0
+1552428491.979953 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+1552428491.979992 rt_sigaction(SIGINT, {0x443620, [], SA_RESTORER, 0x7f967d7fad40}, {SIG_DFL, [], SA_RESTORER, 0x7f967d7fad40}, 8) = 0
+1552428491.980046 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 21123
+1552428491.980093 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f967d7fad40}, {0x443620, [], SA_RESTORER, 0x7f967d7fad40}, 8) = 0
+1552428491.980128 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+1552428491.980162 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=21123, si_status=0, si_utime=0, si_stime=0} ---
+1552428491.980183 wait4(-1, 0x7ffceb018dd8, WNOHANG, NULL) = -1 ECHILD (No child processes)
+1552428491.980213 rt_sigreturn() = 0
+1552428491.980268 read(255</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle>, "\nCLASSPATH=$APP_HOME/lib/gradle-launcher-3.1.jar\n\n# Determine the Java command to use to start the JVM.\nif [ -n \"$JAVA_HOME\" ] ; then\n    if [ -x \"$JAVA_HOME/jre/sh/java\" ] ; then\n        # IBM's JDK on AIX uses strange locations for the executables\n        JAVACMD=\"$JAVA_HOME/jre/sh/java\"\n    else\n        JAVACMD=\"$JAVA_HOME/bin/java\"\n    fi\n    if [ ! -x \"$JAVACMD\" ] ; then\n        die \"ERROR: JAVA_HOME is set to an invalid directory: $JAVA_HOME\n\nPlease set the JAVA_HOME variable in your environment to match the\nlocation of your Java installation.\"\n    fi\nelse\n    JAVACMD=\"java\"\n    which java >/dev/null 2>&1 || die \"ERROR: JAVA_HOME is not set and no 'java' command could be found in your PATH.\n\nPlease set the JAVA_HOME variable in your environment to match the\nlocation of your Java installation.\"\nfi\n\n# Increase the maximum file descriptors if we can.\nif [ \"$cygwin\" = \"false\" -a \"$darwin\" = \"false\" -a \"$nonstop\" = \"false\" ] ; then\n    MAX_FD_LIMIT=`ulimit -H -n`\n    if [ $? -eq 0 ] ;"..., 5232) = 3984
+1552428491.980439 brk(0x1c88000) = 0x1c88000
+1552428491.980525 faccessat(AT_FDCWD, "/usr/local/java/jdk1.8.0_65/jre/sh/java", X_OK) = -1 ENOENT (No such file or directory)
+1552428491.980581 faccessat(AT_FDCWD, "/usr/local/java/jdk1.8.0_65/bin/java", X_OK) = 0
+1552428491.980710 brk(0x1c89000) = 0x1c89000
+1552428491.980762 pipe([3, 4]) = 0
+1552428491.980795 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+1552428491.980827 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+1552428491.980856 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0
+1552428491.980888 lseek(255</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle>, -2632, SEEK_CUR) = 2600
+1552428491.980921 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f967e1baa10) = 21124
+1552428491.981068 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+1552428491.981144 rt_sigaction(SIGCHLD, {0x446240, [], SA_RESTORER|SA_RESTART, 0x7f967d7fad40}, {0x446240, [], SA_RESTORER|SA_RESTART, 0x7f967d7fad40}, 8) = 0
+1552428491.981183 close(4<pipe:[2603732]>) = 0
+1552428491.981223 read(3<pipe:[2603732]>, "4096\n", 128) = 5
+1552428491.981916 read(3<pipe:[2603732]>, "", 128) = 0
+1552428491.982084 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=21124, si_status=0, si_utime=0, si_stime=0} ---
+1552428491.982102 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], WNOHANG, NULL) = 21124
+1552428491.982147 wait4(-1, 0x7ffceb018bd8, WNOHANG, NULL) = -1 ECHILD (No child processes)
+1552428491.982177 rt_sigreturn() = 0
+1552428491.982205 close(3<pipe:[2603732]>) = 0
+1552428491.982241 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+1552428491.982273 rt_sigaction(SIGINT, {0x443620, [], SA_RESTORER, 0x7f967d7fad40}, {SIG_DFL, [], SA_RESTORER, 0x7f967d7fad40}, 8) = 0
+1552428491.982307 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f967d7fad40}, {0x443620, [], SA_RESTORER, 0x7f967d7fad40}, 8) = 0
+1552428491.982339 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+1552428491.982436 brk(0x1c8a000) = 0x1c8a000
+1552428491.982495 getrlimit(RLIMIT_NOFILE, {rlim_cur=1024, rlim_max=4*1024}) = 0
+1552428491.982545 getrlimit(RLIMIT_NOFILE, {rlim_cur=1024, rlim_max=4*1024}) = 0
+1552428491.982576 setrlimit(RLIMIT_NOFILE, {rlim_cur=4*1024, rlim_max=4*1024}) = 0
+1552428491.982636 read(255</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle>, "\n# For Darwin, add options to specify how the application appears in the dock\nif $darwin; then\n    GRADLE_OPTS=\"$GRADLE_OPTS \\\"-Xdock:name=$APP_NAME\\\" \\\"-Xdock:icon=$APP_HOME/media/gradle.icns\\\"\"\nfi\n\n# For Cygwin, switch paths to Windows format before running java\nif $cygwin ; then\n    APP_HOME=`cygpath --path --mixed \"$APP_HOME\"`\n    CLASSPATH=`cygpath --path --mixed \"$CLASSPATH\"`\n    JAVACMD=`cygpath --unix \"$JAVACMD\"`\n\n    # We build the pattern for arguments to be converted via cygpath\n    ROOTDIRSRAW=`find -L / -maxdepth 1 -mindepth 1 -type d 2>/dev/null`\n    SEP=\"\"\n    for dir in $ROOTDIRSRAW ; do\n        ROOTDIRS=\"$ROOTDIRS$SEP$dir\"\n        SEP=\"|\"\n    done\n    OURCYGPATTERN=\"(^($ROOTDIRS))\"\n    # Add a user-defined pattern to the cygpath arguments\n    if [ \"$GRADLE_CYGPATTERN\" != \"\" ] ; then\n        OURCYGPATTERN=\"$OURCYGPATTERN|($GRADLE_CYGPATTERN)\"\n    fi\n    # Now convert the arguments - kludge to limit ourselves to /bin/sh\n    i=0\n    for arg in \"$@\" ; do\n        CHECK=`ech"..., 5232) = 2632
+1552428491.982962 brk(0x1c8b000) = 0x1c8b000
+1552428491.983059 brk(0x1c8c000) = 0x1c8c000
+1552428491.983127 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+1552428491.983267 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+1552428491.983306 rt_sigprocmask(SIG_BLOCK, NULL, [], 8) = 0
+1552428491.983341 pipe([3, 4]) = 0
+1552428491.983375 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+1552428491.983406 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+1552428491.983435 rt_sigprocmask(SIG_BLOCK, [INT CHLD], [], 8) = 0
+1552428491.983466 lseek(255</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle>, -94, SEEK_CUR) = 5138
+1552428491.983500 clone(child_stack=0, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f967e1baa10) = 21125
+1552428491.983635 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+1552428491.983695 rt_sigaction(SIGCHLD, {0x446240, [], SA_RESTORER|SA_RESTART, 0x7f967d7fad40}, {0x446240, [], SA_RESTORER|SA_RESTART, 0x7f967d7fad40}, 8) = 0
+1552428491.983733 close(4<pipe:[2605492]>) = 0
+1552428491.983771 read(3<pipe:[2605492]>, "Linux\n", 128) = 6
+1552428491.987960 read(3<pipe:[2605492]>, "", 128) = 0
+1552428491.987997 close(3<pipe:[2605492]>) = 0
+1552428491.988056 rt_sigprocmask(SIG_BLOCK, [CHLD], [], 8) = 0
+1552428491.988096 rt_sigaction(SIGINT, {0x443620, [], SA_RESTORER, 0x7f967d7fad40}, {SIG_DFL, [], SA_RESTORER, 0x7f967d7fad40}, 8) = 0
+1552428491.988140 wait4(-1, [{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 21125
+1552428491.988211 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f967d7fad40}, {0x443620, [], SA_RESTORER, 0x7f967d7fad40}, 8) = 0
+1552428491.988251 rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+1552428491.988286 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=21125, si_status=0, si_utime=0, si_stime=0} ---
+1552428491.988307 wait4(-1, 0x7ffceb018a58, WNOHANG, NULL) = -1 ECHILD (No child processes)
+1552428491.988342 rt_sigreturn() = 0
+1552428491.988453 read(255</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/bin/gradle>, "\nexec \"$JAVACMD\" \"${JVM_OPTS[@]}\" -classpath \"$CLASSPATH\" org.gradle.launcher.GradleMain \"$@\"\n", 5232) = 94
+1552428491.988639 brk(0x1c8d000) = 0x1c8d000
+1552428491.988691 rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f967d7fad40}, {SIG_DFL, [], SA_RESTORER, 0x7f967d7fad40}, 8) = 0
+1552428491.988729 rt_sigaction(SIGQUIT, {SIG_DFL, [], SA_RESTORER, 0x7f967d7fad40}, {SIG_IGN, [], SA_RESTORER, 0x7f967d7fad40}, 8) = 0
+1552428491.988766 rt_sigaction(SIGCHLD, {SIG_DFL, [], SA_RESTORER|SA_RESTART, 0x7f967d7fad40}, {0x446240, [], SA_RESTORER|SA_RESTART, 0x7f967d7fad40}, 8) = 0
+1552428491.988809 execve("/usr/local/java/jdk1.8.0_65/bin/java", ["/usr/local/java/jdk1.8.0_65/bin/java", "-Dorg.gradle.appname=gradle", "-classpath", "/home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-launcher-3.1.jar", "org.gradle.launcher.GradleMain", "build"], [/* 72 vars */]) = 0
+1552428491.989178 brk(0) = 0xe13000
+1552428491.989226 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+1552428491.989268 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f843d2c0000
+1552428491.989312 readlink("/proc/self/exe", "/usr/local/java/jdk1.8.0_65/bin/java", 4096) = 36
+1552428491.989395 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+1552428491.989456 open("/usr/local/java/jdk1.8.0_65/bin/../lib/amd64/jli/tls/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1552428491.989506 stat("/usr/local/java/jdk1.8.0_65/bin/../lib/amd64/jli/tls/x86_64", 0x7ffedf2ab630) = -1 ENOENT (No such file or directory)
+1552428491.989542 open("/usr/local/java/jdk1.8.0_65/bin/../lib/amd64/jli/tls/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1552428491.989655 stat("/usr/local/java/jdk1.8.0_65/bin/../lib/amd64/jli/tls", 0x7ffedf2ab630) = -1 ENOENT (No such file or directory)
+1552428491.989692 open("/usr/local/java/jdk1.8.0_65/bin/../lib/amd64/jli/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1552428491.989762 stat("/usr/local/java/jdk1.8.0_65/bin/../lib/amd64/jli/x86_64", 0x7ffedf2ab630) = -1 ENOENT (No such file or directory)
+1552428491.989936 open("/usr/local/java/jdk1.8.0_65/bin/../lib/amd64/jli/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1552428491.990030 stat("/usr/local/java/jdk1.8.0_65/bin/../lib/amd64/jli", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+1552428491.990142 open("/usr/local/java/jdk1.8.0_65/bin/../lib/amd64/tls/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1552428491.990187 stat("/usr/local/java/jdk1.8.0_65/bin/../lib/amd64/tls/x86_64", 0x7ffedf2ab630) = -1 ENOENT (No such file or directory)
+1552428491.990229 open("/usr/local/java/jdk1.8.0_65/bin/../lib/amd64/tls/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1552428491.990271 stat("/usr/local/java/jdk1.8.0_65/bin/../lib/amd64/tls", 0x7ffedf2ab630) = -1 ENOENT (No such file or directory)
+1552428491.990307 open("/usr/local/java/jdk1.8.0_65/bin/../lib/amd64/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1552428491.990344 stat("/usr/local/java/jdk1.8.0_65/bin/../lib/amd64/x86_64", 0x7ffedf2ab630) = -1 ENOENT (No such file or directory)
+1552428491.990378 open("/usr/local/java/jdk1.8.0_65/bin/../lib/amd64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1552428491.990414 stat("/usr/local/java/jdk1.8.0_65/bin/../lib/amd64", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+1552428491.990490 open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+1552428491.990530 fstat(3</etc/ld.so.cache>, {st_mode=S_IFREG|0644, st_size=101133, ...}) = 0
+1552428491.990587 mmap(NULL, 101133, PROT_READ, MAP_PRIVATE, 3</etc/ld.so.cache>, 0) = 0x7f843d2a7000
+1552428491.990630 close(3</etc/ld.so.cache>) = 0
+1552428491.990668 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+1552428491.990715 open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+1552428491.990753 read(3</lib/x86_64-linux-gnu/libpthread-2.19.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0po\0\0\0\0\0\0@\0\0\0\0\0\0\0h\225\1\0\0\0\0\0\0\0\0\0@\0008\0\t\0@\0%\0\"\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0\370\1\0\0\0\0\0\0\370\1\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0\240/\1\0\0\0\0\0\240/\1\0\0\0\0\0\240/\1\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\334\210\1\0\0\0\0\0\334\210\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0x\213\1\0\0\0\0\0x\213!\0\0\0\0\0x\213!\0\0\0\0\0x\7\0\0\0\0\0\0\270I\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0P\215\1\0\0\0\0\0P\215!\0\0\0\0\0P\215!\0\0\0\0\0000\2\0\0\0\0\0\0000\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0008\2\0\0\0\0\0\0008\2\0\0\0\0\0\0008\2\0\0\0\0\0\0D\0\0\0\0\0\0\0D\0\0\0\0\0\0\0\4\0\0\0\0\0\0\0P\345td\4\0\0\0\274/\1\0\0\0\0\0\274/\1\0\0\0\0\0\274/\1\0\0\0\0\0\344\n\0\0\0\0\0\0\344\n\0\0\0\0\0\0\4\0\0\0\0\0\0\0Q\345td\6\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0R\345td\4\0\0\0x\213\1\0\0\0\0\0x\213!\0\0\0\0\0x\213!\0\0\0\0\0\210\4\0\0\0\0\0\0\210\4\0\0\0\0\0\0\1\0\0\0\0\0\0\0\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\223\30\350\257\v\373\344Ds\33\260F\22\2\357W\367\303\225B\4\0\0\0\20\0\0\0\1\0\0\0GNU\0\0\0\0\0\2\0\0\0\6\0\0\0\30\0\0\0\0\0\0\0\345\1\0\0V\0\0\0 \0\0\0\v\0\0\0\31#\2\261\1\10\20\2@@a\370\3\10\10\25\200 \0\0\0\0\200\300\321Q\0\0\0\22\353\3020D\0\10\20A\0\2\0\2\f\1\200\v\221\1\330\240\r\240@\230 \244\200\21\n\202-l@g\214V\24\0\224 \200$H\200P(\1\22\f\311B\240\220\22\10\f \2ZdA\245c\4@\n\n\n\0\2009\1(\314@\204\201@\22\10(\fD\0\0\0\200Q\10\200\35\4B\320\2608A\0\1\0\0\265\0300\0\200`\2\20\"\0\tA\20\1\5\0P(\251\22G(\0\0\202\4\230@\4\0\20\340T\0\2@\2\2\20\3010D\26\200\0", 832) = 832
+1552428491.990806 fstat(3</lib/x86_64-linux-gnu/libpthread-2.19.so>, {st_mode=S_IFREG|0755, st_size=141574, ...}) = 0
+1552428491.990850 mmap(NULL, 2217264, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpthread-2.19.so>, 0) = 0x7f843ce82000
+1552428491.990908 mprotect(0x7f843ce9b000, 2093056, PROT_NONE) = 0
+1552428491.990948 mmap(0x7f843d09a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libpthread-2.19.so>, 0x18000) = 0x7f843d09a000
+1552428491.991001 mmap(0x7f843d09c000, 13616, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f843d09c000
+1552428491.991046 close(3</lib/x86_64-linux-gnu/libpthread-2.19.so>) = 0
+1552428491.991089 open("/usr/local/java/jdk1.8.0_65/bin/../lib/amd64/jli/libjli.so", O_RDONLY|O_CLOEXEC) = 3
+1552428491.991129 read(3</usr/local/java/jdk1.8.0_65/lib/amd64/jli/libjli.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20#\0\0\0\0\0\0@\0\0\0\0\0\0\0PZ\1\0\0\0\0\0\0\0\0\0@\0008\0\6\0@\0\36\0\33\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\214M\1\0\0\0\0\0\214M\1\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\0P\1\0\0\0\0\0\0P!\0\0\0\0\0\0P!\0\0\0\0\0\310\5\0\0\0\0\0\0\310\6\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\370P\1\0\0\0\0\0\370P!\0\0\0\0\0\370P!\0\0\0\0\0\0\2\0\0\0\0\0\0\0\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0\220\1\0\0\0\0\0\0\220\1\0\0\0\0\0\0\220\1\0\0\0\0\0\0$\0\0\0\0\0\0\0$\0\0\0\0\0\0\0\4\0\0\0\0\0\0\0P\345td\4\0\0\00049\1\0\0\0\0\00049\1\0\0\0\0\00049\1\0\0\0\0\0\304\3\0\0\0\0\0\0\304\3\0\0\0\0\0\0\4\0\0\0\0\0\0\0Q\345td\6\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0\0\0\0\0\0\4\0\0\0\24\0\0\0\3\0\0\0GNU\0vi\33\375\230\340mV\251F\"\344\325\255?\305~\372}\342\0\0\0\0\247\0\0\0[\0\0\0\0\0\0\0006\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0005\0\0\0N\0\0\0\0\0\0\0\0\0\0\0E\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0003\0\0\0W\0\0\0\0\0\0\0\0\0\0\0000\0\0\0\0\0\0\0\0\0\0\0Q\0\0\0\27\0\0\0#\0\0\0\0\0\0\0\0\0\0\0\n\0\0\0001\0\0\0\0\0\0\0\0\0\0\0>\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0004\0\0\0\0\0\0\0:\0\0\0008\0\0\0(\0\0\0\36\0\0\0S\0\0\0\0\0\0\0K\0\0\0\0\0\0\0\0\0\0\0\"\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0T\0\0\0\r\0\0\0002\0\0\0\0\0\0\0\0\0\0\0X\0\0\0\6\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\22\0\0\0\2\0\0\0F\0\0\0*\0\0\0 \0\0\0009\0\0\0P\0\0\0.\0\0\0B\0\0\0=\0\0\0Y\0\0\0\0\0\0\0\23\0\0\0O\0\0\0\0\0\0\0H\0\0\0M\0\0\0\0\0\0\0,\0\0\0\25\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0D\0\0\0C\0\0\0\0\0\0\0", 832) = 832
+1552428491.991185 fstat(3</usr/local/java/jdk1.8.0_65/lib/amd64/jli/libjli.so>, {st_mode=S_IFREG|0755, st_size=102990, ...}) = 0
+1552428491.991226 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f843d2a6000
+1552428491.991266 mmap(NULL, 2184904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/local/java/jdk1.8.0_65/lib/amd64/jli/libjli.so>, 0) = 0x7f843cc6c000
+1552428491.991305 mprotect(0x7f843cc81000, 2097152, PROT_NONE) = 0
+1552428491.991340 mmap(0x7f843ce81000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/local/java/jdk1.8.0_65/lib/amd64/jli/libjli.so>, 0x15000) = 0x7f843ce81000
+1552428491.991388 close(3</usr/local/java/jdk1.8.0_65/lib/amd64/jli/libjli.so>) = 0
+1552428491.991430 open("/usr/local/java/jdk1.8.0_65/bin/../lib/amd64/jli/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1552428491.991469 open("/usr/local/java/jdk1.8.0_65/bin/../lib/amd64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1552428491.991505 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+1552428491.991547 open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+1552428491.991586 read(3</lib/x86_64-linux-gnu/libdl-2.19.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\16\0\0\0\0\0\0@\0\0\0\0\0\0\0\3101\0\0\0\0\0\0\0\0\0\0@\0008\0\t\0@\0\36\0\35\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0\370\1\0\0\0\0\0\0\370\1\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0\200\32\0\0\0\0\0\0\200\32\0\0\0\0\0\0\200\32\0\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0` \0\0\0\0\0\0` \0\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0`-\0\0\0\0\0\0`- \0\0\0\0\0`- \0\0\0\0\0@\3\0\0\0\0\0\0\320\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\210-\0\0\0\0\0\0\210- \0\0\0\0\0\210- \0\0\0\0\0\20\2\0\0\0\0\0\0\20\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0008\2\0\0\0\0\0\0008\2\0\0\0\0\0\0008\2\0\0\0\0\0\0D\0\0\0\0\0\0\0D\0\0\0\0\0\0\0\4\0\0\0\0\0\0\0P\345td\4\0\0\0\234\32\0\0\0\0\0\0\234\32\0\0\0\0\0\0\234\32\0\0\0\0\0\0\274\0\0\0\0\0\0\0\274\0\0\0\0\0\0\0\4\0\0\0\0\0\0\0Q\345td\6\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0R\345td\4\0\0\0`-\0\0\0\0\0\0`- \0\0\0\0\0`- \0\0\0\0\0\240\2\0\0\0\0\0\0\240\2\0\0\0\0\0\0\1\0\0\0\0\0\0\0\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\301\256L\267\31]3zw\243\306\211\5\35\253\2529\200\312\f\4\0\0\0\20\0\0\0\1\0\0\0GNU\0\0\0\0\0\2\0\0\0\6\0\0\0\30\0\0\0\0\0\0\0\33\0\0\0\33\0\0\0\2\0\0\0\7\0\0\0\230\2\21\0\200H\0\4\22\0\0@\203(\10\236\33\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\0\0\0\0\35\0\0\0\0\0\0\0\36\0\0\0\0\0\0\0\37\0\0\0\0\0\0\0 \0\0\0\0\0\0\0!\0\0\0#\0\0\0$\0\0\0&\0\0\0'\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0(\0\0\0\0\0\0\0\0\0\0\0\353\26\251\30a\257\0\371\301S\200\30\273\25sB\257\304M\17\221!\374\370\6\2\4\371\3733\373\17\371\31sB\372\31sB\225\263_\31\177\236\320\30a\242\222\6", 832) = 832
+1552428491.991636 fstat(3</lib/x86_64-linux-gnu/libdl-2.19.so>, {st_mode=S_IFREG|0644, st_size=14664, ...}) = 0
+1552428491.991676 mmap(NULL, 2109744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdl-2.19.so>, 0) = 0x7f843ca68000
+1552428491.991722 mprotect(0x7f843ca6b000, 2093056, PROT_NONE) = 0
+1552428491.991759 mmap(0x7f843cc6a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libdl-2.19.so>, 0x2000) = 0x7f843cc6a000
+1552428491.991809 close(3</lib/x86_64-linux-gnu/libdl-2.19.so>) = 0
+1552428491.991848 open("/usr/local/java/jdk1.8.0_65/bin/../lib/amd64/jli/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1552428491.991886 open("/usr/local/java/jdk1.8.0_65/bin/../lib/amd64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1552428491.991923 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+1552428491.991963 open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+1552428491.992000 read(3</lib/x86_64-linux-gnu/libc-2.19.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\37\2\0\0\0\0\0@\0\0\0\0\0\0\0 \6\34\0\0\0\0\0\0\0\0\0@\0008\0\n\0@\0D\0C\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0000\2\0\0\0\0\0\0000\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0000\177\30\0\0\0\0\0000\177\30\0\0\0\0\0000\177\30\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\24\240\33\0\0\0\0\0\24\240\33\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0@\247\33\0\0\0\0\0@\247;\0\0\0\0\0@\247;\0\0\0\0\0`Q\0\0\0\0\0\0\200\233\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\240\333\33\0\0\0\0\0\240\333;\0\0\0\0\0\240\333;\0\0\0\0\0\340\1\0\0\0\0\0\0\340\1\0\0\0\0\0\0\10\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0p\2\0\0\0\0\0\0p\2\0\0\0\0\0\0p\2\0\0\0\0\0\0D\0\0\0\0\0\0\0D\0\0\0\0\0\0\0\4\0\0\0\0\0\0\0\7\0\0\0\4\0\0\0@\247\33\0\0\0\0\0@\247;\0\0\0\0\0@\247;\0\0\0\0\0\20\0\0\0\0\0\0\0\260\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0P\345td\4\0\0\0L\177\30\0\0\0\0\0L\177\30\0\0\0\0\0L\177\30\0\0\0\0\0\4g\0\0\0\0\0\0\4g\0\0\0\0\0\0\4\0\0\0\0\0\0\0Q\345td\6\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0R\345td\4\0\0\0@\247\33\0\0\0\0\0@\247;\0\0\0\0\0@\247;\0\0\0\0\0\3008\0\0\0\0\0\0\3008\0\0\0\0\0\0\1\0\0\0\0\0\0\0\4\0\0\0\24\0\0\0\3\0\0\0GNU\0000\311M\306j\37\351Q\200\303\326\215+\211\345v\325\256!<\4\0\0\0\20\0\0\0\1\0\0\0GNU\0\0\0\0\0\2\0\0\0\6\0\0\0\30\0\0\0\0\0\0\0\363\3\0\0\n\0\0\0\0\1\0\0\16\0\0\0\0000\20D\240 \2\1\210\3\346\220\305E\214\0\300\0\10\0\5\200\0`\300\200\0\r\212\f\0\4\20\0\210D2\10.@\210P4, \16\"H&\204\300\214\4\10\0\2\2\16\241\254\32\4f\300\0\3002\0\300\0P\1 \201\10\204\v  ($\0\4 P\0\20X\200\312DB(\0\6\200\20\30B\0 @\200\0\tP\0Q\212@\20\0\0\0\0\10\0\0\21\20", 832) = 832
+1552428491.992050 fstat(3</lib/x86_64-linux-gnu/libc-2.19.so>, {st_mode=S_IFREG|0755, st_size=1840928, ...}) = 0
+1552428491.992092 mmap(NULL, 3949248, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.19.so>, 0) = 0x7f843c6a3000
+1552428491.992132 mprotect(0x7f843c85e000, 2093056, PROT_NONE) = 0
+1552428491.992169 mmap(0x7f843ca5d000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libc-2.19.so>, 0x1ba000) = 0x7f843ca5d000
+1552428491.992215 mmap(0x7f843ca63000, 17088, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f843ca63000
+1552428491.992255 close(3</lib/x86_64-linux-gnu/libc-2.19.so>) = 0
+1552428491.992304 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f843d2a5000
+1552428491.992353 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f843d2a3000
+1552428491.992391 arch_prctl(ARCH_SET_FS, 0x7f843d2a3740) = 0
+1552428491.992539 mprotect(0x7f843ca5d000, 16384, PROT_READ) = 0
+1552428491.992585 mprotect(0x7f843cc6a000, 4096, PROT_READ) = 0
+1552428491.992631 mprotect(0x7f843d09a000, 4096, PROT_READ) = 0
+1552428491.992675 mprotect(0x7f843d2c2000, 4096, PROT_READ) = 0
+1552428491.992710 munmap(0x7f843d2a7000, 101133) = 0
+1552428491.992755 set_tid_address(0x7f843d2a3a10) = 21118
+1552428491.992788 set_robust_list(0x7f843d2a3a20, 24) = 0
+1552428491.992819 futex(0x7ffedf2abe70, FUTEX_WAIT_BITSET_PRIVATE|FUTEX_CLOCK_REALTIME, 1, NULL, 7f843d2a3740) = -1 EAGAIN (Resource temporarily unavailable)
+1552428491.992874 rt_sigaction(SIGRTMIN, {0x7f843ce889f0, [], SA_RESTORER|SA_SIGINFO, 0x7f843ce92340}, NULL, 8) = 0
+1552428491.992915 rt_sigaction(SIGRT_1, {0x7f843ce88a80, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f843ce92340}, NULL, 8) = 0
+1552428491.992951 rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+1552428491.992992 getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+1552428491.993145 brk(0) = 0xe13000
+1552428491.993177 brk(0xe34000) = 0xe34000
+1552428491.993227 readlink("/proc/self/exe", "/usr/local/java/jdk1.8.0_65/bin/java", 4096) = 36
+1552428491.993307 access("/usr/local/java/jdk1.8.0_65/lib/amd64/libjava.so", F_OK) = -1 ENOENT (No such file or directory)
+1552428491.993345 access("/usr/local/java/jdk1.8.0_65/jre/lib/amd64/libjava.so", F_OK) = 0
+1552428491.993391 open("/usr/local/java/jdk1.8.0_65/jre/lib/amd64/jvm.cfg", O_RDONLY) = 3
+1552428491.993439 fstat(3</usr/local/java/jdk1.8.0_65/jre/lib/amd64/jvm.cfg>, {st_mode=S_IFREG|0755, st_size=627, ...}) = 0
+1552428491.993483 mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f843d2bf000
+1552428491.993518 read(3</usr/local/java/jdk1.8.0_65/jre/lib/amd64/jvm.cfg>, "# Copyright (c) 2003, 2013, Oracle and/or its affiliates. All rights reserved.\n# ORACLE PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.\n#\n#\n#\n#\n#\n#\n#\n#\n#\n#\n#\n#\n#\n#\n#\n#\n#\n#\n#\n#\n#\n# \n# List of JVMs that can be used as an option to java, javac, etc.\n# Order is important -- first in this list is the default JVM.\n# NOTE that this both this file and its format are UNSUPPORTED and\n# WILL GO AWAY in a future release.\n#\n# You may also select a JVM in an arbitrary location with the\n# \"-XXaltjvm=<jvm_dir>\" option, but that too is unsupported\n# and may not be available in a future release.\n#\n-server KNOWN\n-client IGNORE\n", 4096) = 627
+1552428491.993575 read(3</usr/local/java/jdk1.8.0_65/jre/lib/amd64/jvm.cfg>, "", 4096) = 0
+1552428491.993616 close(3</usr/local/java/jdk1.8.0_65/jre/lib/amd64/jvm.cfg>) = 0
+1552428491.993653 munmap(0x7f843d2bf000, 4096) = 0
+1552428491.993705 stat("/usr/local/java/jdk1.8.0_65/jre/lib/amd64/server/libjvm.so", {st_mode=S_IFREG|0755, st_size=16912458, ...}) = 0
+1552428491.993755 futex(0x7f843cc6b0d0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1552428491.993797 open("/usr/local/java/jdk1.8.0_65/jre/lib/amd64/server/libjvm.so", O_RDONLY|O_CLOEXEC) = 3
+1552428491.993836 read(3</usr/local/java/jdk1.8.0_65/jre/lib/amd64/server/libjvm.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\341!\0\0\0\0\0@\0\0\0\0\0\0\0\320\311\331\0\0\0\0\0\0\0\0\0@\0008\0\7\0@\0\"\0\37\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\321\313\0\0\0\0\0\0\321\313\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\0\321\313\0\0\0\0\0\0\321\353\0\0\0\0\0\0\321\353\0\0\0\0\0@~\r\0\0\0\0\0\10\304\21\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\340\323\325\0\0\0\0\0\340\323\365\0\0\0\0\0\340\323\365\0\0\0\0\0\0\2\0\0\0\0\0\0\0\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0\310\1\0\0\0\0\0\0\310\1\0\0\0\0\0\0\310\1\0\0\0\0\0\0$\0\0\0\0\0\0\0$\0\0\0\0\0\0\0\4\0\0\0\0\0\0\0\7\0\0\0\4\0\0\0\0\321\313\0\0\0\0\0\0\321\353\0\0\0\0\0\0\321\353\0\0\0\0\0\0\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\10\0\0\0\0\0\0\0P\345td\4\0\0\0\4.\266\0\0\0\0\0\4.\266\0\0\0\0\0\4.\266\0\0\0\0\0\24\22\4\0\0\0\0\0\24\22\4\0\0\0\0\0\4\0\0\0\0\0\0\0Q\345td\6\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\10\0\0\0\0\0\0\0\4\0\0\0\24\0\0\0\3\0\0\0GNU\0m\262,\1\215\226\325\33\352\20 \35(\251\343\35C|\200\24\0\0\0\0\315\3\0\0\354\1\0\0\0\0\0\0\233\1\0\0\0\0\0\0\263\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0T\1\0\0\304\1\0\0\226\1\0\0\302\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\16\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0m\0\0\0\0\0\0\0\340\0\0\0`\0\0\0\214\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0W\1\0\0\261\1\0\0\344\1\0\0u\1\0\0o\0\0\0O\1\0\0\243\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\347\1\0\0\0\0\0\0\0\0\0\0x\0\0\0]\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0l\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\321\0\0\0\n\1\0\0\0\0\0\0\305\1\0\0\204\1\0\0B\0\0\0\0\0\0\0\343\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0$\1\0\0\0\0\0\0\0\0\0\0\301\0\0\0\0\0\0\0\0\0\0\0\232\0\0\0\"\1\0\0\260\0\0\0\0\0\0\0\230\0\0\0009\0\0\0\241\0\0\0\0\0\0\0\0\0\0\0001\0\0\0\0\0\0\0", 832) = 832
+1552428491.993892 fstat(3</usr/local/java/jdk1.8.0_65/jre/lib/amd64/server/libjvm.so>, {st_mode=S_IFREG|0755, st_size=16912458, ...}) = 0
+1552428491.993935 mmap(NULL, 16618760, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</usr/local/java/jdk1.8.0_65/jre/lib/amd64/server/libjvm.so>, 0) = 0x7f843b6c9000
+1552428491.993976 mprotect(0x7f843c387000, 2093056, PROT_NONE) = 0
+1552428491.994011 mmap(0x7f843c586000, 884736, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</usr/local/java/jdk1.8.0_65/jre/lib/amd64/server/libjvm.so>, 0xcbd000) = 0x7f843c586000
+1552428491.994058 mmap(0x7f843c65e000, 279816, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f843c65e000
+1552428491.994100 close(3</usr/local/java/jdk1.8.0_65/jre/lib/amd64/server/libjvm.so>) = 0
+1552428491.994142 open("/usr/local/java/jdk1.8.0_65/bin/../lib/amd64/jli/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1552428491.994182 open("/usr/local/java/jdk1.8.0_65/bin/../lib/amd64/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+1552428491.994220 open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+1552428491.994256 fstat(3</etc/ld.so.cache>, {st_mode=S_IFREG|0644, st_size=101133, ...}) = 0
+1552428491.994295 mmap(NULL, 101133, PROT_READ, MAP_PRIVATE, 3</etc/ld.so.cache>, 0) = 0x7f843d2a7000
+1552428491.994333 close(3</etc/ld.so.cache>) = 0
+1552428491.994371 access("/etc/ld.so.nohwcap", F_OK) = -1 ENOENT (No such file or directory)
+1552428491.994417 open("/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+1552428491.994456 read(3</lib/x86_64-linux-gnu/libm-2.19.so>, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20V\0\0\0\0\0\0@\0\0\0\0\0\0\0@R\20\0\0\0\0\0\0\0\0\0@\0008\0\t\0@\0\36\0\35\0\6\0\0\0\5\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0\370\1\0\0\0\0\0\0\370\1\0\0\0\0\0\0\10\0\0\0\0\0\0\0\3\0\0\0\4\0\0\0p\300\17\0\0\0\0\0p\300\17\0\0\0\0\0p\300\17\0\0\0\0\0\34\0\0\0\0\0\0\0\34\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0\1\0\0\0\5\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0,D\20\0\0\0\0\0,D\20\0\0\0\0\0\0\0 \0\0\0\0\0\1\0\0\0\6\0\0\0\220M\20\0\0\0\0\0\220M0\0\0\0\0\0\220M0\0\0\0\0\0\214\3\0\0\0\0\0\0\330\3\0\0\0\0\0\0\0\0 \0\0\0\0\0\2\0\0\0\6\0\0\0\250M\20\0\0\0\0\0\250M0\0\0\0\0\0\250M0\0\0\0\0\0\20\2\0\0\0\0\0\0\20\2\0\0\0\0\0\0\10\0\0\0\0\0\0\0\4\0\0\0\4\0\0\0008\2\0\0\0\0\0\0008\2\0\0\0\0\0\0008\2\0\0\0\0\0\0D\0\0\0\0\0\0\0D\0\0\0\0\0\0\0\4\0\0\0\0\0\0\0P\345td\4\0\0\0\214\300\17\0\0\0\0\0\214\300\17\0\0\0\0\0\214\300\17\0\0\0\0\0l\22\0\0\0\0\0\0l\22\0\0\0\0\0\0\4\0\0\0\0\0\0\0Q\345td\6\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\20\0\0\0\0\0\0\0R\345td\4\0\0\0\220M\20\0\0\0\0\0\220M0\0\0\0\0\0\220M0\0\0\0\0\0p\2\0\0\0\0\0\0p\2\0\0\0\0\0\0\1\0\0\0\0\0\0\0\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\35v\267\36\220\\\270g\262|\357#\17\313 \360\0321x\365\4\0\0\0\20\0\0\0\1\0\0\0GNU\0\0\0\0\0\2\0\0\0\6\0\0\0\30\0\0\0\0\0\0\0\35\3\0\0\26\0\0\0@\0\0\0\f\0\0\0%\0`\0\0\240.\"\200\0\26\211\0 E\"\2\0\300``i\10\212\0\t\0\0\0\0\0\0\0\0\0\0\0\0\212P\20\1\10\0\0\4\1\302\24\1 \210\"\0\304\243X\240\n\6\216\0\212\0\0\4\0@\0\0 \20\0\5\0\5\r\7\7\22A\0\1\0\10\0\0@\0\t\0\20\4D\30\4\200a(\22@\4\1\nE\221 @\200\f\22\1\0\0\0\0\0\0\0\0\4\2\0\0\0@\0\200\2\20\322\0\1\10\4\301 E\1\0\310\"\0\4\2\0\202\0\4\0\0\0\4\0Y\4\2\0\n\200\1\0\0\4\0\20 \3\0\0\210 \10\20\0\0", 832) = 832
+1552428491.994530 fstat(3</lib/x86_64-linux-gnu/libm-2.19.so>, {st_mode=S_IFREG|0644, st_size=1071552, ...}) = 0
+1552428491.994572 mmap(NULL, 3166568, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libm-2.19.so>, 0) = 0x7f843b3c3000
+1552428491.994613 mprotect(0x7f843b4c8000, 2093056, PROT_NONE) = 0
+1552428491.994650 mmap(0x7f843b6c7000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3</lib/x86_64-linux-gnu/libm-2.19.so>, 0x104000) = 0x7f843b6c7000
+1552428491.994713 close(3</lib/x86_64-linux-gnu/libm-2.19.so>) = 0
+1552428491.994802 mprotect(0x7f843b6c7000, 4096, PROT_READ) = 0
+1552428491.996810 munmap(0x7f843d2a7000, 101133) = 0
+1552428491.996914 mmap(NULL, 1052672, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f843d1a2000
+1552428491.996983 mprotect(0x7f843d1a2000, 4096, PROT_NONE) = 0
+1552428491.997026 clone(child_stack=0x7f843d2a1fb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f843d2a29d0, tls=0x7f843d2a2700, child_tidptr=0x7f843d2a29d0) = 21126
+1552428491.997133 futex(0x7f843d2a29d0, FUTEX_WAIT, 21126, NULL <unfinished ...>
+1552428497.852051 +++ exited with 0 +++

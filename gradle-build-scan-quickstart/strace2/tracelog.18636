@@ -1,0 +1,25 @@
+1552420292.692805 close(202<pipe:[2554085]>) = 0
+1552420292.692862 read(201<pipe:[2554085]>, "", 4) = 0
+1552420292.692887 close(193<pipe:[2554081]>) = 0
+1552420292.692910 close(196<pipe:[2554082]>) = 0
+1552420292.692924 close(198<pipe:[2554083]>) = 0
+1552420292.693035 close(201<pipe:[2554085]>) = 0
+1552420292.693343 close(199<pipe:[2554084]>) = 0
+1552420292.693377 close(200<pipe:[2554084]>) = 0
+1552420292.693810 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "PK\3\4\n\0\0\10\10\0\326f3I\241!Hs1\2\0\0\\\4\0\0>\0\0\0", 30) = 30
+1552420292.693840 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "\235SmO\323P\24~\356^\350:+\233\0236|\303\251({\203\202\2501\202\30\2\232\220LL"..., 561) = 561
+1552420292.694080 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "PK\3\4\n\0\0\10\10\0\326f3I9K\310\310\374\4\0\0\376\n\0\0001\0\0\0", 30) = 30
+1552420292.694114 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "\255V\335o\24U\24\377\235\335\245C\267\203\255-\305b\313\207\266`\277\267\37\200\2\5\355\247\254l"..., 1276) = 1276
+1552420292.694458 clone(child_stack=0x7fa1d35fafb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fa1d35fb9d0, tls=0x7fa1d35fb700, child_tidptr=0x7fa1d35fb9d0) = 18638
+1552420292.694710 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "PK\3\4\n\0\0\10\10\0\326f3I\361\246\10\351\216\4\0\0\231\t\0\0@\0\0\0", 30) = 30
+1552420292.694777 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "\245Vk[\333d\30\276\323&M\t\31cP\206\353`c\350\264M\201l\354\240\34\345 \247\331\201"..., 1166) = 1166
+1552420292.695207 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "PK\3\4\n\0\0\10\10\0\326f3Ik\313\302\312\367\2\0\0\355\6\0\0E\0\0\0", 30) = 30
+1552420292.695235 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "\245T\353R\323@\24\376\266\24\322\206\320B\345\"xA\241b[\205P\357J\5k\345\346t`\206"..., 759) = 759
+1552420292.695464 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "PK\3\4\n\0\0\10\10\0\326f3I}Gz\3313\3\0\0\226\7\0\0X\0\0\0", 30) = 30
+1552420292.695493 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "\255U\313R\33G\24=-\10#\206\301\310\342\21;\211\343\261\243\30=\200\1\307y\n\354`\360\203"..., 819) = 819
+1552420292.695901 clone(child_stack=0x7fa1d34f9fb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fa1d34fa9d0, tls=0x7fa1d34fa700, child_tidptr=0x7fa1d34fa9d0) = 18639
+1552420292.696159 clone(child_stack=0x7fa1d33f8fb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fa1d33f99d0, tls=0x7fa1d33f9700, child_tidptr=0x7fa1d33f99d0) = 18640
+1552420292.696475 clone(child_stack=0x7fa1d32f7fb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fa1d32f89d0, tls=0x7fa1d32f8700, child_tidptr=0x7fa1d32f89d0) = 18641
+1552420293.313029 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "PK\3\4\n\0\0\10\10\0\326f3I\206'\260\373q\3\0\0:\7\0\0B\0\0\0", 30) = 30
+1552420293.313088 read(5</home/foyzulhassan/AutoBuilder_Lib_Path/Gradle/gradle-3.1/lib/gradle-core-3.1.jar>, "\245T[s\333T\20\376\216or\24\341\266n\232\2664\5\25\32b;IEh\v\224\244\351%M"..., 881) = 881
+1552420293.313613 +++ exited with 0 +++
